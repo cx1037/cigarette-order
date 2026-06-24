@@ -29,10 +29,11 @@ class _OrderStatsPageState extends State<OrderStatsPage> {
   Future<void> _loadStats() async {
     final temp = <String, ProductStats>{};
     final leadTimeDays = await SettingsService.getArrivalLeadDays();
+    final cycleCount = await SettingsService.getStatsCycleCount();
 
     for (final product in widget.products) {
       final recent20 =
-          await DatabaseService.instance.getOrderItemsWithDate(product.id);
+          await DatabaseService.instance.getOrderItemsWithDate(product.id, limit: cycleCount);
       final allRows =
           await DatabaseService.instance.getOrderItemsWithDateAll(product.id);
       final rows30 = await DatabaseService.instance.getOrderItemsWithinDays(

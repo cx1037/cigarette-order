@@ -201,22 +201,28 @@ class DatabaseService {
       String productId, {int? withinDays}) async {
     final db = await database;
 
-    String? dateFilter;
+        String? dateFilter;
+    String? dateBound;
     if (withinDays != null) {
-      dateFilter =
-          DateTime.now().subtract(Duration(days: withinDays)).toIso8601String();
+      dateBound = DateTime.now().subtract(Duration(days: withinDays)).toIso8601String();
+      dateFilter = " AND o.date >= ?";
+    } else if (limit == null) {
+      dateBound = DateTime.now().subtract(const Duration(days: 30)).toIso8601String();
+      dateFilter = " AND o.date >= ?";
     } else {
-      dateFilter =
-          DateTime.now().subtract(const Duration(days: 30)).toIso8601String();
+      dateFilter = null;
+      dateBound = null;
     }
 
-    return await db.rawQuery('''
-      SELECT oi.stockBefore, oi.orderedQty, o.date
-      FROM order_items oi
-      JOIN orders o ON oi.orderId = o.id
-      WHERE oi.productId = ? AND o.date >= ?
-      ORDER BY o.date DESC
-    ''', [productId, dateFilter]);
+    String sql = "SELECT oi.stockBefore, oi.orderedQty, o.date FROM order_items oi JOIN orders o ON oi.orderId = o.id WHERE oi.productId = ?";
+    if (dateFilter != null) sql += dateFilter;
+    sql += " ORDER BY o.date DESC";
+    if (limit != null) sql += " LIMIT ?";
+
+    final args = <dynamic>[productId];
+    if (dateBound != null) args.add(dateBound);
+    if (limit != null) args.add(limit);
+    return await db.rawQuery(sql, args);
   }
 
   /// 返回指定产品的所有订单项（无时间过滤）

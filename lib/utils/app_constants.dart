@@ -1,5 +1,6 @@
 class AppConstants {
   static const int aiHistoryLimit = 20;
+  static const int statsCycleCountDefault = 20;
   static const int largeOrderThresholdDefault = 100;
   static const int arrivalLeadDaysDefault = 5;
   static const int orderWeekdayDefault = DateTime.wednesday;

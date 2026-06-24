@@ -14,15 +14,16 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPageState extends State<SettingsPage> {
   static const Map<int, String> weekdayLabels = {
     DateTime.monday: '星期一',
-    DateTime.tuesday: '星期�?,
-    DateTime.wednesday: '星期�?,
-    DateTime.thursday: '星期�?,
-    DateTime.friday: '星期�?,
-    DateTime.saturday: '星期�?,
-    DateTime.sunday: '星期�?,
+    DateTime.tuesday: '星期�?,
+    DateTime.wednesday: '星期�?,
+    DateTime.thursday: '星期�?,
+    DateTime.friday: '星期�?,
+    DateTime.saturday: '星期�?,
+    DateTime.sunday: '星期�?,
   };
 
   final thresholdController = TextEditingController();
+  final cycleCountController = TextEditingController();
 
   String? savePath;
   bool loading = true;
@@ -44,6 +45,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Future<void> _load() async {
     final threshold = await SettingsService.getLargeOrderThreshold();
+    final cycleCount = await SettingsService.getStatsCycleCount();
     final path = await SettingsService.getPath();
     final savedOrderWeekday = await SettingsService.getOrderWeekday();
     final savedArrivalWeekday = await SettingsService.getArrivalWeekday();
@@ -51,6 +53,7 @@ class _SettingsPageState extends State<SettingsPage> {
     if (!mounted) return;
     setState(() {
       thresholdController.text = threshold.toString();
+      cycleCountController.text = cycleCount.toString();
       savePath = path;
       orderWeekday = savedOrderWeekday;
       arrivalWeekday = savedArrivalWeekday;
@@ -71,7 +74,7 @@ class _SettingsPageState extends State<SettingsPage> {
     final threshold = int.tryParse(thresholdController.text.trim());
     if (threshold == null || threshold <= 0) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('请输入正确的大单提醒阈�?)),
+        const SnackBar(content: Text('请输入正确的大单提醒阈�?)),
       );
       return;
     }
@@ -81,6 +84,12 @@ class _SettingsPageState extends State<SettingsPage> {
     });
 
     await SettingsService.setLargeOrderThreshold(threshold);
+
+    final cycleCount = int.tryParse(cycleCountController.text.trim());
+    if (cycleCount != null && cycleCount >= 2) {
+      await SettingsService.setStatsCycleCount(cycleCount);
+    }
+
     await SettingsService.setOrderWeekday(orderWeekday);
     await SettingsService.setArrivalWeekday(arrivalWeekday);
 
@@ -94,7 +103,7 @@ class _SettingsPageState extends State<SettingsPage> {
     });
 
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('设置已保�?)),
+      const SnackBar(content: Text('设置已保�?)),
     );
   }
 
@@ -109,7 +118,7 @@ class _SettingsPageState extends State<SettingsPage> {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('清除已保�?Excel'),
+        title: const Text('清除已保�?Excel'),
         content: const Text('将删除当前保存目录中本应用导出的 Excel 文件，是否继续？'),
         actions: [
           TextButton(
@@ -138,13 +147,14 @@ class _SettingsPageState extends State<SettingsPage> {
     });
 
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('已清�?$deletedCount �?Excel 文件')),
+      SnackBar(content: Text('已清�?$deletedCount �?Excel 文件')),
     );
   }
 
   @override
   void dispose() {
     thresholdController.dispose();
+    cycleCountController.dispose();
     super.dispose();
   }
 
@@ -163,7 +173,17 @@ class _SettingsPageState extends State<SettingsPage> {
                   controller: thresholdController,
                   keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
-                    labelText: '大单提醒阈�?,
+                    labelText: '大单提醒阈�?,
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                TextField(
+                  controller: cycleCountController,
+                  keyboardType: TextInputType.number,
+                  decoration: const InputDecoration(
+                    labelText: '统计周期数',
+                    hintText: '用于计算平均销量的最近订单数',
                     border: OutlineInputBorder(),
                   ),
                 ),
@@ -171,7 +191,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 DropdownButtonFormField<int>(
                   value: orderWeekday,
                   decoration: const InputDecoration(
-                    labelText: '订烟�?,
+                    labelText: '订烟�?,
                     border: OutlineInputBorder(),
                   ),
                   items: weekdayLabels.entries
@@ -193,7 +213,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 DropdownButtonFormField<int>(
                   value: arrivalWeekday,
                   decoration: const InputDecoration(
-                    labelText: '到货�?,
+                    labelText: '到货�?,
                     border: OutlineInputBorder(),
                   ),
                   items: weekdayLabels.entries
@@ -212,7 +232,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   },
                 ),
                 const SizedBox(height: 12),
-                Text('当前设置下，到货等待天数�?$leadDays �?),
+                Text('当前设置下，到货等待天数�?$leadDays �?),
                 const SizedBox(height: 20),
                 InputDecorator(
                   decoration: const InputDecoration(
@@ -220,25 +240,25 @@ class _SettingsPageState extends State<SettingsPage> {
                     border: OutlineInputBorder(),
                   ),
                   child: Text(
-                    savePath == null || savePath!.isEmpty ? '未设�? : savePath!,
+                    savePath == null || savePath!.isEmpty ? '未设�? : savePath!,
                   ),
                 ),
                 const SizedBox(height: 12),
                 OutlinedButton.icon(
                   onPressed: _pickSavePath,
                   icon: const Icon(Icons.folder_open),
-                  label: const Text('选择文件�?),
+                  label: const Text('选择文件�?),
                 ),
                 const SizedBox(height: 12),
                 OutlinedButton.icon(
                   onPressed: clearing ? null : _clearSavedExcels,
                   icon: const Icon(Icons.delete_outline),
-                  label: Text(clearing ? '清除�?..' : '清除已保�?Excel'),
+                  label: Text(clearing ? '清除�?..' : '清除已保�?Excel'),
                 ),
                 const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: saving ? null : _save,
-                  child: Text(saving ? '保存�?..' : '保存'),
+                  child: Text(saving ? '保存�?..' : '保存'),
                 ),
               ],
             ),

@@ -10,6 +10,7 @@ class SettingsService {
   static const String _keyOrderWeekday = 'order_weekday';
   static const String _keyArrivalWeekday = 'arrival_weekday';
   static const String _keyOrderDraft = 'order_draft';
+  static const String _keyStatsCycleCount = 'stats_cycle_count';
 
   // 缓存 SharedPreferences 实例，避免反复调用 getInstance()
   static SharedPreferences? _prefs;
@@ -89,6 +90,16 @@ class SettingsService {
     final decoded = jsonDecode(raw);
     if (decoded is! Map) return null;
     return Map<String, dynamic>.from(decoded);
+  }
+
+  static Future<void> setStatsCycleCount(int value) async {
+    final prefs = await _preferences;
+    await prefs.setInt(_keyStatsCycleCount, value);
+  }
+
+  static Future<int> getStatsCycleCount() async {
+    final prefs = await _preferences;
+    return prefs.getInt(_keyStatsCycleCount) ?? AppConstants.statsCycleCountDefault;
   }
 
   static Future<void> clearOrderDraft() async {
