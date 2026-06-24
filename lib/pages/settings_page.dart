@@ -14,12 +14,12 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPageState extends State<SettingsPage> {
   static const Map<int, String> weekdayLabels = {
     DateTime.monday: '星期一',
-    DateTime.tuesday: '星期�?,
-    DateTime.wednesday: '星期�?,
-    DateTime.thursday: '星期�?,
-    DateTime.friday: '星期�?,
-    DateTime.saturday: '星期�?,
-    DateTime.sunday: '星期�?,
+    DateTime.tuesday: '星期二',
+    DateTime.wednesday: '星期三',
+    DateTime.thursday: '星期四',
+    DateTime.friday: '星期五',
+    DateTime.saturday: '星期六',
+    DateTime.sunday: '星期日',
   };
 
   final thresholdController = TextEditingController();
@@ -74,7 +74,7 @@ class _SettingsPageState extends State<SettingsPage> {
     final threshold = int.tryParse(thresholdController.text.trim());
     if (threshold == null || threshold <= 0) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('请输入正确的大单提醒阈�?)),
+        const SnackBar(content: Text('请输入正确的大单提醒阈值')),
       );
       return;
     }
@@ -103,7 +103,7 @@ class _SettingsPageState extends State<SettingsPage> {
     });
 
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('设置已保�?)),
+      const SnackBar(content: Text('设置已保存')),
     );
   }
 
@@ -118,7 +118,7 @@ class _SettingsPageState extends State<SettingsPage> {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('清除已保�?Excel'),
+        title: const Text('清除已保存Excel'),
         content: const Text('将删除当前保存目录中本应用导出的 Excel 文件，是否继续？'),
         actions: [
           TextButton(
@@ -147,7 +147,7 @@ class _SettingsPageState extends State<SettingsPage> {
     });
 
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('已清�?$deletedCount �?Excel 文件')),
+      SnackBar(content: Text('已清除 $deletedCount 个 Excel 文件')),
     );
   }
 
@@ -173,7 +173,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   controller: thresholdController,
                   keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
-                    labelText: '大单提醒阈�?,
+                    labelText: '大单提醒阈值',
                     border: OutlineInputBorder(),
                   ),
                 ),
@@ -191,7 +191,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 DropdownButtonFormField<int>(
                   value: orderWeekday,
                   decoration: const InputDecoration(
-                    labelText: '订烟�?,
+                    labelText: '订烟日',
                     border: OutlineInputBorder(),
                   ),
                   items: weekdayLabels.entries
@@ -213,7 +213,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 DropdownButtonFormField<int>(
                   value: arrivalWeekday,
                   decoration: const InputDecoration(
-                    labelText: '到货�?,
+                    labelText: '到货日',
                     border: OutlineInputBorder(),
                   ),
                   items: weekdayLabels.entries
@@ -232,7 +232,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   },
                 ),
                 const SizedBox(height: 12),
-                Text('当前设置下，到货等待天数�?$leadDays �?),
+                Text('当前设置下，到货等待天数为 $leadDays 天'),
                 const SizedBox(height: 20),
                 InputDecorator(
                   decoration: const InputDecoration(
@@ -240,25 +240,25 @@ class _SettingsPageState extends State<SettingsPage> {
                     border: OutlineInputBorder(),
                   ),
                   child: Text(
-                    savePath == null || savePath!.isEmpty ? '未设�? : savePath!,
+                    savePath == null || savePath!.isEmpty ? '未设置' : savePath!,
                   ),
                 ),
                 const SizedBox(height: 12),
                 OutlinedButton.icon(
                   onPressed: _pickSavePath,
                   icon: const Icon(Icons.folder_open),
-                  label: const Text('选择文件�?),
+                  label: const Text('选择文件夹'),
                 ),
                 const SizedBox(height: 12),
                 OutlinedButton.icon(
                   onPressed: clearing ? null : _clearSavedExcels,
                   icon: const Icon(Icons.delete_outline),
-                  label: Text(clearing ? '清除�?..' : '清除已保�?Excel'),
+                  label: Text(clearing ? '清除中...' : '清除已保存Excel'),
                 ),
                 const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: saving ? null : _save,
-                  child: Text(saving ? '保存�?..' : '保存'),
+                  child: Text(saving ? '保存中...' : '保存'),
                 ),
               ],
             ),
