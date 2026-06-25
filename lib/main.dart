@@ -87,6 +87,11 @@ class MyApp extends StatelessWidget {
             side: const BorderSide(color: _primaryColor),
           ),
         ),
+        iconButtonTheme: IconButtonThemeData(
+          style: ButtonStyle(
+            minimumSize: WidgetStateProperty.all(const Size(44, 44)),
+          ),
+        ),
         pageTransitionsTheme: PageTransitionsTheme(
           builders: {
             TargetPlatform.android: AnimationSpeedPageTransitionsBuilder(),

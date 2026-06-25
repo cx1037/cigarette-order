@@ -992,7 +992,7 @@ class _OrderPageState extends State<OrderPage> {
                   const SizedBox(height: 12),
 
                   // 库存输入
-                  Text('盘点库存', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.grey.shade800)),
+                  Row(children: [Icon(Icons.inventory_2, size: 18, color: Theme.of(context).colorScheme.primary), const SizedBox(width: 6), Text('盘点库存', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.grey.shade800))]),
                   const SizedBox(height: 4),
                   TextField(
                     controller: stockController,
@@ -1008,7 +1008,7 @@ class _OrderPageState extends State<OrderPage> {
                   const SizedBox(height: 12),
 
                   // 订货量输入
-                  Text('订货数量', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.grey.shade800)),
+                  Row(children: [Icon(Icons.add_shopping_cart, size: 18, color: Theme.of(context).colorScheme.primary), const SizedBox(width: 6), Text('订货数量', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.grey.shade800))]),
                   const SizedBox(height: 4),
                   TextField(
                     controller: orderQtyController,
