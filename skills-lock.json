@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "781bd6d3f9b19f8c9af6b53d8d0e4876d0183841b565db34ca7092ffa412d111"
+    },
+    "flutter-animating-apps": {
+      "source": "nexu-io/open-design",
+      "sourceType": "github",
+      "skillPath": "skills/flutter-animating-apps/SKILL.md",
+      "computedHash": "4873d939ce7636545883ecc2231e3c5af89e4e6df4a53254501bd8914beb5ab7"
+    },
+    "flutter-dart-code-review": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/flutter-dart-code-review/SKILL.md",
+      "computedHash": "1867d8498fdc3cd1c5652dd5538c9d1db6e80fbda9eb3e28082542630503487b"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "computedHash": "c7ddcc95cc869b281b766df85bef629acf655bfb516cb32647d5b8215cab2f4e"
+    }
+  }
+}

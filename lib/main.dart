@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'services/database_service.dart';
+import 'services/accessibility_bridge.dart';
 import 'services/official_product_service.dart';
 
 const Color _primaryColor = Color(0xFF1565C0);
@@ -12,6 +13,7 @@ Future<void> main() async {
 
   await DatabaseService.instance.database;
   await OfficialProductService.seedIfEmpty();
+  AccessibilityBridge.init();
 
   runApp(const MyApp());
 }
@@ -94,3 +96,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+

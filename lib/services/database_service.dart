@@ -198,10 +198,10 @@ class DatabaseService {
   }
 
   Future<List<Map<String, dynamic>>> getOrderItemsWithDate(
-      String productId, {int? withinDays}) async {
+      String productId, {int? withinDays, int? limit}) async {
     final db = await database;
 
-        String? dateFilter;
+    String? dateFilter;
     String? dateBound;
     if (withinDays != null) {
       dateBound = DateTime.now().subtract(Duration(days: withinDays)).toIso8601String();

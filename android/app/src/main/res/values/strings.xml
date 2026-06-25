@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">自动下单辅助服务：当您保存订单并跳转到 Logista 浏览器页面后，自动执行预设的点击操作，帮助您快速完成下单流程。请确保已在 App 设置中配置好自动化步骤。</string>
+</resources>

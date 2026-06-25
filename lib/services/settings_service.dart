@@ -8,12 +8,15 @@ class SettingsService {
   static const String _keyLargeOrderThreshold = 'large_order_threshold';
   static const String _keyArrivalLeadDays = 'arrival_lead_days';
   static const String _keyOrderWeekday = 'order_weekday';
-  static const String _keyArrivalWeekday = 'arrival_weekday';
-  static const String _keyOrderDraft = 'order_draft';
-  static const String _keyStatsCycleCount = 'stats_cycle_count';
+ static const String _keyArrivalWeekday = 'arrival_weekday';
+static const String _keyOrderDraft = 'order_draft';
+static const String _keyStatsCycleCount = 'stats_cycle_count';
+ static const String _keyLongPressNavigation = 'long_press_navigation';
+ static const String _keyAutoEnabled = 'auto_enabled';
+ static const String _keyAutoSteps = 'auto_steps';
 
-  // 缓存 SharedPreferences 实例，避免反复调用 getInstance()
-  static SharedPreferences? _prefs;
+ // 缓存 SharedPreferences 实例，避免反复调用 getInstance()
+ static SharedPreferences? _prefs;
 
   static Future<SharedPreferences> get _preferences async {
     _prefs ??= await SharedPreferences.getInstance();
@@ -99,10 +102,40 @@ class SettingsService {
 
   static Future<int> getStatsCycleCount() async {
     final prefs = await _preferences;
-    return prefs.getInt(_keyStatsCycleCount) ?? AppConstants.statsCycleCountDefault;
+   return prefs.getInt(_keyStatsCycleCount) ?? AppConstants.statsCycleCountDefault;
+ }
+
+  static Future<void> setLongPressNavigation(bool value) async {
+    final prefs = await _preferences;
+    await prefs.setBool(_keyLongPressNavigation, value);
   }
 
-  static Future<void> clearOrderDraft() async {
+ static Future<bool> getLongPressNavigation() async {
+   final prefs = await _preferences;
+   return prefs.getBool(_keyLongPressNavigation) ?? true;
+ }
+
+ static Future<void> setAutoEnabled(bool value) async {
+   final prefs = await _preferences;
+   await prefs.setBool(_keyAutoEnabled, value);
+ }
+
+ static Future<bool> getAutoEnabled() async {
+   final prefs = await _preferences;
+   return prefs.getBool(_keyAutoEnabled) ?? false;
+ }
+
+ static Future<void> setAutoSteps(String stepsJson) async {
+   final prefs = await _preferences;
+   await prefs.setString(_keyAutoSteps, stepsJson);
+ }
+
+ static Future<String> getAutoSteps() async {
+   final prefs = await _preferences;
+   return prefs.getString(_keyAutoSteps) ?? '';
+ }
+
+static Future<void> clearOrderDraft() async {
     final prefs = await _preferences;
     await prefs.remove(_keyOrderDraft);
   }

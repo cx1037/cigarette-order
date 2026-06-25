@@ -1,8 +1,9 @@
-import 'package:file_picker/file_picker.dart';
+﻿import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
 import '../services/excel_service.dart';
 import '../services/settings_service.dart';
+import 'automation_settings_page.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -255,6 +256,19 @@ class _SettingsPageState extends State<SettingsPage> {
                   icon: const Icon(Icons.delete_outline),
                   label: Text(clearing ? '清除中...' : '清除已保存Excel'),
                 ),
+                const Divider(),
+                ListTile(
+                  leading: const Icon(Icons.smart_button),
+                  title: const Text('自动化下单'),
+                  subtitle: const Text('配置下单后自动跳转浏览器并执行点击'),
+                  trailing: const Icon(Icons.chevron_right),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const AutomationSettingsPage()),
+                    );
+                  },
+                ),
                 const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: saving ? null : _save,
@@ -265,3 +279,4 @@ class _SettingsPageState extends State<SettingsPage> {
     );
   }
 }
+

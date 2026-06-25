@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import '../models/order_item.dart';
 import '../models/product.dart';
@@ -6,6 +6,8 @@ import '../services/ai_order_service.dart';
 import '../services/database_service.dart';
 import '../services/settings_service.dart';
 import '../services/stats_service.dart';
+import 'dart:async';
+import 'scan_page.dart';
 
 class OrderStatsPage extends StatefulWidget {
   final List<Product> products;
@@ -19,10 +21,14 @@ class OrderStatsPage extends StatefulWidget {
 class _OrderStatsPageState extends State<OrderStatsPage> {
   bool loading = true;
   Map<String, ProductStats> statsMap = {};
+  final Map<String, GlobalKey> _cardKeys = {};
+  String? _highlightedProductId;
+  final ScrollController _scrollCtrl = ScrollController();
 
   @override
   void initState() {
     super.initState();
+    _initCardKeys();
     _loadStats();
   }
 
@@ -199,6 +205,57 @@ class _OrderStatsPageState extends State<OrderStatsPage> {
   }
 
   @override
+
+  void _initCardKeys() {
+    final sortedByWeek = [...widget.products];
+    sortedByWeek.sort((a, b) {
+      final aWeek = statsMap[a.id]?.avgPerWeek ?? 0;
+      final bWeek = statsMap[b.id]?.avgPerWeek ?? 0;
+      return bWeek.compareTo(aWeek);
+    });
+    for (final p in sortedByWeek) {
+      _cardKeys[p.id] = GlobalKey();
+    }
+  }
+
+  Future<void> _scanAndJump() async {
+    final code = await Navigator.push<String>(
+      context,
+      MaterialPageRoute(builder: (_) => const ScanPage()),
+    );
+    if (code == null || code.isEmpty || !mounted) return;
+
+    // Find product by barcode
+    final matched = widget.products.cast<Product?>().firstWhere(
+      (p) => p!.barcode == code,
+      orElse: () => null,
+    );
+    if (matched == null) {
+      if (!mounted) return;
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('未找到条码 \ 对应的商品')),
+        );
+      return;
+    }
+
+    setState(() => _highlightedProductId = matched.id);
+
+    // Scroll to the highlighted item
+    final key = _cardKeys[matched.id];
+    if (key?.currentContext != null) {
+      await Scrollable.ensureVisible(
+        key!.currentContext!,
+        duration: const Duration(milliseconds: 400),
+        alignment: 0.3,
+      );
+    }
+
+    // Clear highlight after 3 seconds
+    Future.delayed(const Duration(seconds: 3), () {
+      if (mounted) setState(() => _highlightedProductId = null);
+    });
+   }
+
   Widget build(BuildContext context) {
     final sortedByWeek = [...widget.products];
     sortedByWeek.sort((a, b) {
@@ -209,7 +266,14 @@ class _OrderStatsPageState extends State<OrderStatsPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('下单统计'),
+        title: const Text('涓嬪崟缁熻'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.qr_code_scanner),
+            tooltip: '鎵爜璺宠浆',
+            onPressed: _scanAndJump,
+          ),
+        ],
       ),
       body: loading
           ? const Center(child: CircularProgressIndicator())
@@ -221,19 +285,26 @@ class _OrderStatsPageState extends State<OrderStatsPage> {
                   return const SizedBox.shrink();
                 }
 
-                return Card(
-                  child: ListTile(
-                    title: Text(product.name),
-                    subtitle: Text(
-                      '平均每周期销量: ${stats.avgPerCycle.toStringAsFixed(1)}\n'
-                      '平均每周销量: ${stats.avgPerWeek.toStringAsFixed(1)}\n'
-                      '日均销量: ${stats.avgPerDay.toStringAsFixed(2)}\n'
-                      '近30天销量: ${stats.sold30Days.toStringAsFixed(1)}\n'
-                      '近90天销量: ${stats.sold90Days.toStringAsFixed(1)}\n'
-                      '近30天调整次数: ${stats.adjustmentCount30}\n'
-                      '近30天调整总量: ${stats.adjustmentTotal30}\n'
-                      '缺货次数: ${stats.stockoutCount}\n'
-                      '建议订货量: ${stats.aiSuggestedOrder}',
+                final isHighlighted = _highlightedProductId == product.id;
+                return Container(
+                  key: _cardKeys[product.id],
+                  child: Card(
+                    color: isHighlighted
+                        ? Theme.of(context).colorScheme.primaryContainer
+                        : null,
+                    child: ListTile(
+                      title: Text(product.name),
+                      subtitle: Text(
+                        '骞冲潎姣忓懆鏈熼攢閲? ${stats.avgPerCycle.toStringAsFixed(1)}\n'
+                        '骞冲潎姣忓懆閿€閲? ${stats.avgPerWeek.toStringAsFixed(1)}\n'
+                        '鏃ュ潎閿€閲? ${stats.avgPerDay.toStringAsFixed(2)}\n'
+                        '杩?0澶╅攢閲? ${stats.sold30Days.toStringAsFixed(1)}\n'
+                        '杩?0澶╅攢閲? ${stats.sold90Days.toStringAsFixed(1)}\n'
+                        '杩?0澶╄皟鏁存鏁? ${stats.adjustmentCount30}\n'
+                        '杩?0澶╄皟鏁存€婚噺: ${stats.adjustmentTotal30}\n'
+                        '缂鸿揣娆℃暟: ${stats.stockoutCount}\n'
+                        '寤鸿璁㈣揣閲? ${stats.aiSuggestedOrder}',
+                      ),
                     ),
                   ),
                 );

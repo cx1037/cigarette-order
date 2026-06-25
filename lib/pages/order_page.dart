@@ -1,5 +1,7 @@
-﻿import 'package:file_picker/file_picker.dart';
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'dart:async';
+import 'dart:convert';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -10,6 +12,7 @@ import '../services/ai_order_service.dart';
 import '../services/database_service.dart';
 import '../services/excel_service.dart';
 import '../services/settings_service.dart';
+import '../services/accessibility_bridge.dart';
 import 'manual_order_page.dart';
 import 'product_edit_page.dart';
 import 'quick_add_page.dart';
@@ -86,11 +89,19 @@ class _OrderPageState extends State<OrderPage> {
   int arrivalLeadDays = 5;
   /// 连续库存不足历史记录次数
   int currentLowReserveHistoryCount = 0;
-  /// 获取当前商品对象
-  Product get currentProduct => orderedProducts[currentIndex];
+ /// 获取当前商品对象
+ Product get currentProduct => orderedProducts[currentIndex];
+  /// 长按快速导航是否启用
+  bool _longPressNavigationEnabled = true;
+  /// 长按定时器
+  Timer? _holdTimer;
+  /// 是否正在长按重复中
+  bool _isHolding = false;
+  /// 长按重复次数（用于加速）
+  int _holdStepCount = 0;
 
-  /// 获取商品类型的排序优先级，用于将商品按类型分组排序
-  int _typePriority(String type) {
+ /// 获取商品类型的排序优先级，用于将商品按类型分组排序
+ int _typePriority(String type) {
     final normalizedType = type.trim().toUpperCase();
     if (normalizedType == 'SIGARETTE') return 0;
     if (normalizedType == 'TABACCO SENZA COMBUSTIONE') return 1;
@@ -132,10 +143,18 @@ class _OrderPageState extends State<OrderPage> {
         _restoreOrderQtyIfEmpty();
       }
     });
-    _restoreDraftAndLoad();
+   _restoreDraftAndLoad();
+    _loadLongPressSetting();
+ }
+
+  Future<void> _loadLongPressSetting() async {
+    final enabled = await SettingsService.getLongPressNavigation();
+    if (mounted) {
+      setState(() => _longPressNavigationEnabled = enabled);
+    }
   }
 
-  /// 获取当前商品列表的唯一标识签名（用于草稿校验）
+ /// 获取当前商品列表的唯一标识签名（用于草稿校验）
   String get _productSignature => orderedProducts.map((p) => p.id).join('|');
 
   /// 草稿变更回调：非程序化更新时自动保存草稿
@@ -487,11 +506,93 @@ class _OrderPageState extends State<OrderPage> {
         ],
       ),
     );
-    return result ?? false;
+   return result ?? false;
+ }
+
+  /// 长按"上一个"/"下一个"按钮时的按下事件
+  void _handleDown(bool isPrevious) {
+    // 如果是第一个商品的上一个或最后一个商品的下一个，不处理
+    if (isPrevious && currentIndex <= 0) return;
+    if (!isPrevious && currentIndex >= orderedProducts.length - 1) return;
+
+    _isHolding = false;
+    _holdStepCount = 0;
+    // 400ms 初始延迟后开始重复
+    _holdTimer = Timer(const Duration(milliseconds: 400), () {
+      if (!mounted) return;
+      _isHolding = true;
+      _doHoldStep(isPrevious);
+    });
   }
 
-  /// 切换到上一个商品，保存当前输入后加载新商品数据
-  Future<void> _previousProduct() async {
+  /// 长按按钮的释放事件
+  void _handleUp(bool isPrevious) async {
+    _holdTimer?.cancel();
+
+    if (_isHolding) {
+      // 长按结束，加载完整数据
+      _isHolding = false;
+      await _loadCurrentProductAdvice();
+    } else {
+      // 短按 — 正常切换
+      if (isPrevious && currentIndex > 0) {
+        await _previousProduct();
+      } else if (!isPrevious) {
+        await _nextProduct();
+      }
+    }
+  }
+
+  /// 长按取消（移出按钮区域）
+  void _handleCancel() {
+    _holdTimer?.cancel();
+    if (_isHolding) {
+      _isHolding = false;
+    }
+  }
+
+  /// 执行长按重复步骤（轻量切换，不加载完整数据分析）
+  void _doHoldStep(bool isPrevious) {
+    if (!mounted) return;
+
+    final newIndex = currentIndex + (isPrevious ? -1 : 1);
+    if (newIndex < 0 || newIndex >= orderedProducts.length) {
+      _isHolding = false;
+      return;
+    }
+
+    // 保存当前输入
+    _persistCurrentInputs();
+    setState(() {
+      currentIndex = newIndex;
+      loading = false; // 不显示加载转圈
+    });
+
+    // 从内存快速更新文本控件
+    final product = currentProduct;
+    final stock = countedStock[product.id] ?? product.currentStock;
+    final orderQty = finalOrderQty[product.id] ?? 0;
+
+    _isProgrammaticFieldUpdate = true;
+    stockController.text = stock.toString();
+    orderQtyController.text = orderQty.toString();
+    _isProgrammaticFieldUpdate = false;
+
+    _holdStepCount++;
+    final delay = _calculateHoldDelay(_holdStepCount);
+    _holdTimer = Timer(Duration(milliseconds: delay), () => _doHoldStep(isPrevious));
+  }
+
+  /// 计算当前长按重复次数的延迟（逐渐加速）
+  int _calculateHoldDelay(int step) {
+    if (step <= 3) return 300;   // 第1~3步：300ms
+    if (step <= 8) return 180;   // 第4~8步：180ms
+    if (step <= 15) return 100;  // 第9~15步：100ms
+    return 60;                   // 之后保持 60ms
+  }
+
+ /// 切换到上一个商品，保存当前输入后加载新商品数据
+ Future<void> _previousProduct() async {
     if (currentIndex <= 0) return;
     _persistCurrentInputs();
     await _saveDraft();
@@ -579,6 +680,47 @@ class _OrderPageState extends State<OrderPage> {
     }
   }
 
+  /// 尝试启动辅助功能自动化（如果已启用）
+  Future<void> _tryStartAutomation() async {
+    try {
+      final enabled = await SettingsService.getAutoEnabled();
+      if (!enabled) return;
+      final stepsStr = await SettingsService.getAutoSteps();
+      if (stepsStr.isEmpty) return;
+      final decoded = jsonDecode(stepsStr) as List;
+      final steps = decoded.map((e) => AutomationStep.fromMap(e as Map<String, dynamic>)).toList();
+      if (steps.isEmpty) return;
+      await AccessibilityBridge.startAutomation(steps: steps);
+    } catch (_) {
+    }
+  }
+
+  /// 删除当前订单草稿（需二次确认）
+  Future<void> _deleteOrder() async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('删除订单'),
+        content: const Text('确定要删除当前订单草稿吗？所有已输入的盘点库存和订货量都将丢失，此操作不可恢复。'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('取消'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            child: const Text('删除', style: TextStyle(color: Colors.red)),
+          ),
+        ],
+      ),
+    );
+    if (confirmed == true) {
+      await SettingsService.clearOrderDraft();
+      if (!mounted) return;
+      Navigator.of(context).popUntil((route) => route.isFirst);
+    }
+  }
+
   /// 完成订单：导出 Excel → 更新库存 → 保存订单记录 → 清除草稿 → 打开 Logista
   Future<void> _finishOrder() async {
     if (!await _ensureStoragePermission()) {
@@ -652,22 +794,59 @@ class _OrderPageState extends State<OrderPage> {
     if (!launched) {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('未能自动打开下单网页')));
     }
+    // 如果启用了辅助功能自动化，开始执行预设步骤
+    _tryStartAutomation();
+
     Navigator.of(context).popUntil((route) => route.isFirst);
   }
 
   @override
-  void dispose() {
-    stockController.removeListener(_handleDraftChanged);
+ void dispose() {
+    _holdTimer?.cancel();
+   stockController.removeListener(_handleDraftChanged);
     orderQtyController.removeListener(_handleDraftChanged);
     stockFocusNode.dispose();
     orderQtyFocusNode.dispose();
     stockController.dispose();
-    orderQtyController.dispose();
-    super.dispose();
+   orderQtyController.dispose();
+   super.dispose();
+ }
+  /// 构建支持长按加速的导航按钮
+  Widget _buildHoldNavButton({
+    required bool isPrevious,
+    required IconData icon,
+    required String label,
+    required Color bgColor,
+    required Color fgColor,
+  }) {
+    final enabled = isPrevious ? currentIndex > 0 : currentIndex < orderedProducts.length - 1;
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(8),
+      child: Material(
+        color: enabled ? bgColor : bgColor.withValues(alpha: 0.4),
+        child: InkWell(
+          onTapDown: enabled ? (_) => _handleDown(isPrevious) : null,
+          onTapUp: enabled ? (_) => _handleUp(isPrevious) : null,
+          onTapCancel: _handleCancel,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 16),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(icon, color: enabled ? fgColor : fgColor.withValues(alpha: 0.4), size: 20),
+                const SizedBox(width: 8),
+                Text(label, style: TextStyle(color: enabled ? fgColor : fgColor.withValues(alpha: 0.4))),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
   }
 
-  @override
-  Widget build(BuildContext context) {
+ @override
+ Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
 
@@ -698,13 +877,18 @@ class _OrderPageState extends State<OrderPage> {
             tooltip: '快速添加',
             onPressed: _quickAddProduct,
           ),
+           IconButton(
+             icon: const Icon(Icons.qr_code_scanner),
+             tooltip: '扫码跳转',
+             onPressed: _scanAndJump,
+           ),
           IconButton(
-            icon: const Icon(Icons.qr_code_scanner),
-            tooltip: '扫码跳转',
-            onPressed: _scanAndJump,
+            icon: const Icon(Icons.delete_outline),
+            tooltip: '删除订单',
+            onPressed: _deleteOrder,
           ),
-        ],
-      ),
+          ],
+        ),
       body: loading
           ? const Center(child: CircularProgressIndicator())
           : SingleChildScrollView(
@@ -839,32 +1023,50 @@ class _OrderPageState extends State<OrderPage> {
                   ),
                   const SizedBox(height: 20),
 
-                  // 导航按钮 — 对称样式
+                  // 导航按钮 — 长按加速支持（可在设置中关闭）
                   Row(
                     children: [
+                      // 上一个按钮
                       Expanded(
-                        child: ElevatedButton.icon(
-                          onPressed: currentIndex > 0 ? _previousProduct : null,
-                          icon: const Icon(Icons.arrow_back),
-                          label: const Text('上一个'),
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: colorScheme.surfaceContainerHighest,
-                            foregroundColor: colorScheme.onSurface,
-                            elevation: 0,
-                          ),
-                        ),
+                        child: _longPressNavigationEnabled && currentIndex > 0
+                            ? _buildHoldNavButton(
+                                isPrevious: true,
+                                icon: Icons.arrow_back,
+                                label: '上一个',
+                                bgColor: colorScheme.surfaceContainerHighest,
+                                fgColor: colorScheme.onSurface,
+                              )
+                            : ElevatedButton.icon(
+                                onPressed: currentIndex > 0 ? _previousProduct : null,
+                                icon: const Icon(Icons.arrow_back),
+                                label: const Text('上一个'),
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: colorScheme.surfaceContainerHighest,
+                                  foregroundColor: colorScheme.onSurface,
+                                  elevation: 0,
+                                ),
+                              ),
                       ),
                       const SizedBox(width: 12),
+                      // 下一个 / 保存订单按钮
                       Expanded(
-                        child: ElevatedButton.icon(
-                          onPressed: _nextProduct,
-                          icon: Icon(currentIndex < orderedProducts.length - 1 ? Icons.arrow_forward : Icons.check),
-                          label: Text(currentIndex < orderedProducts.length - 1 ? '下一个' : '保存订单'),
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: colorScheme.primary,
-                            foregroundColor: colorScheme.onPrimary,
-                          ),
-                        ),
+                        child: _longPressNavigationEnabled && currentIndex < orderedProducts.length - 1
+                            ? _buildHoldNavButton(
+                                isPrevious: false,
+                                icon: Icons.arrow_forward,
+                                label: '下一个',
+                                bgColor: colorScheme.primary,
+                                fgColor: colorScheme.onPrimary,
+                              )
+                            : ElevatedButton.icon(
+                                onPressed: _nextProduct,
+                                icon: Icon(currentIndex < orderedProducts.length - 1 ? Icons.arrow_forward : Icons.check),
+                                label: Text(currentIndex < orderedProducts.length - 1 ? '下一个' : '保存订单'),
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: colorScheme.primary,
+                                  foregroundColor: colorScheme.onPrimary,
+                                ),
+                              ),
                       ),
                     ],
                   ),
@@ -976,3 +1178,4 @@ class _SuggestionBadge extends StatelessWidget {
     ),
   );
 }
+
