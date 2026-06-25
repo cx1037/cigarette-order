@@ -11,6 +11,10 @@ const double _cardRadius = 16;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  FlutterError.onError = (details) {
+    FlutterError.presentError(details);
+  };
+  PlatformDispatcher.instance.onError = (error, stack) => true;
 
   await DatabaseService.instance.database;
   await OfficialProductService.seedIfEmpty();

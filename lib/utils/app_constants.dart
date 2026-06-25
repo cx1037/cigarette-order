@@ -16,11 +16,20 @@
   static const bool animationEnabledDefault = true;
 
   // 应用版本
-  static const String appVersion = '1.4.0+1';
+  static const String appVersion = '1.5.0+1';
   static const String appName = '香烟订单 App';
 
   // 更新历史
   static const List<Map<String, String>> changelog = [
+    {
+      'version': 'v1.5.0',
+      'date': '2026-06-25',
+      'changes':
+          '代码结构优化\n'
+          '- 启用严格分析设置（strict-casts/inference/raw-types）\n'
+          '- 添加全局错误处理（FlutterError.onError）\n'
+          '- 添加未捕获异步错误处理',
+    },
     {
       'version': 'v1.4.0',
       'date': '2026-06-25',
