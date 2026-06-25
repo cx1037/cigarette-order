@@ -16,11 +16,19 @@
   static const bool animationEnabledDefault = true;
 
   // 应用版本
-  static const String appVersion = '1.2.0+1';
+  static const String appVersion = '1.3.0+1';
   static const String appName = '香烟订单 App';
 
   // 更新历史
   static const List<Map<String, String>> changelog = [
+    {
+      'version': 'v1.3.0',
+      'date': '2026-06-25',
+      'changes':
+          '新增关于页面\n'
+          '- 显示版本号、开发者信息\n'
+          '- 显示更新记录（可展开各版本详情）',
+    },
     {
       'version': 'v1.2.0',
       'date': '2026-06-25',
@@ -59,3 +67,4 @@
     },
   ];
 }
+
