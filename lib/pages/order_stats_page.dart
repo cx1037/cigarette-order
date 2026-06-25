@@ -295,15 +295,15 @@ class _OrderStatsPageState extends State<OrderStatsPage> {
                     child: ListTile(
                       title: Text(product.name),
                       subtitle: Text(
-                        '骞冲潎姣忓懆鏈熼攢閲? ${stats.avgPerCycle.toStringAsFixed(1)}\n'
-                        '骞冲潎姣忓懆閿€閲? ${stats.avgPerWeek.toStringAsFixed(1)}\n'
-                        '鏃ュ潎閿€閲? ${stats.avgPerDay.toStringAsFixed(2)}\n'
-                        '杩?0澶╅攢閲? ${stats.sold30Days.toStringAsFixed(1)}\n'
-                        '杩?0澶╅攢閲? ${stats.sold90Days.toStringAsFixed(1)}\n'
-                        '杩?0澶╄皟鏁存鏁? ${stats.adjustmentCount30}\n'
-                        '杩?0澶╄皟鏁存€婚噺: ${stats.adjustmentTotal30}\n'
-                        '缂鸿揣娆℃暟: ${stats.stockoutCount}\n'
-                        '寤鸿璁㈣揣閲? ${stats.aiSuggestedOrder}',
+                        '平均每周期销量 ${stats.avgPerCycle.toStringAsFixed(1)}\n'
+                        '平均每周销量 ${stats.avgPerWeek.toStringAsFixed(1)}\n'
+                        '日均销量 ${stats.avgPerDay.toStringAsFixed(2)}\n'
+                        '近30天销量 ${stats.sold30Days.toStringAsFixed(1)}\n'
+                        '近30天销量 ${stats.sold90Days.toStringAsFixed(1)}\n'
+                        '近30天调整次数 ${stats.adjustmentCount30}\n'
+                        '近30天调整总量: ${stats.adjustmentTotal30}\n'
+                        '缺货次数: ${stats.stockoutCount}\n'
+                        '建议订购量 ${stats.aiSuggestedOrder}',
                       ),
                     ),
                   ),
