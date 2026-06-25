@@ -1,4 +1,4 @@
-﻿class Product {
+class Product {
   final String id;
   final String name;
   final String aamsCode;
@@ -9,7 +9,8 @@
 
   final double unitWeight;
   final double? price;
-  final double? kgPrice;\n  final double? cartonPrice;
+  final double? kgPrice;
+  final double? cartonPrice;
 
   final String barcode;
   final bool isActive;
@@ -23,7 +24,8 @@
     required this.safetyStock,
     required this.unitWeight,
     this.price,
-    this.kgPrice,\n    this.cartonPrice,
+    this.kgPrice,
+    this.cartonPrice,
     required this.barcode,
     this.isActive = false,
   });
@@ -48,6 +50,8 @@
     final price = (map['price'] as num?)?.toDouble() ?? 0.0;
     final kgPrice = (map['kgPrice'] as num?)?.toDouble() ??
         (price > 0 && unitWeight > 0 ? price / unitWeight : null);
+    final cartonPrice = (map['cartonPrice'] as num?)?.toDouble() ??
+        (unitWeight > 0 && kgPrice != null ? unitWeight * kgPrice : null);
 
     return Product(
       id: (map['id'] ?? '').toString(),
@@ -74,7 +78,8 @@
     int? safetyStock,
     double? unitWeight,
     double? price,
-    double? kgPrice,\n    double? cartonPrice,
+    double? kgPrice,
+    double? cartonPrice,
     bool Function()? kgPriceNull,
     String? barcode,
     bool? isActive,
