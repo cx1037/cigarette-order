@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'package:flutter/services.dart';
 
 /// Flutter -> Android 无障碍自动化服务桥接
@@ -79,11 +79,13 @@ class AccessibilityBridge {
 /// 自动化步骤定义
 ///
 /// type 说明：
-/// - click_text   : 点击包含指定文字的按钮/链接
-/// - click_desc   : 点击内容描述匹配的元素
-/// - wait         : 等待指定毫秒数
-/// - navigate_back: 模拟返回键
-/// - finish       : 结束自动化流程
+/// - check_text      : 检查页面是否包含指定文字，若存在则停止并提示登录
+/// - check_input_empty: 检查输入框是否为空，若为空则停止并提示填写
+/// - click_text      : 点击包含指定文字的按钮/链接
+/// - click_desc      : 点击内容描述匹配的元素
+/// - wait            : 等待指定毫秒数
+/// - navigate_back   : 模拟返回键
+/// - finish          : 结束自动化流程
 class AutomationStep {
   final String type;
   final String value;
@@ -104,6 +106,10 @@ class AutomationStep {
   /// 用户可读的描述文本
   String get label {
     switch (type) {
+      case 'check_text':
+        return '检查文字: $value';
+      case 'check_input_empty':
+        return '检查输入框是否为空: $value';
       case 'click_text':
         return '点击「$value」';
       case 'click_desc':
@@ -128,8 +134,12 @@ class AutomationStep {
     );
   }
 
-  /// 预设示例步骤：登录后上传 Excel 到 Logista
+  /// 预设示例步骤：先检查登录页，确认输入框已填写，点击Entra登录，再上传Excel
   static final List<AutomationStep> defaultLogistaSteps = [
+    const AutomationStep(type: 'check_text', value: 'Login | Logista'),
+    const AutomationStep(type: 'check_input_empty', value: 'Username'),
+    const AutomationStep(type: 'check_input_empty', value: 'Password'),
+    const AutomationStep(type: 'click_text', value: 'Entra'),
     const AutomationStep(type: 'click_text', value: 'Upload'),
     const AutomationStep(type: 'click_text', value: 'Carica'),
     const AutomationStep(type: 'click_text', value: 'File'),

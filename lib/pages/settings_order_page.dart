@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import '../services/settings_service.dart';
 import '../utils/app_constants.dart';
 
@@ -11,19 +11,18 @@ class SettingsOrderPage extends StatefulWidget {
 
 class _SettingsOrderPageState extends State<SettingsOrderPage> {
   static const Map<int, String> weekdayLabels = {
-    DateTime.monday: '星期一',
-    DateTime.tuesday: '星期二',
-    DateTime.wednesday: '星期三',
-    DateTime.thursday: '星期四',
-    DateTime.friday: '星期五',
-    DateTime.saturday: '星期六',
-    DateTime.sunday: '星期日',
+    DateTime.monday: '周一',
+    DateTime.tuesday: '周二',
+    DateTime.wednesday: '周三',
+    DateTime.thursday: '周四',
+    DateTime.friday: '周五',
+    DateTime.saturday: '周六',
+    DateTime.sunday: '周日',
   };
 
   final thresholdController = TextEditingController();
   final cycleCountController = TextEditingController();
   bool loading = true;
-  bool saving = false;
   int orderWeekday = DateTime.wednesday;
   int arrivalWeekday = DateTime.monday;
 
@@ -52,27 +51,46 @@ class _SettingsOrderPageState extends State<SettingsOrderPage> {
     });
   }
 
-  Future<void> _save() async {
-    final threshold = int.tryParse(thresholdController.text.trim());
-    if (threshold == null || threshold <= 0) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('请输入正确的大单提醒阈值')),
-      );
-      return;
-    }
-    setState(() => saving = true);
-    await SettingsService.setLargeOrderThreshold(threshold);
+  Future<void> _autoSave() async {
+    final thresholdText = thresholdController.text.trim();
+    final threshold = int.tryParse(thresholdText);
+    if (threshold == null || threshold <= 0) return;
     final cycleCount = int.tryParse(cycleCountController.text.trim());
-    if (cycleCount != null && cycleCount >= 2) {
-      await SettingsService.setStatsCycleCount(cycleCount);
-    }
+    await SettingsService.setLargeOrderThreshold(threshold);
+    await SettingsService.setStatsCycleCount(
+      (cycleCount != null && cycleCount >= 2) ? cycleCount : AppConstants.statsCycleCountDefault,
+    );
     await SettingsService.setOrderWeekday(orderWeekday);
     await SettingsService.setArrivalWeekday(arrivalWeekday);
+  }
+
+  Future<void> _resetToDefaults() async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('恢复默认值'),
+        content: const Text('确定要将所有订单设置恢复为默认值吗？'),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: const Text('取消')),
+          TextButton(onPressed: () => Navigator.pop(ctx, true), child: const Text('确定恢复')),
+        ],
+      ),
+    );
+    if (confirmed != true || !mounted) return;
+    await SettingsService.setLargeOrderThreshold(AppConstants.largeOrderThresholdDefault);
+    await SettingsService.setStatsCycleCount(AppConstants.statsCycleCountDefault);
+    await SettingsService.setOrderWeekday(AppConstants.orderWeekdayDefault);
+    await SettingsService.setArrivalWeekday(AppConstants.arrivalWeekdayDefault);
     if (!mounted) return;
-    setState(() => saving = false);
+    setState(() {
+      thresholdController.text = AppConstants.largeOrderThresholdDefault.toString();
+      cycleCountController.text = AppConstants.statsCycleCountDefault.toString();
+      orderWeekday = AppConstants.orderWeekdayDefault;
+      arrivalWeekday = AppConstants.arrivalWeekdayDefault;
+    });
+    if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('订单设置已保存')),
+      const SnackBar(content: Text('已恢复默认设置')),
     );
   }
 
@@ -86,12 +104,7 @@ class _SettingsOrderPageState extends State<SettingsOrderPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('订单设置'), actions: [
-        TextButton(
-          onPressed: saving ? null : _save,
-          child: const Text('保存', style: TextStyle(color: Colors.white)),
-        ),
-      ]),
+      appBar: AppBar(title: const Text('订单设置')),
       body: loading
           ? const Center(child: CircularProgressIndicator())
           : ListView(
@@ -101,9 +114,17 @@ class _SettingsOrderPageState extends State<SettingsOrderPage> {
                   controller: thresholdController,
                   keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
-                    labelText: '大单提醒阈值',
+                    labelText: '大单提醒阈值(条)',
                     border: OutlineInputBorder(),
                   ),
+                  onEditingComplete: () {
+                    FocusScope.of(context).unfocus();
+                    _autoSave();
+                  },
+                  onTapOutside: (_) {
+                    FocusScope.of(context).unfocus();
+                    _autoSave();
+                  },
                 ),
                 const SizedBox(height: 16),
                 TextField(
@@ -114,6 +135,14 @@ class _SettingsOrderPageState extends State<SettingsOrderPage> {
                     hintText: '用于计算平均销量的最近订单数',
                     border: OutlineInputBorder(),
                   ),
+                  onEditingComplete: () {
+                    FocusScope.of(context).unfocus();
+                    _autoSave();
+                  },
+                  onTapOutside: (_) {
+                    FocusScope.of(context).unfocus();
+                    _autoSave();
+                  },
                 ),
                 const SizedBox(height: 16),
                 DropdownButtonFormField<int>(
@@ -124,7 +153,11 @@ class _SettingsOrderPageState extends State<SettingsOrderPage> {
                   items: weekdayLabels.entries.map((e) =>
                     DropdownMenuItem(value: e.key, child: Text(e.value))
                   ).toList(),
-                  onChanged: (v) { if (v != null) setState(() => orderWeekday = v); },
+                  onChanged: (v) {
+                    if (v == null) return;
+                    setState(() => orderWeekday = v);
+                    _autoSave();
+                  },
                 ),
                 const SizedBox(height: 16),
                 DropdownButtonFormField<int>(
@@ -135,11 +168,25 @@ class _SettingsOrderPageState extends State<SettingsOrderPage> {
                   items: weekdayLabels.entries.map((e) =>
                     DropdownMenuItem(value: e.key, child: Text(e.value))
                   ).toList(),
-                  onChanged: (v) { if (v != null) setState(() => arrivalWeekday = v); },
+                  onChanged: (v) {
+                    if (v == null) return;
+                    setState(() => arrivalWeekday = v);
+                    _autoSave();
+                  },
                 ),
                 const SizedBox(height: 12),
-                Text('当前设置下，到货等待天数为 $leadDays 天',
+                Text('当前设置：订烟后约 $leadDays 天到货',
                   style: TextStyle(fontSize: 13, color: Colors.grey.shade600)),
+                const SizedBox(height: 24),
+                OutlinedButton.icon(
+                  onPressed: _resetToDefaults,
+                  icon: const Icon(Icons.restore, size: 18),
+                  label: const Text('恢复默认值'),
+                  style: OutlinedButton.styleFrom(
+                    minimumSize: const Size(double.infinity, 44),
+                    side: BorderSide(color: Colors.grey.shade400),
+                  ),
+                ),
               ],
             ),
     );

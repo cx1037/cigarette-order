@@ -1,4 +1,4 @@
-import 'package:file_picker/file_picker.dart';
+﻿import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import '../services/excel_service.dart';
 import '../services/settings_service.dart';
@@ -31,15 +31,32 @@ class _SettingsStoragePageState extends State<SettingsStoragePage> {
     final selectedDir = await FilePicker.platform.getDirectoryPath();
     if (!mounted || selectedDir == null) return;
     setState(() => savePath = selectedDir);
-  }
-
-  Future<void> _savePath() async {
-    if (savePath != null && savePath!.trim().isNotEmpty) {
-      await SettingsService.savePath(savePath!.trim());
-    }
+    await SettingsService.savePath(selectedDir.trim());
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('保存路径已更新')),
+      const SnackBar(content: Text('保存路径已更新'), duration: Duration(seconds: 1)),
+    );
+  }
+
+  Future<void> _resetToDefaults() async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('恢复默认值'),
+        content: const Text('确定要清除保存路径吗？'),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: const Text('取消')),
+          TextButton(onPressed: () => Navigator.pop(ctx, true), child: const Text('确定清除')),
+        ],
+      ),
+    );
+    if (confirmed != true || !mounted) return;
+    await SettingsService.savePath('');
+    if (!mounted) return;
+    setState(() => savePath = null);
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text('已恢复默认设置')),
     );
   }
 
@@ -74,12 +91,7 @@ class _SettingsStoragePageState extends State<SettingsStoragePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('存储管理'), actions: [
-        TextButton(
-          onPressed: _savePath,
-          child: const Text('保存', style: TextStyle(color: Colors.white)),
-        ),
-      ]),
+      appBar: AppBar(title: const Text('存储管理')),
       body: loading
           ? const Center(child: CircularProgressIndicator())
           : ListView(
@@ -124,6 +136,16 @@ class _SettingsStoragePageState extends State<SettingsStoragePage> {
                   style: OutlinedButton.styleFrom(
                     side: const BorderSide(color: Colors.red),
                     minimumSize: const Size(double.infinity, 44),
+                  ),
+                ),
+                const SizedBox(height: 24),
+                OutlinedButton.icon(
+                  onPressed: _resetToDefaults,
+                  icon: const Icon(Icons.restore, size: 18),
+                  label: const Text('恢复默认值'),
+                  style: OutlinedButton.styleFrom(
+                    minimumSize: const Size(double.infinity, 44),
+                    side: BorderSide(color: Colors.grey.shade400),
                   ),
                 ),
               ],

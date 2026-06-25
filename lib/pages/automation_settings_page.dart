@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'package:flutter/material.dart';
 import '../services/accessibility_bridge.dart';
 import '../services/settings_service.dart';
@@ -46,12 +46,34 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
     });
   }
 
-  Future<void> _save() async {
+  Future<void> _autoSave() async {
     await SettingsService.setAutoEnabled(_autoEnabled);
     await SettingsService.setAutoSteps(jsonEncode(_autoSteps.map((s) => s.toMap()).toList()));
+  }
+
+  Future<void> _resetToDefaults() async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('恢复默认值'),
+        content: const Text('确定要清除所有自动化步骤并关闭自动下单吗？'),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: const Text('取消')),
+          TextButton(onPressed: () => Navigator.pop(ctx, true), child: const Text('确定恢复')),
+        ],
+      ),
+    );
+    if (confirmed != true || !mounted) return;
+    await SettingsService.setAutoEnabled(false);
+    await SettingsService.setAutoSteps('');
+    if (!mounted) return;
+    setState(() {
+      _autoEnabled = false;
+      _autoSteps = [];
+    });
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('自动化设置已保存')),
+      const SnackBar(content: Text('已恢复默认设置')),
     );
   }
 
@@ -61,6 +83,7 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
       builder: (ctx) => _AutomationStepDialog(
         onSave: (step) {
           setState(() => _autoSteps.add(step));
+          _autoSave();
         },
       ),
     );
@@ -73,6 +96,7 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
         existing: _autoSteps[index],
         onSave: (step) {
           setState(() => _autoSteps[index] = step);
+          _autoSave();
         },
       ),
     );
@@ -80,6 +104,7 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
 
   void _removeStep(int index) {
     setState(() => _autoSteps.removeAt(index));
+    _autoSave();
   }
 
   Future<void> _checkServiceStatus() async {
@@ -99,15 +124,7 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
     final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('自动化下单'),
-        actions: [
-          TextButton(
-            onPressed: _save,
-            child: const Text('保存', style: TextStyle(color: Colors.white)),
-          ),
-        ],
-      ),
+      appBar: AppBar(title: const Text('自动化下单')),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : ListView(
@@ -125,7 +142,7 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
                             Icon(_serviceReady ? Icons.check_circle : Icons.error_outline,
                               color: _serviceReady ? Colors.green : Colors.orange, size: 20),
                             const SizedBox(width: 8),
-                            Text('无障碍服务: $_serviceStatus',
+                            Text('无障碍服务 $_serviceStatus',
                               style: TextStyle(fontSize: 14,
                                 color: _serviceReady ? Colors.green : Colors.orange,
                                 fontWeight: FontWeight.w500)),
@@ -162,7 +179,10 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
                         const Divider(height: 24),
                         SwitchListTile(
                           value: _autoEnabled,
-                          onChanged: (v) => setState(() => _autoEnabled = v),
+                          onChanged: (v) {
+                            setState(() => _autoEnabled = v);
+                            _autoSave();
+                          },
                           title: const Text('下单后自动操作', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500)),
                           subtitle: const Text('保存订单后自动跳转浏览器并执行预设步骤', style: TextStyle(fontSize: 12)),
                           contentPadding: EdgeInsets.zero,
@@ -189,6 +209,7 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
                           setState(() {
                             _autoSteps = List.from(AutomationStep.defaultLogistaSteps);
                           });
+                          _autoSave();
                         },
                         icon: const Icon(Icons.auto_fix_high, size: 16),
                         label: const Text('使用预设', style: TextStyle(fontSize: 13)),
@@ -223,6 +244,7 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
                         final step = _autoSteps.removeAt(oldIndex);
                         _autoSteps.insert(newIndex, step);
                       });
+                      _autoSave();
                     },
                     itemBuilder: (context, index) {
                       final step = _autoSteps[index];
@@ -273,6 +295,17 @@ class _AutomationSettingsPageState extends State<AutomationSettingsPage> {
                   ),
                 ),
 
+                const SizedBox(height: 16),
+                OutlinedButton.icon(
+                  onPressed: _resetToDefaults,
+                  icon: const Icon(Icons.restore, size: 18),
+                  label: const Text('恢复默认值'),
+                  style: OutlinedButton.styleFrom(
+                    minimumSize: const Size(double.infinity, 44),
+                    side: BorderSide(color: Colors.grey.shade400),
+                  ),
+                ),
+
                 const SizedBox(height: 24),
                 Text('提示：启用此功能需要先在系统设置中开启"烟库库存管理"的无障碍服务权限。开启后，保存订单时将自动跳转到 Logista 并执行您配置的步骤。',
                   style: TextStyle(fontSize: 12, color: Colors.grey.shade500, height: 1.5)),
@@ -298,6 +331,8 @@ class _AutomationStepDialogState extends State<_AutomationStepDialog> {
   late TextEditingController _valueCtrl;
 
   static const _types = [
+    'check_text',
+    'check_input_empty',
     'click_text',
     'click_desc',
     'wait',
@@ -306,6 +341,8 @@ class _AutomationStepDialogState extends State<_AutomationStepDialog> {
   ];
 
   static const _typeLabels = {
+    'check_text': '检查页面文字',
+    'check_input_empty': '检查输入框是否为空',
     'click_text': '点击文字',
     'click_desc': '点击描述',
     'wait': '等待(毫秒)',

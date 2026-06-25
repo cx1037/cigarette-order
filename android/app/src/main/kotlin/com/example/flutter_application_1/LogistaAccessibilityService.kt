@@ -1,4 +1,4 @@
-package com.example.flutter_application_1
+﻿package com.example.flutter_application_1
 
 import android.accessibilityservice.AccessibilityService
 import android.os.Handler
@@ -143,6 +143,8 @@ class LogistaAccessibilityService : AccessibilityService() {
         Log.d(TAG, "Step $index: type=$type value=$value")
 
         when (type) {
+            "check_text" -> _checkText(value, index)
+            "check_input_empty" -> _checkInputEmpty(value, index)
             "click_text" -> _tryClickText(value, index)
             "click_desc" -> _tryClickDesc(value, index)
             "wait" -> {
@@ -165,12 +167,96 @@ class LogistaAccessibilityService : AccessibilityService() {
     }
 
     private fun _stepLabel(type: String, value: String): String = when (type) {
+        "check_text" -> "检查文字: $value"
+        "check_input_empty" -> "检查输入框: $value"
         "click_text" -> "点击「$value」"
         "click_desc" -> "点击「$value」"
         "wait" -> "等待 ${value}ms"
         "navigate_back" -> "返回"
         "finish" -> "完成"
         else -> type
+    }
+
+    private fun _checkText(text: String, index: Int) {
+        _statusMessage = "检查页面是否包含: $text"
+        onStatusUpdate?.invoke(_statusMessage)
+        handler.postDelayed({
+            if (!isRunning || _pendingFinish) return@postDelayed
+            if (_containsText(text)) {
+                _statusMessage = "检测到登录页面，请先登录Logista"
+                onStatusUpdate?.invoke(_statusMessage)
+                onError?.invoke("检测到登录页面，请先在浏览器中登录Logista后再执行自动化")
+                _finishAutomation()
+            } else {
+                _executeStep(index + 1)
+            }
+        }, 1000)
+    }
+
+    private fun _containsText(text: String): Boolean {
+        val root = rootInActiveWindow ?: return false
+        val found = _searchText(root, text)
+        root.recycle()
+        return found
+    }
+
+    private fun _searchText(node: AccessibilityNodeInfo, text: String): Boolean {
+        val nodeText = node.text?.toString() ?: ""
+        val nodeDesc = node.contentDescription?.toString() ?: ""
+        if (nodeText.contains(text, ignoreCase = true) || nodeDesc.contains(text, ignoreCase = true)) {
+            return true
+        }
+        for (i in 0 until node.childCount) {
+            val child = node.getChild(i) ?: continue
+            if (_searchText(child, text)) {
+                child.recycle()
+                return true
+            }
+            child.recycle()
+        }
+        return false
+    }
+
+    private fun _checkInputEmpty(text: String, index: Int) {
+        _statusMessage = "检查输入框是否为空: $text"
+        onStatusUpdate?.invoke(_statusMessage)
+        handler.postDelayed({
+            if (!isRunning || _pendingFinish) return@postDelayed
+            if (_isInputFieldEmpty(text)) {
+                _statusMessage = "请输入$text后再执行自动化"
+                onStatusUpdate?.invoke(_statusMessage)
+                onError?.invoke("检测到「$text」输入框为空，请在浏览器中先填写账号密码后再执行自动化")
+                _finishAutomation()
+            } else {
+                _executeStep(index + 1)
+            }
+        }, 1000)
+    }
+
+    private fun _isInputFieldEmpty(hint: String): Boolean {
+        val root = rootInActiveWindow ?: return true
+        val isEmpty = _findEmptyField(root, hint)
+        root.recycle()
+        return isEmpty
+    }
+
+    private fun _findEmptyField(node: AccessibilityNodeInfo, hint: String): Boolean {
+        val isEditText = node.className?.toString()?.contains("EditText", ignoreCase = true) == true
+        if (isEditText || node.isEditable) {
+            val nodeHint = node.hintText?.toString() ?: ""
+            val nodeDesc = node.contentDescription?.toString() ?: ""
+            if (nodeHint.contains(hint, ignoreCase = true) || nodeDesc.contains(hint, ignoreCase = true)) {
+                val text = node.text?.toString() ?: ""
+                return text.trim().isEmpty()
+            }
+        }
+        for (i in 0 until node.childCount) {
+            val child = node.getChild(i) ?: continue
+            val found = _findEmptyField(child, hint)
+            child.recycle()
+            if (found) return true
+        }
+        return false
     }
 
     private fun _tryClickText(text: String, index: Int) {
@@ -266,7 +352,7 @@ class LogistaAccessibilityService : AccessibilityService() {
             && node.isClickable
         ) {
             results.add(node)
-            return  // don't descend into children of a match
+            return
         }
         for (i in 0 until node.childCount) {
             val child = node.getChild(i) ?: continue
