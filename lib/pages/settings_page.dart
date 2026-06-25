@@ -3,6 +3,7 @@ import 'automation_settings_page.dart';
 import 'settings_order_page.dart';
 import 'settings_display_page.dart';
 import 'settings_storage_page.dart';
+import 'about_page.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -26,6 +27,7 @@ class _SettingsPageState extends State<SettingsPage> {
       case 1: page = const SettingsDisplayPage(); break;
       case 2: page = const AutomationSettingsPage(); break;
       case 3: page = const SettingsStoragePage(); break;
+      case 4: page = const AboutPage(); break;
       default: return;
     }
     Navigator.push(context, MaterialPageRoute(builder: (_) => page));
@@ -34,28 +36,57 @@ class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final totalItems = _categories.length + 1; // +1 for about section
     return Scaffold(
       appBar: AppBar(title: const Text('设置')),
       body: ListView.separated(
         padding: const EdgeInsets.symmetric(vertical: 8),
-        itemCount: _categories.length,
-        separatorBuilder: (_, __) => const Divider(height: 1, indent: 72),
+        itemCount: totalItems,
+        separatorBuilder: (_, index) {
+          if (index == _categories.length - 1) {
+            return const SizedBox(height: 8);
+          }
+          return const Divider(height: 1, indent: 72);
+        },
         itemBuilder: (context, index) {
-          final cat = _categories[index];
-          return ListTile(
-            leading: Container(
-              width: 44, height: 44,
-              decoration: BoxDecoration(
-                color: theme.colorScheme.primaryContainer,
-                borderRadius: BorderRadius.circular(12),
+          if (index < _categories.length) {
+            final cat = _categories[index];
+            return ListTile(
+              leading: Container(
+                width: 44, height: 44,
+                decoration: BoxDecoration(
+                  color: theme.colorScheme.primaryContainer,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Icon(cat.icon, color: theme.colorScheme.primary, size: 22),
               ),
-              child: Icon(cat.icon, color: theme.colorScheme.primary, size: 22),
-            ),
-            title: Text(cat.title, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500)),
-            subtitle: Text(cat.subtitle, style: const TextStyle(fontSize: 12)),
-            trailing: const Icon(Icons.chevron_right, size: 20),
-            onTap: () => _openPage(index),
-          );
+              title: Text(cat.title, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500)),
+              subtitle: Text(cat.subtitle, style: const TextStyle(fontSize: 12)),
+              trailing: const Icon(Icons.chevron_right, size: 20),
+              onTap: () => _openPage(index),
+            );
+          } else {
+            // "关于" 行
+            return Column(
+              children: [
+                const Divider(height: 1),
+                ListTile(
+                  leading: Container(
+                    width: 44, height: 44,
+                    decoration: BoxDecoration(
+                      color: Colors.grey.shade100,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Icon(Icons.info_outline, color: Colors.grey.shade600, size: 22),
+                  ),
+                  title: const Text('关于', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500)),
+                  subtitle: const Text('版本信息、更新记录', style: TextStyle(fontSize: 12)),
+                  trailing: const Icon(Icons.chevron_right, size: 20),
+                  onTap: () => _openPage(4),
+                ),
+              ],
+            );
+          }
         },
       ),
     );
