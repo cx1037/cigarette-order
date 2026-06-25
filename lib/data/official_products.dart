@@ -8,6 +8,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270,
     "barcode": "8054045440163"
   },
@@ -18,6 +19,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -27,6 +29,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270,
     "barcode": "8054045440200"
   },
@@ -37,6 +40,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -46,6 +50,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -55,6 +60,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 240
   },
   {
@@ -64,6 +70,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -73,6 +80,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340
   },
   {
@@ -82,6 +90,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340
   },
   {
@@ -91,6 +100,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -100,6 +110,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -109,6 +120,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -118,6 +130,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -127,6 +140,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -136,6 +150,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -145,6 +160,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -154,6 +170,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340
   },
   {
@@ -163,6 +180,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80853459"
   },
@@ -173,6 +191,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80845300"
   },
@@ -183,6 +202,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -192,6 +212,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "4033100049095"
   },
@@ -202,6 +223,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80998563"
   },
@@ -212,6 +234,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -221,6 +244,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80919599"
   },
@@ -231,6 +255,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -240,6 +265,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80845331"
   },
@@ -250,6 +276,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80815105"
   },
@@ -260,6 +287,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -269,6 +297,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -278,6 +307,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -287,6 +317,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -296,6 +327,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.4,
+    "cartonPrice": 44.00,
     "kgPrice": 220
   },
   {
@@ -305,6 +337,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -314,6 +347,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -323,6 +357,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300,
     "barcode": "80998501"
   },
@@ -333,6 +368,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300,
     "barcode": "80968245"
   },
@@ -343,6 +379,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.3,
+    "cartonPrice": 63.00,
     "kgPrice": 315,
     "barcode": "80925736"
   },
@@ -353,6 +390,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80998532"
   },
@@ -363,6 +401,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -372,6 +411,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300,
     "barcode": "80815129"
   },
@@ -382,6 +422,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.3,
+    "cartonPrice": 63.00,
     "kgPrice": 315
   },
   {
@@ -391,6 +432,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290
   },
   {
@@ -400,6 +442,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.3,
+    "cartonPrice": 63.00,
     "kgPrice": 315,
     "barcode": "40329178"
   },
@@ -410,6 +453,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.3,
+    "cartonPrice": 63.00,
     "kgPrice": 315,
     "barcode": "80851493"
   },
@@ -420,6 +464,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -429,6 +474,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.3,
+    "cartonPrice": 63.00,
     "kgPrice": 315,
     "barcode": "80896210"
   },
@@ -439,6 +485,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80815167"
   },
@@ -449,6 +496,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -458,6 +506,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -467,6 +516,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -476,6 +526,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -485,6 +536,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80784364"
   },
@@ -495,6 +547,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "87248074"
   },
@@ -505,6 +558,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -514,6 +568,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -523,6 +578,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -532,6 +588,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80792888"
   },
@@ -542,6 +599,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "87248678"
   },
@@ -552,6 +610,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -561,6 +620,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290
   },
   {
@@ -570,6 +630,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -579,6 +640,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -588,6 +650,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -597,6 +660,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -606,6 +670,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -615,6 +680,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -624,6 +690,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.4,
+    "cartonPrice": 44.00,
     "kgPrice": 220
   },
   {
@@ -633,6 +700,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.4,
+    "cartonPrice": 44.00,
     "kgPrice": 220
   },
   {
@@ -642,6 +710,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 240
   },
   {
@@ -651,6 +720,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -660,6 +730,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -669,6 +740,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 240
   },
   {
@@ -678,6 +750,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -687,6 +760,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -696,6 +770,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -705,6 +780,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -714,6 +790,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "4030600283240"
   },
@@ -724,6 +801,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "4030600283301"
   },
@@ -734,6 +812,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "4030600283271"
   },
@@ -744,6 +823,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -753,6 +833,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "87248715"
   },
@@ -763,6 +844,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -772,6 +854,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -781,6 +864,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "40235028"
   },
@@ -791,6 +875,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -800,6 +885,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -809,6 +895,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340
   },
   {
@@ -818,6 +905,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80766681"
   },
@@ -828,6 +916,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80866329"
   },
@@ -838,6 +927,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340
   },
   {
@@ -847,6 +937,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 360
   },
   {
@@ -856,6 +947,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80787778"
   },
@@ -866,6 +958,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 310
   },
   {
@@ -875,6 +968,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80926962"
   },
@@ -885,6 +979,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80985631"
   },
@@ -895,6 +990,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80782230"
   },
@@ -905,6 +1001,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80765479"
   },
@@ -915,6 +1012,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80776482"
   },
@@ -925,6 +1023,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340
   },
   {
@@ -934,6 +1033,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -943,6 +1043,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -952,6 +1053,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -961,6 +1063,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -970,6 +1073,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -979,6 +1083,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -988,6 +1093,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -997,6 +1103,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1006,6 +1113,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1015,6 +1123,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1024,6 +1133,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -1033,6 +1143,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1042,6 +1153,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -1051,6 +1163,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1060,6 +1173,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -1069,6 +1183,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265,
     "barcode": "4030600283813"
   },
@@ -1079,6 +1194,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -1088,6 +1204,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -1097,6 +1214,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -1106,6 +1224,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "80876380"
   },
@@ -1116,6 +1235,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "80824916"
   },
@@ -1126,6 +1246,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270,
     "barcode": "4030600283608"
   },
@@ -1136,6 +1257,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270,
     "barcode": "4030600283516"
   },
@@ -1146,6 +1268,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260,
     "barcode": "4030600283691"
   },
@@ -1156,6 +1279,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 0,
+    "cartonPrice": 46.00,
     "kgPrice": 230
   },
   {
@@ -1165,6 +1289,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -1174,6 +1299,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -1183,6 +1309,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -1192,6 +1319,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270,
     "barcode": "4030600283578"
   },
@@ -1202,6 +1330,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270,
     "barcode": "4030600283486"
   },
@@ -1212,6 +1341,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260,
     "barcode": "4030600283660"
   },
@@ -1222,6 +1352,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270,
     "barcode": "4030600283639"
   },
@@ -1232,6 +1363,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -1241,6 +1373,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265,
     "barcode": "4030600283721"
   },
@@ -1251,6 +1384,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265,
     "barcode": "4030600283752"
   },
@@ -1261,6 +1395,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270,
     "barcode": "4030600283547"
   },
@@ -1271,6 +1406,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -1280,6 +1416,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340
   },
   {
@@ -1289,6 +1426,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "40235042"
   },
@@ -1299,6 +1437,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "87248784"
   },
@@ -1309,6 +1448,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -1318,6 +1458,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -1327,6 +1468,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -1336,6 +1478,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260,
     "barcode": "80973256"
   },
@@ -1346,6 +1489,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260,
     "barcode": "80969587"
   },
@@ -1356,6 +1500,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "59468905"
   },
@@ -1366,6 +1511,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -1375,6 +1521,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80800569"
   },
@@ -1385,6 +1532,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -1394,6 +1542,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80829522"
   },
@@ -1404,6 +1553,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "87196429"
   },
@@ -1414,6 +1564,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "40318172"
   },
@@ -1424,6 +1575,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -1433,6 +1585,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -1442,6 +1595,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -1451,6 +1605,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -1460,6 +1615,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -1469,6 +1625,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1478,6 +1635,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1487,6 +1645,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1496,6 +1655,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1505,6 +1665,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "87248432"
   },
@@ -1515,6 +1676,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340,
     "barcode": "80834601"
   },
@@ -1525,6 +1687,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80808763"
   },
@@ -1535,6 +1698,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80967705"
   },
@@ -1545,6 +1709,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80808787"
   },
@@ -1555,6 +1720,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80920212"
   },
@@ -1565,6 +1731,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "80954385"
   },
@@ -1575,6 +1742,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340,
     "barcode": "87248265"
   },
@@ -1585,6 +1753,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.3,
+    "cartonPrice": 63.00,
     "kgPrice": 315,
     "barcode": "87248579"
   },
@@ -1595,6 +1764,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340,
     "barcode": "80788720"
   },
@@ -1605,6 +1775,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.7,
+    "cartonPrice": 57.00,
     "kgPrice": 285,
     "barcode": "80939184"
   },
@@ -1615,6 +1786,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -1624,6 +1796,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "80750130"
   },
@@ -1634,6 +1807,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340,
     "barcode": "87248593"
   },
@@ -1644,6 +1818,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.3,
+    "cartonPrice": 63.00,
     "kgPrice": 315,
     "barcode": "87248586"
   },
@@ -1654,6 +1829,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "87248982"
   },
@@ -1664,6 +1840,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.7,
+    "cartonPrice": 57.00,
     "kgPrice": 285,
     "barcode": "80764281"
   },
@@ -1674,6 +1851,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -1683,6 +1861,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -1692,6 +1871,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340,
     "barcode": "80769248"
   },
@@ -1702,6 +1882,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "80940500"
   },
@@ -1712,6 +1893,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340,
     "barcode": "80966647"
   },
@@ -1722,6 +1904,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80772033"
   },
@@ -1732,6 +1915,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -1741,6 +1925,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -1750,6 +1935,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -1759,6 +1945,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "87248890"
   },
@@ -1769,6 +1956,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "87248289"
   },
@@ -1779,6 +1967,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -1788,6 +1977,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325,
     "barcode": "87248234"
   },
@@ -1798,6 +1988,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 310
   },
   {
@@ -1807,6 +1998,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290
   },
   {
@@ -1816,6 +2008,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -1825,6 +2018,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -1834,6 +2028,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340
   },
   {
@@ -1843,6 +2038,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340,
     "barcode": "87248098"
   },
@@ -1853,6 +2049,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340
   },
   {
@@ -1862,6 +2059,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340,
     "barcode": "87248692"
   },
@@ -1872,6 +2070,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 340,
     "barcode": "87248654"
   },
@@ -1882,6 +2081,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -1891,6 +2091,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1900,6 +2101,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1909,6 +2111,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -1918,6 +2121,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -1927,6 +2131,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -1936,6 +2141,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -1945,6 +2151,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -1954,6 +2161,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -1963,6 +2171,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -1972,6 +2181,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80974581"
   },
@@ -1982,6 +2192,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290
   },
   {
@@ -1991,6 +2202,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290
   },
   {
@@ -2000,6 +2212,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80905271"
   },
@@ -2010,6 +2223,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2019,6 +2233,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290
   },
   {
@@ -2028,6 +2243,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "87248517"
   },
@@ -2038,6 +2254,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80784975"
   },
@@ -2048,6 +2265,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2057,6 +2275,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80824534"
   },
@@ -2067,6 +2286,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80799696"
   },
@@ -2077,6 +2297,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80910503"
   },
@@ -2087,6 +2308,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -2096,6 +2318,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -2105,6 +2328,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -2114,6 +2338,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -2123,6 +2348,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2132,6 +2358,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2141,6 +2368,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2150,6 +2378,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2159,6 +2388,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2168,6 +2398,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2177,6 +2408,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2186,6 +2418,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80871200"
   },
@@ -2196,6 +2429,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2205,6 +2439,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "59460626"
   },
@@ -2215,6 +2450,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "59038306"
   },
@@ -2225,6 +2461,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80769484"
   },
@@ -2235,6 +2472,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80936671"
   },
@@ -2245,6 +2483,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2254,6 +2493,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "59460633"
   },
@@ -2264,6 +2504,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80899907"
   },
@@ -2274,6 +2515,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80899976"
   },
@@ -2284,6 +2526,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80829539"
   },
@@ -2294,6 +2537,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80978596"
   },
@@ -2304,6 +2548,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80901990"
   },
@@ -2314,6 +2559,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2323,6 +2569,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -2332,6 +2579,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2341,6 +2589,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2350,6 +2599,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2359,6 +2609,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2368,6 +2619,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2377,6 +2629,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2386,6 +2639,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2395,6 +2649,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2404,6 +2659,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2413,6 +2669,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2422,6 +2679,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2431,6 +2689,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300,
     "barcode": "40318431"
   },
@@ -2441,6 +2700,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300,
     "barcode": "40313726"
   },
@@ -2451,6 +2711,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -2460,6 +2721,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 300
   },
   {
@@ -2469,6 +2731,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250,
     "barcode": "4030600283424"
   },
@@ -2479,6 +2742,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -2488,6 +2752,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250,
     "barcode": "4030600283394"
   },
@@ -2498,6 +2763,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250,
     "barcode": "4030600283363"
   },
@@ -2508,6 +2774,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250,
     "barcode": "4030600283332"
   },
@@ -2518,6 +2785,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -2527,6 +2795,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80802730"
   },
@@ -2537,6 +2806,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2546,6 +2816,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80851462"
   },
@@ -2556,6 +2827,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80815150"
   },
@@ -2566,6 +2838,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2575,6 +2848,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2584,6 +2858,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2593,6 +2868,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2602,6 +2878,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80993407"
   },
@@ -2612,6 +2889,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80828594"
   },
@@ -2622,6 +2900,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -2631,6 +2910,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80828532"
   },
@@ -2641,6 +2921,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290
   },
   {
@@ -2650,6 +2931,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80896203"
   },
@@ -2660,6 +2942,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80945345"
   },
@@ -2670,6 +2953,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80813453"
   },
@@ -2680,6 +2964,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 290,
     "barcode": "80941866"
   },
@@ -2690,6 +2975,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -2699,6 +2985,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -2708,6 +2995,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 260
   },
   {
@@ -2717,6 +3005,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -2726,6 +3015,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -2735,6 +3025,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -2744,6 +3035,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 175,
+    "cartonPrice": 175.00,
     "kgPrice": 3500
   },
   {
@@ -2753,6 +3045,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 185,
+    "cartonPrice": 185.00,
     "kgPrice": 3700
   },
   {
@@ -2762,6 +3055,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 170,
+    "cartonPrice": 170.00,
     "kgPrice": 3400
   },
   {
@@ -2771,6 +3065,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 175,
+    "cartonPrice": 175.00,
     "kgPrice": 3500
   },
   {
@@ -2780,6 +3075,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 185,
+    "cartonPrice": 185.00,
     "kgPrice": 3700
   },
   {
@@ -2789,6 +3085,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 180,
+    "cartonPrice": 180.00,
     "kgPrice": 3600
   },
   {
@@ -2798,6 +3095,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 240,
+    "cartonPrice": 240.00,
     "kgPrice": 3200
   },
   {
@@ -2807,6 +3105,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 225,
+    "cartonPrice": 225.00,
     "kgPrice": 3000
   },
   {
@@ -2816,6 +3115,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 210,
+    "cartonPrice": 210.00,
     "kgPrice": 2800
   },
   {
@@ -2825,6 +3125,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 3000
   },
   {
@@ -2834,6 +3135,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 3000
   },
   {
@@ -2843,6 +3145,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 320,
+    "cartonPrice": 320.00,
     "kgPrice": 3200
   },
   {
@@ -2852,6 +3155,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 320,
+    "cartonPrice": 320.00,
     "kgPrice": 3200
   },
   {
@@ -2861,6 +3165,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 290.4,
+    "cartonPrice": 290.40,
     "kgPrice": 2420
   },
   {
@@ -2870,6 +3175,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 242.4,
+    "cartonPrice": 242.40,
     "kgPrice": 2020
   },
   {
@@ -2879,6 +3185,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 266.4,
+    "cartonPrice": 266.40,
     "kgPrice": 2220
   },
   {
@@ -2888,6 +3195,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 276,
+    "cartonPrice": 276.00,
     "kgPrice": 2300
   },
   {
@@ -2897,6 +3205,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 11.9,
+    "cartonPrice": 285.60,
     "kgPrice": 2380
   },
   {
@@ -2906,6 +3215,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 285.6,
+    "cartonPrice": 285.60,
     "kgPrice": 2380
   },
   {
@@ -2915,6 +3225,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 8.4,
+    "cartonPrice": 201.60,
     "kgPrice": 1680
   },
   {
@@ -2924,6 +3235,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 201.6,
+    "cartonPrice": 201.60,
     "kgPrice": 1680
   },
   {
@@ -2933,6 +3245,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 11.7,
+    "cartonPrice": 280.80,
     "kgPrice": 2340
   },
   {
@@ -2942,6 +3255,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 237.6,
+    "cartonPrice": 237.60,
     "kgPrice": 1980
   },
   {
@@ -2951,6 +3265,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 11.7,
+    "cartonPrice": 280.80,
     "kgPrice": 2340
   },
   {
@@ -2960,6 +3275,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 280.8,
+    "cartonPrice": 280.80,
     "kgPrice": 2340
   },
   {
@@ -2969,6 +3285,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 264,
+    "cartonPrice": 264.00,
     "kgPrice": 2200
   },
   {
@@ -2978,6 +3295,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 232.8,
+    "cartonPrice": 232.80,
     "kgPrice": 1940
   },
   {
@@ -2987,6 +3305,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 240,
+    "cartonPrice": 240.00,
     "kgPrice": 2000
   },
   {
@@ -2996,6 +3315,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 280.8,
+    "cartonPrice": 280.80,
     "kgPrice": 2340
   },
   {
@@ -3005,6 +3325,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 11.7,
+    "cartonPrice": 280.80,
     "kgPrice": 2340
   },
   {
@@ -3014,6 +3335,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 12.2,
+    "cartonPrice": 292.80,
     "kgPrice": 2440
   },
   {
@@ -3023,6 +3345,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 9.4,
+    "cartonPrice": 225.60,
     "kgPrice": 1880
   },
   {
@@ -3032,6 +3355,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 10.4,
+    "cartonPrice": 249.60,
     "kgPrice": 2080
   },
   {
@@ -3041,6 +3365,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 12.4,
+    "cartonPrice": 297.60,
     "kgPrice": 2480
   },
   {
@@ -3050,6 +3375,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 11.4,
+    "cartonPrice": 273.60,
     "kgPrice": 2280
   },
   {
@@ -3059,6 +3385,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.03,
     "price": 90,
+    "cartonPrice": 90.00,
     "kgPrice": 3000
   },
   {
@@ -3068,6 +3395,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 140,
+    "cartonPrice": 140.00,
     "kgPrice": 2800
   },
   {
@@ -3077,6 +3405,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 268.8,
+    "cartonPrice": 268.80,
     "kgPrice": 2240
   },
   {
@@ -3086,6 +3415,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 244.8,
+    "cartonPrice": 244.80,
     "kgPrice": 2040
   },
   {
@@ -3095,6 +3425,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 320,
+    "cartonPrice": 320.00,
     "kgPrice": 3200
   },
   {
@@ -3104,6 +3435,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 330,
+    "cartonPrice": 330.00,
     "kgPrice": 3300
   },
   {
@@ -3113,6 +3445,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 280,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -3122,6 +3455,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 3000
   },
   {
@@ -3131,6 +3465,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 310,
+    "cartonPrice": 310.00,
     "kgPrice": 3100
   },
   {
@@ -3140,6 +3475,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 220,
+    "cartonPrice": 220.00,
     "kgPrice": 2200
   },
   {
@@ -3149,6 +3485,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 230,
+    "cartonPrice": 230.00,
     "kgPrice": 2300
   },
   {
@@ -3158,6 +3495,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 180,
+    "cartonPrice": 180.00,
     "kgPrice": 1800
   },
   {
@@ -3167,6 +3505,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 200,
+    "cartonPrice": 200.00,
     "kgPrice": 2000
   },
   {
@@ -3176,6 +3515,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 210,
+    "cartonPrice": 210.00,
     "kgPrice": 2100
   },
   {
@@ -3185,6 +3525,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 10,
+    "cartonPrice": 50.00,
     "kgPrice": 1000
   },
   {
@@ -3194,6 +3535,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.325,
     "price": 30,
+    "cartonPrice": 150.00,
     "kgPrice": 461.54
   },
   {
@@ -3203,6 +3545,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 180
   },
   {
@@ -3212,6 +3555,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220
   },
   {
@@ -3221,6 +3565,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -3230,6 +3575,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 7.5,
+    "cartonPrice": 75.00,
     "kgPrice": 300
   },
   {
@@ -3239,6 +3585,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 400
   },
   {
@@ -3248,6 +3595,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 15,
+    "cartonPrice": 15.00,
     "kgPrice": 300
   },
   {
@@ -3257,6 +3605,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 350
   },
   {
@@ -3266,6 +3615,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 160
   },
   {
@@ -3275,6 +3625,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -3284,6 +3635,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 152
   },
   {
@@ -3293,6 +3645,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 400
   },
   {
@@ -3302,6 +3655,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 9.5,
+    "cartonPrice": 95.00,
     "kgPrice": 380
   },
   {
@@ -3311,6 +3665,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -3320,6 +3675,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -3329,6 +3685,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -3338,6 +3695,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -3347,6 +3705,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.5,
+    "cartonPrice": 35.00,
     "kgPrice": 140
   },
   {
@@ -3356,6 +3715,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 100,
+    "cartonPrice": 300.00,
     "kgPrice": 2000
   },
   {
@@ -3365,6 +3725,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 20,
+    "cartonPrice": 100.00,
     "kgPrice": 1333.33
   },
   {
@@ -3374,6 +3735,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 600
   },
   {
@@ -3383,6 +3745,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 9,
+    "cartonPrice": 90.00,
     "kgPrice": 600
   },
   {
@@ -3392,6 +3755,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 20,
+    "cartonPrice": 100.00,
     "kgPrice": 400
   },
   {
@@ -3401,6 +3765,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 20,
+    "cartonPrice": 240.00,
     "kgPrice": 4000
   },
   {
@@ -3410,6 +3775,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 20,
+    "cartonPrice": 240.00,
     "kgPrice": 4000
   },
   {
@@ -3419,6 +3785,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 60,
+    "cartonPrice": 240.00,
     "kgPrice": 4000
   },
   {
@@ -3428,6 +3795,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 240
   },
   {
@@ -3437,6 +3805,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 40,
+    "cartonPrice": 200.00,
     "kgPrice": 800
   },
   {
@@ -3446,6 +3815,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -3455,6 +3825,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 200,
+    "cartonPrice": 200.00,
     "kgPrice": 2000
   },
   {
@@ -3464,6 +3835,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 180,
+    "cartonPrice": 180.00,
     "kgPrice": 1714.29
   },
   {
@@ -3473,6 +3845,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 14.8,
+    "cartonPrice": 148.00,
     "kgPrice": 986.67
   },
   {
@@ -3482,6 +3855,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 8.25,
+    "cartonPrice": 41.25,
     "kgPrice": 330
   },
   {
@@ -3491,6 +3865,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 8.3,
+    "cartonPrice": 83.00,
     "kgPrice": 553.33
   },
   {
@@ -3500,6 +3875,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.08,
     "price": 120,
+    "cartonPrice": 120.00,
     "kgPrice": 1500
   },
   {
@@ -3509,6 +3885,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 5.7,
+    "cartonPrice": 57.00,
     "kgPrice": 570
   },
   {
@@ -3518,6 +3895,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 650
   },
   {
@@ -3527,6 +3905,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 680
   },
   {
@@ -3536,6 +3915,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 210,
+    "cartonPrice": 210.00,
     "kgPrice": 2100
   },
   {
@@ -3545,6 +3925,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.045,
     "price": 7.7,
+    "cartonPrice": 69.30,
     "kgPrice": 1540
   },
   {
@@ -3554,6 +3935,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 18.5,
+    "cartonPrice": 92.50,
     "kgPrice": 1850
   },
   {
@@ -3563,6 +3945,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 9,
+    "cartonPrice": 90.00,
     "kgPrice": 450
   },
   {
@@ -3572,6 +3955,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 533.33
   },
   {
@@ -3581,6 +3965,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 9.7,
+    "cartonPrice": 97.00,
     "kgPrice": 970
   },
   {
@@ -3590,6 +3975,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 9.8,
+    "cartonPrice": 98.00,
     "kgPrice": 980
   },
   {
@@ -3599,6 +3985,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 30,
+    "cartonPrice": 150.00,
     "kgPrice": 1000
   },
   {
@@ -3608,6 +3995,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 1300
   },
   {
@@ -3617,6 +4005,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 13.3,
+    "cartonPrice": 133.00,
     "kgPrice": 886.67
   },
   {
@@ -3626,6 +4015,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 13.3,
+    "cartonPrice": 133.00,
     "kgPrice": 886.67
   },
   {
@@ -3635,6 +4025,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 10.5,
+    "cartonPrice": 105.00,
     "kgPrice": 700
   },
   {
@@ -3644,6 +4035,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 35,
+    "cartonPrice": 140.00,
     "kgPrice": 700
   },
   {
@@ -3653,6 +4045,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 9.8,
+    "cartonPrice": 98.00,
     "kgPrice": 392
   },
   {
@@ -3662,6 +4055,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 10,
+    "cartonPrice": 200.00,
     "kgPrice": 2000
   },
   {
@@ -3671,6 +4065,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.375,
     "price": 28,
+    "cartonPrice": 140.00,
     "kgPrice": 373.33
   },
   {
@@ -3680,6 +4075,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 2.7,
+    "cartonPrice": 27.00,
     "kgPrice": 135
   },
   {
@@ -3689,6 +4085,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 3.5,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -3698,6 +4095,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -3707,6 +4105,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 212
   },
   {
@@ -3716,6 +4115,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 4.2,
+    "cartonPrice": 42.00,
     "kgPrice": 168
   },
   {
@@ -3725,6 +4125,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 2.6,
+    "cartonPrice": 52.00,
     "kgPrice": 520
   },
   {
@@ -3734,6 +4135,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 2700
   },
   {
@@ -3743,6 +4145,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 170,
+    "cartonPrice": 170.00,
     "kgPrice": 1700
   },
   {
@@ -3752,6 +4155,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 144,
+    "cartonPrice": 144.00,
     "kgPrice": 1440
   },
   {
@@ -3761,6 +4165,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 200,
+    "cartonPrice": 200.00,
     "kgPrice": 2000
   },
   {
@@ -3770,6 +4175,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 194,
+    "cartonPrice": 194.00,
     "kgPrice": 1940
   },
   {
@@ -3779,6 +4185,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 11.7,
+    "cartonPrice": 117.00,
     "kgPrice": 468
   },
   {
@@ -3788,6 +4195,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 2.5,
+    "cartonPrice": 125.00,
     "kgPrice": 500
   },
   {
@@ -3797,6 +4205,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 2.84,
+    "cartonPrice": 71.00,
     "kgPrice": 568
   },
   {
@@ -3806,6 +4215,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 2.2,
+    "cartonPrice": 110.00,
     "kgPrice": 440
   },
   {
@@ -3815,6 +4225,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 14.2,
+    "cartonPrice": 142.00,
     "kgPrice": 568
   },
   {
@@ -3824,6 +4235,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 2.7,
+    "cartonPrice": 135.00,
     "kgPrice": 540
   },
   {
@@ -3833,6 +4245,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 2.2,
+    "cartonPrice": 110.00,
     "kgPrice": 440
   },
   {
@@ -3842,6 +4255,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7,
+    "cartonPrice": 140.00,
     "kgPrice": 1400
   },
   {
@@ -3851,6 +4265,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -3860,6 +4275,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 140,
+    "cartonPrice": 140.00,
     "kgPrice": 1400
   },
   {
@@ -3869,6 +4285,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 160,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -3878,6 +4295,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 148,
+    "cartonPrice": 148.00,
     "kgPrice": 1480
   },
   {
@@ -3887,6 +4305,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 166,
+    "cartonPrice": 166.00,
     "kgPrice": 1660
   },
   {
@@ -3896,6 +4315,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 160,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -3905,6 +4325,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 150,
+    "cartonPrice": 150.00,
     "kgPrice": 1500
   },
   {
@@ -3914,6 +4335,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 168,
+    "cartonPrice": 168.00,
     "kgPrice": 1680
   },
   {
@@ -3923,6 +4345,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 210,
+    "cartonPrice": 210.00,
     "kgPrice": 2100
   },
   {
@@ -3932,6 +4355,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 200,
+    "cartonPrice": 200.00,
     "kgPrice": 2000
   },
   {
@@ -3941,6 +4365,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6.1,
+    "cartonPrice": 61.00,
     "kgPrice": 610
   },
   {
@@ -3950,6 +4375,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6.1,
+    "cartonPrice": 61.00,
     "kgPrice": 610
   },
   {
@@ -3959,6 +4385,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 280.8,
+    "cartonPrice": 280.80,
     "kgPrice": 2340
   },
   {
@@ -3968,6 +4395,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 184.8,
+    "cartonPrice": 184.80,
     "kgPrice": 1540
   },
   {
@@ -3977,6 +4405,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 208.8,
+    "cartonPrice": 208.80,
     "kgPrice": 1740
   },
   {
@@ -3986,6 +4415,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 201,
+    "cartonPrice": 201.00,
     "kgPrice": 1340
   },
   {
@@ -3995,6 +4425,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.5,
+    "cartonPrice": 150.00,
     "kgPrice": 1500
   },
   {
@@ -4004,6 +4435,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 150,
+    "cartonPrice": 150.00,
     "kgPrice": 1500
   },
   {
@@ -4013,6 +4445,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -4022,6 +4455,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 160,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -4031,6 +4465,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8.5,
+    "cartonPrice": 170.00,
     "kgPrice": 1700
   },
   {
@@ -4040,6 +4475,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 170,
+    "cartonPrice": 170.00,
     "kgPrice": 1700
   },
   {
@@ -4049,6 +4485,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 192,
+    "cartonPrice": 192.00,
     "kgPrice": 1600
   },
   {
@@ -4058,6 +4495,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 228,
+    "cartonPrice": 228.00,
     "kgPrice": 1900
   },
   {
@@ -4067,6 +4505,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 2500
   },
   {
@@ -4076,6 +4515,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 264,
+    "cartonPrice": 264.00,
     "kgPrice": 2200
   },
   {
@@ -4085,6 +4525,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 432,
+    "cartonPrice": 432.00,
     "kgPrice": 3600
   },
   {
@@ -4094,6 +4535,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 175,
+    "cartonPrice": 175.00,
     "kgPrice": 3500
   },
   {
@@ -4103,6 +4545,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 185,
+    "cartonPrice": 185.00,
     "kgPrice": 3700
   },
   {
@@ -4112,6 +4555,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 450,
+    "cartonPrice": 450.00,
     "kgPrice": 3600
   },
   {
@@ -4121,6 +4565,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 320,
+    "cartonPrice": 320.00,
     "kgPrice": 3200
   },
   {
@@ -4130,6 +4575,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 280,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -4139,6 +4585,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 3000
   },
   {
@@ -4148,6 +4595,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 372,
+    "cartonPrice": 372.00,
     "kgPrice": 3100
   },
   {
@@ -4157,6 +4605,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 408,
+    "cartonPrice": 408.00,
     "kgPrice": 3400
   },
   {
@@ -4166,6 +4615,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 396,
+    "cartonPrice": 396.00,
     "kgPrice": 3300
   },
   {
@@ -4175,6 +4625,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.135,
     "price": 310.5,
+    "cartonPrice": 310.50,
     "kgPrice": 2300
   },
   {
@@ -4184,6 +4635,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 200,
+    "cartonPrice": 200.00,
     "kgPrice": 4000
   },
   {
@@ -4193,6 +4645,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 180,
+    "cartonPrice": 180.00,
     "kgPrice": 3600
   },
   {
@@ -4202,6 +4655,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 170,
+    "cartonPrice": 170.00,
     "kgPrice": 3400
   },
   {
@@ -4211,6 +4665,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 396,
+    "cartonPrice": 396.00,
     "kgPrice": 3300
   },
   {
@@ -4220,6 +4675,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 3500
   },
   {
@@ -4229,6 +4685,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 372,
+    "cartonPrice": 372.00,
     "kgPrice": 3100
   },
   {
@@ -4238,6 +4695,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.135,
     "price": 310.5,
+    "cartonPrice": 310.50,
     "kgPrice": 2300
   },
   {
@@ -4247,6 +4705,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 396,
+    "cartonPrice": 396.00,
     "kgPrice": 3300
   },
   {
@@ -4256,6 +4715,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 180,
+    "cartonPrice": 180.00,
     "kgPrice": 3600
   },
   {
@@ -4265,6 +4725,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 165,
+    "cartonPrice": 165.00,
     "kgPrice": 3300
   },
   {
@@ -4274,6 +4735,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 200,
+    "cartonPrice": 200.00,
     "kgPrice": 4000
   },
   {
@@ -4283,6 +4745,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 175,
+    "cartonPrice": 175.00,
     "kgPrice": 3500
   },
   {
@@ -4292,6 +4755,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 432,
+    "cartonPrice": 432.00,
     "kgPrice": 3600
   },
   {
@@ -4301,6 +4765,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.135,
     "price": 310.5,
+    "cartonPrice": 310.50,
     "kgPrice": 2300
   },
   {
@@ -4310,6 +4775,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.185,
     "price": 481,
+    "cartonPrice": 481.00,
     "kgPrice": 2600
   },
   {
@@ -4319,6 +4785,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 372,
+    "cartonPrice": 372.00,
     "kgPrice": 3100
   },
   {
@@ -4328,6 +4795,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 372,
+    "cartonPrice": 372.00,
     "kgPrice": 3100
   },
   {
@@ -4337,6 +4805,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 396,
+    "cartonPrice": 396.00,
     "kgPrice": 3300
   },
   {
@@ -4346,6 +4815,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 408,
+    "cartonPrice": 408.00,
     "kgPrice": 3400
   },
   {
@@ -4355,6 +4825,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 13.3,
+    "cartonPrice": 665.00,
     "kgPrice": 2660
   },
   {
@@ -4364,6 +4835,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 665,
+    "cartonPrice": 665.00,
     "kgPrice": 2660
   },
   {
@@ -4373,6 +4845,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 279,
+    "cartonPrice": 279.00,
     "kgPrice": 3100
   },
   {
@@ -4382,6 +4855,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 15.5,
+    "cartonPrice": 279.00,
     "kgPrice": 3100
   },
   {
@@ -4391,6 +4865,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 11.3,
+    "cartonPrice": 226.00,
     "kgPrice": 2260
   },
   {
@@ -4400,6 +4875,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 11.5,
+    "cartonPrice": 230.00,
     "kgPrice": 2300
   },
   {
@@ -4409,6 +4885,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 230,
+    "cartonPrice": 230.00,
     "kgPrice": 2300
   },
   {
@@ -4418,6 +4895,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8.3,
+    "cartonPrice": 166.00,
     "kgPrice": 1660
   },
   {
@@ -4427,6 +4905,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 166,
+    "cartonPrice": 166.00,
     "kgPrice": 1660
   },
   {
@@ -4436,6 +4915,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8.8,
+    "cartonPrice": 176.00,
     "kgPrice": 1760
   },
   {
@@ -4445,6 +4925,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 176,
+    "cartonPrice": 176.00,
     "kgPrice": 1760
   },
   {
@@ -4454,6 +4935,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8.1,
+    "cartonPrice": 162.00,
     "kgPrice": 1620
   },
   {
@@ -4463,6 +4945,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 162,
+    "cartonPrice": 162.00,
     "kgPrice": 1620
   },
   {
@@ -4472,6 +4955,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8.5,
+    "cartonPrice": 170.00,
     "kgPrice": 1700
   },
   {
@@ -4481,6 +4965,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 170,
+    "cartonPrice": 170.00,
     "kgPrice": 1700
   },
   {
@@ -4490,6 +4975,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -4499,6 +4985,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 160,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -4508,6 +4995,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 10.8,
+    "cartonPrice": 216.00,
     "kgPrice": 2160
   },
   {
@@ -4517,6 +5005,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 216,
+    "cartonPrice": 216.00,
     "kgPrice": 2160
   },
   {
@@ -4526,6 +5015,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 10,
+    "cartonPrice": 200.00,
     "kgPrice": 2000
   },
   {
@@ -4535,6 +5025,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 200,
+    "cartonPrice": 200.00,
     "kgPrice": 2000
   },
   {
@@ -4544,6 +5035,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 153,
+    "cartonPrice": 153.00,
     "kgPrice": 1700
   },
   {
@@ -4553,6 +5045,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 44,
+    "cartonPrice": 220.00,
     "kgPrice": 2200
   },
   {
@@ -4562,6 +5055,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 145,
+    "cartonPrice": 145.00,
     "kgPrice": 2900
   },
   {
@@ -4571,6 +5065,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 145,
+    "cartonPrice": 145.00,
     "kgPrice": 2900
   },
   {
@@ -4580,6 +5075,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.02,
     "price": 60,
+    "cartonPrice": 60.00,
     "kgPrice": 3000
   },
   {
@@ -4589,6 +5085,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 145,
+    "cartonPrice": 145.00,
     "kgPrice": 2900
   },
   {
@@ -4598,6 +5095,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 145,
+    "cartonPrice": 145.00,
     "kgPrice": 2900
   },
   {
@@ -4607,6 +5105,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 186,
+    "cartonPrice": 186.00,
     "kgPrice": 3100
   },
   {
@@ -4616,6 +5115,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 174,
+    "cartonPrice": 174.00,
     "kgPrice": 2900
   },
   {
@@ -4625,6 +5125,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 192,
+    "cartonPrice": 192.00,
     "kgPrice": 3200
   },
   {
@@ -4634,6 +5135,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 80,
+    "cartonPrice": 80.00,
     "kgPrice": 3200
   },
   {
@@ -4643,6 +5145,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 72.5,
+    "cartonPrice": 72.50,
     "kgPrice": 2900
   },
   {
@@ -4652,6 +5155,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 198,
+    "cartonPrice": 198.00,
     "kgPrice": 3300
   },
   {
@@ -4661,6 +5165,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 82.5,
+    "cartonPrice": 82.50,
     "kgPrice": 3300
   },
   {
@@ -4670,6 +5175,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 210,
+    "cartonPrice": 210.00,
     "kgPrice": 3500
   },
   {
@@ -4679,6 +5185,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 87.5,
+    "cartonPrice": 87.50,
     "kgPrice": 3500
   },
   {
@@ -4688,6 +5195,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 174,
+    "cartonPrice": 174.00,
     "kgPrice": 2900
   },
   {
@@ -4697,6 +5205,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 72.5,
+    "cartonPrice": 72.50,
     "kgPrice": 2900
   },
   {
@@ -4706,6 +5215,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 192,
+    "cartonPrice": 192.00,
     "kgPrice": 3200
   },
   {
@@ -4715,6 +5225,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 80,
+    "cartonPrice": 80.00,
     "kgPrice": 3200
   },
   {
@@ -4724,6 +5235,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 60,
+    "cartonPrice": 60.00,
     "kgPrice": 2400
   },
   {
@@ -4733,6 +5245,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.03,
     "price": 70,
+    "cartonPrice": 70.00,
     "kgPrice": 2333.33
   },
   {
@@ -4742,6 +5255,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 260
   },
   {
@@ -4751,6 +5265,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 130,
+    "cartonPrice": 130.00,
     "kgPrice": 1300
   },
   {
@@ -4760,6 +5275,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 160,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -4769,6 +5285,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 120,
+    "cartonPrice": 120.00,
     "kgPrice": 1200
   },
   {
@@ -4778,6 +5295,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 90,
+    "cartonPrice": 90.00,
     "kgPrice": 900
   },
   {
@@ -4787,6 +5305,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 130,
+    "cartonPrice": 130.00,
     "kgPrice": 1300
   },
   {
@@ -4796,6 +5315,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 120,
+    "cartonPrice": 120.00,
     "kgPrice": 1200
   },
   {
@@ -4805,6 +5325,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 140,
+    "cartonPrice": 140.00,
     "kgPrice": 1400
   },
   {
@@ -4814,6 +5335,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 330,
+    "cartonPrice": 330.00,
     "kgPrice": 3300
   },
   {
@@ -4823,6 +5345,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 370,
+    "cartonPrice": 370.00,
     "kgPrice": 3700
   },
   {
@@ -4832,6 +5355,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 350,
+    "cartonPrice": 350.00,
     "kgPrice": 3500
   },
   {
@@ -4841,6 +5365,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 380,
+    "cartonPrice": 380.00,
     "kgPrice": 3800
   },
   {
@@ -4850,6 +5375,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 4.7,
+    "cartonPrice": 117.50,
     "kgPrice": 940
   },
   {
@@ -4859,6 +5385,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 117.5,
+    "cartonPrice": 117.50,
     "kgPrice": 940
   },
   {
@@ -4868,6 +5395,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 4.3,
+    "cartonPrice": 107.50,
     "kgPrice": 860
   },
   {
@@ -4877,6 +5405,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 107.5,
+    "cartonPrice": 107.50,
     "kgPrice": 860
   },
   {
@@ -4886,6 +5415,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 44,
+    "cartonPrice": 44.00,
     "kgPrice": 880
   },
   {
@@ -4895,6 +5425,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 43,
+    "cartonPrice": 43.00,
     "kgPrice": 860
   },
   {
@@ -4904,6 +5435,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 42,
+    "cartonPrice": 42.00,
     "kgPrice": 840
   },
   {
@@ -4913,6 +5445,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 45,
+    "cartonPrice": 45.00,
     "kgPrice": 900
   },
   {
@@ -4922,6 +5455,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 46,
+    "cartonPrice": 46.00,
     "kgPrice": 920
   },
   {
@@ -4931,6 +5465,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 41,
+    "cartonPrice": 41.00,
     "kgPrice": 820
   },
   {
@@ -4940,6 +5475,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 41,
+    "cartonPrice": 41.00,
     "kgPrice": 820
   },
   {
@@ -4949,6 +5485,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 45,
+    "cartonPrice": 45.00,
     "kgPrice": 900
   },
   {
@@ -4958,6 +5495,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 5.2,
+    "cartonPrice": 104.00,
     "kgPrice": 1040
   },
   {
@@ -4967,6 +5505,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 4.7,
+    "cartonPrice": 117.50,
     "kgPrice": 940
   },
   {
@@ -4976,6 +5515,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 4.5,
+    "cartonPrice": 90.00,
     "kgPrice": 900
   },
   {
@@ -4985,6 +5525,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 136,
+    "cartonPrice": 136.00,
     "kgPrice": 1360
   },
   {
@@ -4994,6 +5535,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 4.6,
+    "cartonPrice": 115.00,
     "kgPrice": 920
   },
   {
@@ -5003,6 +5545,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 115,
+    "cartonPrice": 115.00,
     "kgPrice": 920
   },
   {
@@ -5012,6 +5555,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 165,
+    "cartonPrice": 165.00,
     "kgPrice": 1320
   },
   {
@@ -5021,6 +5565,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 62,
+    "cartonPrice": 62.00,
     "kgPrice": 1240
   },
   {
@@ -5030,6 +5575,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 1240
   },
   {
@@ -5039,6 +5585,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 5.6,
+    "cartonPrice": 140.00,
     "kgPrice": 1120
   },
   {
@@ -5048,6 +5595,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 140,
+    "cartonPrice": 140.00,
     "kgPrice": 1120
   },
   {
@@ -5057,6 +5605,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 75,
+    "cartonPrice": 75.00,
     "kgPrice": 1500
   },
   {
@@ -5066,6 +5615,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 7.5,
+    "cartonPrice": 75.00,
     "kgPrice": 1500
   },
   {
@@ -5075,6 +5625,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 750,
+    "cartonPrice": 750.00,
     "kgPrice": 6000
   },
   {
@@ -5084,6 +5635,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 500,
+    "cartonPrice": 500.00,
     "kgPrice": 10000
   },
   {
@@ -5093,6 +5645,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 275,
+    "cartonPrice": 275.00,
     "kgPrice": 5500
   },
   {
@@ -5102,6 +5655,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 330,
+    "cartonPrice": 330.00,
     "kgPrice": 6600
   },
   {
@@ -5111,6 +5665,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 600,
+    "cartonPrice": 600.00,
     "kgPrice": 6000
   },
   {
@@ -5120,6 +5675,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 660,
+    "cartonPrice": 660.00,
     "kgPrice": 6600
   },
   {
@@ -5129,6 +5685,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 600,
+    "cartonPrice": 600.00,
     "kgPrice": 6000
   },
   {
@@ -5138,6 +5695,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 550,
+    "cartonPrice": 550.00,
     "kgPrice": 5500
   },
   {
@@ -5147,6 +5705,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 600,
+    "cartonPrice": 600.00,
     "kgPrice": 6000
   },
   {
@@ -5156,6 +5715,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 660,
+    "cartonPrice": 660.00,
     "kgPrice": 6600
   },
   {
@@ -5165,6 +5725,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 840,
+    "cartonPrice": 840.00,
     "kgPrice": 8400
   },
   {
@@ -5174,6 +5735,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.07,
     "price": 400,
+    "cartonPrice": 400.00,
     "kgPrice": 5714.27
   },
   {
@@ -5183,6 +5745,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 350,
+    "cartonPrice": 350.00,
     "kgPrice": 7000
   },
   {
@@ -5192,6 +5755,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 750,
+    "cartonPrice": 750.00,
     "kgPrice": 15000
   },
   {
@@ -5201,6 +5765,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 550,
+    "cartonPrice": 550.00,
     "kgPrice": 11000
   },
   {
@@ -5210,6 +5775,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 6000
   },
   {
@@ -5219,6 +5785,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 228,
+    "cartonPrice": 228.00,
     "kgPrice": 1900
   },
   {
@@ -5228,6 +5795,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 237.6,
+    "cartonPrice": 237.60,
     "kgPrice": 1980
   },
   {
@@ -5237,6 +5805,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 228,
+    "cartonPrice": 228.00,
     "kgPrice": 1900
   },
   {
@@ -5246,6 +5815,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 237.6,
+    "cartonPrice": 237.60,
     "kgPrice": 1980
   },
   {
@@ -5255,6 +5825,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 225,
+    "cartonPrice": 225.00,
     "kgPrice": 4500
   },
   {
@@ -5264,6 +5835,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 270,
+    "cartonPrice": 270.00,
     "kgPrice": 5400
   },
   {
@@ -5273,6 +5845,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 225,
+    "cartonPrice": 225.00,
     "kgPrice": 4500
   },
   {
@@ -5282,6 +5855,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 235,
+    "cartonPrice": 235.00,
     "kgPrice": 4700
   },
   {
@@ -5291,6 +5865,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 250,
+    "cartonPrice": 250.00,
     "kgPrice": 5000
   },
   {
@@ -5300,6 +5875,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 147.5,
+    "cartonPrice": 147.50,
     "kgPrice": 1180
   },
   {
@@ -5309,6 +5885,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 157.5,
+    "cartonPrice": 157.50,
     "kgPrice": 1260
   },
   {
@@ -5318,6 +5895,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 137.5,
+    "cartonPrice": 137.50,
     "kgPrice": 1100
   },
   {
@@ -5327,6 +5905,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 147.5,
+    "cartonPrice": 147.50,
     "kgPrice": 1180
   },
   {
@@ -5336,6 +5915,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 687.5,
+    "cartonPrice": 687.50,
     "kgPrice": 5500
   },
   {
@@ -5345,6 +5925,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 787.5,
+    "cartonPrice": 787.50,
     "kgPrice": 6300
   },
   {
@@ -5354,6 +5935,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 342,
+    "cartonPrice": 342.00,
     "kgPrice": 5700
   },
   {
@@ -5363,6 +5945,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 342,
+    "cartonPrice": 342.00,
     "kgPrice": 5700
   },
   {
@@ -5372,6 +5955,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 360,
+    "cartonPrice": 360.00,
     "kgPrice": 6000
   },
   {
@@ -5381,6 +5965,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 360,
+    "cartonPrice": 360.00,
     "kgPrice": 6000
   },
   {
@@ -5390,6 +5975,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 636,
+    "cartonPrice": 636.00,
     "kgPrice": 5300
   },
   {
@@ -5399,6 +5985,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 672,
+    "cartonPrice": 672.00,
     "kgPrice": 5600
   },
   {
@@ -5408,6 +5995,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 1000,
+    "cartonPrice": 1000.00,
     "kgPrice": 8000
   },
   {
@@ -5417,6 +6005,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 22.5,
+    "cartonPrice": 675.00,
     "kgPrice": 4500
   },
   {
@@ -5426,6 +6015,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 20,
+    "cartonPrice": 600.00,
     "kgPrice": 4000
   },
   {
@@ -5435,6 +6025,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 250,
+    "cartonPrice": 250.00,
     "kgPrice": 5000
   },
   {
@@ -5444,6 +6035,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 470,
+    "cartonPrice": 470.00,
     "kgPrice": 4700
   },
   {
@@ -5453,6 +6045,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 500,
+    "cartonPrice": 500.00,
     "kgPrice": 5000
   },
   {
@@ -5462,6 +6055,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 480,
+    "cartonPrice": 480.00,
     "kgPrice": 4800
   },
   {
@@ -5471,6 +6065,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 500,
+    "cartonPrice": 500.00,
     "kgPrice": 5000
   },
   {
@@ -5480,6 +6075,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 350,
+    "cartonPrice": 350.00,
     "kgPrice": 3500
   },
   {
@@ -5489,6 +6085,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 390,
+    "cartonPrice": 390.00,
     "kgPrice": 3900
   },
   {
@@ -5498,6 +6095,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 480,
+    "cartonPrice": 480.00,
     "kgPrice": 4800
   },
   {
@@ -5507,6 +6105,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 370,
+    "cartonPrice": 370.00,
     "kgPrice": 3700
   },
   {
@@ -5516,6 +6115,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 430,
+    "cartonPrice": 430.00,
     "kgPrice": 4300
   },
   {
@@ -5525,6 +6125,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 350,
+    "cartonPrice": 350.00,
     "kgPrice": 3500
   },
   {
@@ -5534,6 +6135,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -5543,6 +6145,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 430,
+    "cartonPrice": 430.00,
     "kgPrice": 4300
   },
   {
@@ -5552,6 +6155,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 350,
+    "cartonPrice": 350.00,
     "kgPrice": 3500
   },
   {
@@ -5561,6 +6165,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 400,
+    "cartonPrice": 400.00,
     "kgPrice": 4000
   },
   {
@@ -5570,6 +6175,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 390,
+    "cartonPrice": 390.00,
     "kgPrice": 3900
   },
   {
@@ -5579,6 +6185,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -5588,6 +6195,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 480,
+    "cartonPrice": 480.00,
     "kgPrice": 4800
   },
   {
@@ -5597,6 +6205,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 500,
+    "cartonPrice": 500.00,
     "kgPrice": 5000
   },
   {
@@ -5606,6 +6215,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 250,
+    "cartonPrice": 250.00,
     "kgPrice": 5000
   },
   {
@@ -5615,6 +6225,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.015,
     "price": 85,
+    "cartonPrice": 85.00,
     "kgPrice": 5666.67
   },
   {
@@ -5624,6 +6235,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 60,
+    "cartonPrice": 300.00,
     "kgPrice": 3000
   },
   {
@@ -5633,6 +6245,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 346.5,
+    "cartonPrice": 346.50,
     "kgPrice": 3300
   },
   {
@@ -5642,6 +6255,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 367.5,
+    "cartonPrice": 367.50,
     "kgPrice": 3500
   },
   {
@@ -5651,6 +6265,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 367.5,
+    "cartonPrice": 367.50,
     "kgPrice": 3500
   },
   {
@@ -5660,6 +6275,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 367.5,
+    "cartonPrice": 367.50,
     "kgPrice": 3500
   },
   {
@@ -5669,6 +6285,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 346.5,
+    "cartonPrice": 346.50,
     "kgPrice": 3300
   },
   {
@@ -5678,6 +6295,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 65,
+    "cartonPrice": 325.00,
     "kgPrice": 3250
   },
   {
@@ -5687,6 +6305,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 346.5,
+    "cartonPrice": 346.50,
     "kgPrice": 3300
   },
   {
@@ -5696,6 +6315,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.04,
     "price": 130,
+    "cartonPrice": 130.00,
     "kgPrice": 3250
   },
   {
@@ -5705,6 +6325,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 30,
+    "cartonPrice": 900.00,
     "kgPrice": 6000
   },
   {
@@ -5714,6 +6335,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 27.5,
+    "cartonPrice": 825.00,
     "kgPrice": 5500
   },
   {
@@ -5723,6 +6345,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 280,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -5732,6 +6355,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 290,
+    "cartonPrice": 290.00,
     "kgPrice": 2900
   },
   {
@@ -5741,6 +6365,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 310,
+    "cartonPrice": 310.00,
     "kgPrice": 3100
   },
   {
@@ -5750,6 +6375,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 290,
+    "cartonPrice": 290.00,
     "kgPrice": 2900
   },
   {
@@ -5759,6 +6385,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 384,
+    "cartonPrice": 384.00,
     "kgPrice": 3200
   },
   {
@@ -5768,6 +6395,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 3500
   },
   {
@@ -5777,6 +6405,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 456,
+    "cartonPrice": 456.00,
     "kgPrice": 3800
   },
   {
@@ -5786,6 +6415,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 384,
+    "cartonPrice": 384.00,
     "kgPrice": 3200
   },
   {
@@ -5795,6 +6425,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 3500
   },
   {
@@ -5804,6 +6435,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 456,
+    "cartonPrice": 456.00,
     "kgPrice": 3800
   },
   {
@@ -5813,6 +6445,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 408,
+    "cartonPrice": 408.00,
     "kgPrice": 3400
   },
   {
@@ -5822,6 +6455,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 675,
+    "cartonPrice": 675.00,
     "kgPrice": 9000
   },
   {
@@ -5831,6 +6465,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 23.5,
+    "cartonPrice": 705.00,
     "kgPrice": 4700
   },
   {
@@ -5840,6 +6475,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 20,
+    "cartonPrice": 600.00,
     "kgPrice": 4000
   },
   {
@@ -5849,6 +6485,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 280,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -5858,6 +6495,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 290,
+    "cartonPrice": 290.00,
     "kgPrice": 2900
   },
   {
@@ -5867,6 +6505,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 280,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -5876,6 +6515,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 290,
+    "cartonPrice": 290.00,
     "kgPrice": 2900
   },
   {
@@ -5885,6 +6525,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.03,
     "price": 49.2,
+    "cartonPrice": 49.20,
     "kgPrice": 1640
   },
   {
@@ -5894,6 +6535,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 320,
+    "cartonPrice": 320.00,
     "kgPrice": 3200
   },
   {
@@ -5903,6 +6545,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 65,
+    "cartonPrice": 325.00,
     "kgPrice": 3250
   },
   {
@@ -5912,6 +6555,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 330,
+    "cartonPrice": 330.00,
     "kgPrice": 3300
   },
   {
@@ -5921,6 +6565,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 340,
+    "cartonPrice": 340.00,
     "kgPrice": 3400
   },
   {
@@ -5930,6 +6575,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.24,
     "price": 55,
+    "cartonPrice": 440.00,
     "kgPrice": 1833.33
   },
   {
@@ -5939,6 +6585,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 57.5,
+    "cartonPrice": 287.50,
     "kgPrice": 2875
   },
   {
@@ -5948,6 +6595,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.24,
     "price": 59.4,
+    "cartonPrice": 475.20,
     "kgPrice": 1980
   },
   {
@@ -5957,6 +6605,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 495,
+    "cartonPrice": 495.00,
     "kgPrice": 6600
   },
   {
@@ -5966,6 +6615,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 525,
+    "cartonPrice": 525.00,
     "kgPrice": 7000
   },
   {
@@ -5975,6 +6625,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 495,
+    "cartonPrice": 495.00,
     "kgPrice": 6600
   },
   {
@@ -5984,6 +6635,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 525,
+    "cartonPrice": 525.00,
     "kgPrice": 7000
   },
   {
@@ -5993,6 +6645,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.165,
     "price": 750,
+    "cartonPrice": 750.00,
     "kgPrice": 4545.45
   },
   {
@@ -6002,6 +6655,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 180
   },
   {
@@ -6011,6 +6665,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 9,
+    "cartonPrice": 90.00,
     "kgPrice": 360
   },
   {
@@ -6020,6 +6675,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.005,
     "price": 60,
+    "cartonPrice": 60.00,
     "kgPrice": 12000
   },
   {
@@ -6029,6 +6685,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.02,
     "price": 500,
+    "cartonPrice": 500.00,
     "kgPrice": 25000
   },
   {
@@ -6038,6 +6695,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.005,
     "price": 55,
+    "cartonPrice": 55.00,
     "kgPrice": 11000
   },
   {
@@ -6047,6 +6705,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.005,
     "price": 55,
+    "cartonPrice": 55.00,
     "kgPrice": 11000
   },
   {
@@ -6056,6 +6715,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 740
   },
   {
@@ -6065,6 +6725,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 36,
+    "cartonPrice": 36.00,
     "kgPrice": 720
   },
   {
@@ -6074,6 +6735,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 740
   },
   {
@@ -6083,6 +6745,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 36,
+    "cartonPrice": 36.00,
     "kgPrice": 720
   },
   {
@@ -6092,6 +6755,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 740
   },
   {
@@ -6101,6 +6765,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 37,
+    "cartonPrice": 37.00,
     "kgPrice": 740
   },
   {
@@ -6110,6 +6775,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 80,
+    "cartonPrice": 80.00,
     "kgPrice": 1600
   },
   {
@@ -6119,6 +6785,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 96,
+    "cartonPrice": 96.00,
     "kgPrice": 1920
   },
   {
@@ -6128,6 +6795,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 170,
+    "cartonPrice": 170.00,
     "kgPrice": 1700
   },
   {
@@ -6137,6 +6805,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 190,
+    "cartonPrice": 190.00,
     "kgPrice": 1900
   },
   {
@@ -6146,6 +6815,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 95,
+    "cartonPrice": 95.00,
     "kgPrice": 1900
   },
   {
@@ -6155,6 +6825,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 170,
+    "cartonPrice": 170.00,
     "kgPrice": 1700
   },
   {
@@ -6164,6 +6835,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 5.3,
+    "cartonPrice": 106.00,
     "kgPrice": 1060
   },
   {
@@ -6173,6 +6845,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 106,
+    "cartonPrice": 106.00,
     "kgPrice": 1060
   },
   {
@@ -6182,6 +6855,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 4.5,
+    "cartonPrice": 90.00,
     "kgPrice": 900
   },
   {
@@ -6191,6 +6865,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 4.4,
+    "cartonPrice": 88.00,
     "kgPrice": 880
   },
   {
@@ -6200,6 +6875,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 88,
+    "cartonPrice": 88.00,
     "kgPrice": 880
   },
   {
@@ -6209,6 +6885,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 5.3,
+    "cartonPrice": 106.00,
     "kgPrice": 1060
   },
   {
@@ -6218,6 +6895,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 4.5,
+    "cartonPrice": 90.00,
     "kgPrice": 900
   },
   {
@@ -6227,6 +6905,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -6236,6 +6915,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 320,
+    "cartonPrice": 320.00,
     "kgPrice": 3200
   },
   {
@@ -6245,6 +6925,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 220,
+    "cartonPrice": 220.00,
     "kgPrice": 2200
   },
   {
@@ -6254,6 +6935,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 240,
+    "cartonPrice": 240.00,
     "kgPrice": 2400
   },
   {
@@ -6263,6 +6945,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 240,
+    "cartonPrice": 240.00,
     "kgPrice": 2400
   },
   {
@@ -6272,6 +6955,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 260,
+    "cartonPrice": 260.00,
     "kgPrice": 2600
   },
   {
@@ -6281,6 +6965,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 260,
+    "cartonPrice": 260.00,
     "kgPrice": 2600
   },
   {
@@ -6290,6 +6975,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 270,
+    "cartonPrice": 270.00,
     "kgPrice": 2700
   },
   {
@@ -6299,6 +6985,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 230,
+    "cartonPrice": 230.00,
     "kgPrice": 2300
   },
   {
@@ -6308,6 +6995,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 247.5,
+    "cartonPrice": 247.50,
     "kgPrice": 3300
   },
   {
@@ -6317,6 +7005,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 2700
   },
   {
@@ -6326,6 +7015,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 262.5,
+    "cartonPrice": 262.50,
     "kgPrice": 3500
   },
   {
@@ -6335,6 +7025,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 230,
+    "cartonPrice": 230.00,
     "kgPrice": 2300
   },
   {
@@ -6344,6 +7035,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 340,
+    "cartonPrice": 340.00,
     "kgPrice": 3400
   },
   {
@@ -6353,6 +7045,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 378,
+    "cartonPrice": 378.00,
     "kgPrice": 3600
   },
   {
@@ -6362,6 +7055,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 280,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -6371,6 +7065,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 262.5,
+    "cartonPrice": 262.50,
     "kgPrice": 2500
   },
   {
@@ -6380,6 +7075,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 283.5,
+    "cartonPrice": 283.50,
     "kgPrice": 2700
   },
   {
@@ -6389,6 +7085,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 294,
+    "cartonPrice": 294.00,
     "kgPrice": 2800
   },
   {
@@ -6398,6 +7095,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 72.5,
+    "cartonPrice": 362.50,
     "kgPrice": 2900
   },
   {
@@ -6407,6 +7105,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 310,
+    "cartonPrice": 310.00,
     "kgPrice": 3100
   },
   {
@@ -6416,6 +7115,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 260,
+    "cartonPrice": 260.00,
     "kgPrice": 2600
   },
   {
@@ -6425,6 +7125,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 310,
+    "cartonPrice": 310.00,
     "kgPrice": 3100
   },
   {
@@ -6434,6 +7135,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 270,
+    "cartonPrice": 270.00,
     "kgPrice": 2700
   },
   {
@@ -6443,6 +7145,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 290,
+    "cartonPrice": 290.00,
     "kgPrice": 2900
   },
   {
@@ -6452,6 +7155,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 340,
+    "cartonPrice": 340.00,
     "kgPrice": 3400
   },
   {
@@ -6461,6 +7165,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 250,
+    "cartonPrice": 250.00,
     "kgPrice": 2500
   },
   {
@@ -6470,6 +7175,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 360,
+    "cartonPrice": 360.00,
     "kgPrice": 3600
   },
   {
@@ -6479,6 +7185,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 250,
+    "cartonPrice": 250.00,
     "kgPrice": 2500
   },
   {
@@ -6488,6 +7195,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 270,
+    "cartonPrice": 270.00,
     "kgPrice": 2700
   },
   {
@@ -6497,6 +7205,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 280,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -6506,6 +7215,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 240,
+    "cartonPrice": 240.00,
     "kgPrice": 2400
   },
   {
@@ -6515,6 +7225,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 340,
+    "cartonPrice": 340.00,
     "kgPrice": 3400
   },
   {
@@ -6524,6 +7235,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 3000
   },
   {
@@ -6533,6 +7245,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 310,
+    "cartonPrice": 310.00,
     "kgPrice": 3100
   },
   {
@@ -6542,6 +7255,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 330,
+    "cartonPrice": 330.00,
     "kgPrice": 3300
   },
   {
@@ -6551,6 +7265,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 280,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -6560,6 +7275,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 65,
+    "cartonPrice": 65.00,
     "kgPrice": 2600
   },
   {
@@ -6569,6 +7285,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 67.5,
+    "cartonPrice": 67.50,
     "kgPrice": 2700
   },
   {
@@ -6578,6 +7295,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 67.5,
+    "cartonPrice": 67.50,
     "kgPrice": 2700
   },
   {
@@ -6587,6 +7305,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 160,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -6596,6 +7315,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 180,
+    "cartonPrice": 180.00,
     "kgPrice": 1800
   },
   {
@@ -6605,6 +7325,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 160,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -6614,6 +7335,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 232
   },
   {
@@ -6623,6 +7345,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 177.6,
+    "cartonPrice": 177.60,
     "kgPrice": 1480
   },
   {
@@ -6632,6 +7355,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 236,
+    "cartonPrice": 236.00,
     "kgPrice": 1180
   },
   {
@@ -6641,6 +7365,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 444,
+    "cartonPrice": 444.00,
     "kgPrice": 3700
   },
   {
@@ -6650,6 +7375,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 444,
+    "cartonPrice": 444.00,
     "kgPrice": 3700
   },
   {
@@ -6659,6 +7385,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 261.6,
+    "cartonPrice": 261.60,
     "kgPrice": 2180
   },
   {
@@ -6668,6 +7395,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 237.6,
+    "cartonPrice": 237.60,
     "kgPrice": 1980
   },
   {
@@ -6677,6 +7405,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 237.6,
+    "cartonPrice": 237.60,
     "kgPrice": 1980
   },
   {
@@ -6686,6 +7415,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 237.6,
+    "cartonPrice": 237.60,
     "kgPrice": 1980
   },
   {
@@ -6695,6 +7425,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 261.6,
+    "cartonPrice": 261.60,
     "kgPrice": 2180
   },
   {
@@ -6704,6 +7435,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 261.6,
+    "cartonPrice": 261.60,
     "kgPrice": 2180
   },
   {
@@ -6713,6 +7445,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 174,
+    "cartonPrice": 174.00,
     "kgPrice": 1740
   },
   {
@@ -6722,6 +7455,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 234,
+    "cartonPrice": 234.00,
     "kgPrice": 2340
   },
   {
@@ -6731,6 +7465,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 208,
+    "cartonPrice": 208.00,
     "kgPrice": 2080
   },
   {
@@ -6740,6 +7475,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 174,
+    "cartonPrice": 174.00,
     "kgPrice": 1740
   },
   {
@@ -6749,6 +7485,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 194,
+    "cartonPrice": 194.00,
     "kgPrice": 1940
   },
   {
@@ -6758,6 +7495,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 136,
+    "cartonPrice": 136.00,
     "kgPrice": 1360
   },
   {
@@ -6767,6 +7505,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 11,
+    "cartonPrice": 220.00,
     "kgPrice": 2200
   },
   {
@@ -6776,6 +7515,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 101,
+    "cartonPrice": 101.00,
     "kgPrice": 2020
   },
   {
@@ -6785,6 +7525,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 93,
+    "cartonPrice": 93.00,
     "kgPrice": 1860
   },
   {
@@ -6794,6 +7535,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 89,
+    "cartonPrice": 89.00,
     "kgPrice": 1780
   },
   {
@@ -6803,6 +7545,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 160,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -6812,6 +7555,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 168,
+    "cartonPrice": 168.00,
     "kgPrice": 1680
   },
   {
@@ -6821,6 +7565,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8.4,
+    "cartonPrice": 168.00,
     "kgPrice": 1680
   },
   {
@@ -6830,6 +7575,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 93,
+    "cartonPrice": 93.00,
     "kgPrice": 1860
   },
   {
@@ -6839,6 +7585,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 104,
+    "cartonPrice": 104.00,
     "kgPrice": 2080
   },
   {
@@ -6848,6 +7595,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 11.5,
+    "cartonPrice": 115.00,
     "kgPrice": 2300
   },
   {
@@ -6857,6 +7605,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 10.2,
+    "cartonPrice": 204.00,
     "kgPrice": 2040
   },
   {
@@ -6866,6 +7615,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 136,
+    "cartonPrice": 136.00,
     "kgPrice": 1360
   },
   {
@@ -6875,6 +7625,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 114,
+    "cartonPrice": 114.00,
     "kgPrice": 1140
   },
   {
@@ -6884,6 +7635,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -6893,6 +7645,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 160,
+    "cartonPrice": 160.00,
     "kgPrice": 1600
   },
   {
@@ -6902,6 +7655,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.5,
+    "cartonPrice": 150.00,
     "kgPrice": 1500
   },
   {
@@ -6911,6 +7665,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 150,
+    "cartonPrice": 150.00,
     "kgPrice": 1500
   },
   {
@@ -6920,6 +7675,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 150,
+    "cartonPrice": 150.00,
     "kgPrice": 1500
   },
   {
@@ -6929,6 +7685,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 8.4,
+    "cartonPrice": 168.00,
     "kgPrice": 1680
   },
   {
@@ -6938,6 +7695,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 168,
+    "cartonPrice": 168.00,
     "kgPrice": 1680
   },
   {
@@ -6947,6 +7705,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.8,
+    "cartonPrice": 156.00,
     "kgPrice": 1560
   },
   {
@@ -6956,6 +7715,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 156,
+    "cartonPrice": 156.00,
     "kgPrice": 1560
   },
   {
@@ -6965,6 +7725,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 92,
+    "cartonPrice": 92.00,
     "kgPrice": 1840
   },
   {
@@ -6974,6 +7735,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 144,
+    "cartonPrice": 144.00,
     "kgPrice": 1600
   },
   {
@@ -6983,6 +7745,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7,
+    "cartonPrice": 140.00,
     "kgPrice": 1400
   },
   {
@@ -6992,6 +7755,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6.8,
+    "cartonPrice": 136.00,
     "kgPrice": 1360
   },
   {
@@ -7001,6 +7765,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.5,
+    "cartonPrice": 150.00,
     "kgPrice": 1500
   },
   {
@@ -7010,6 +7775,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 7.9,
+    "cartonPrice": 197.50,
     "kgPrice": 1580
   },
   {
@@ -7019,6 +7785,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 197.5,
+    "cartonPrice": 197.50,
     "kgPrice": 1580
   },
   {
@@ -7028,6 +7795,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 8.2,
+    "cartonPrice": 205.00,
     "kgPrice": 1640
   },
   {
@@ -7037,6 +7805,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 205,
+    "cartonPrice": 205.00,
     "kgPrice": 1640
   },
   {
@@ -7046,6 +7815,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.5,
     "price": 25,
+    "cartonPrice": 250.00,
     "kgPrice": 500
   },
   {
@@ -7055,6 +7825,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 210,
+    "cartonPrice": 210.00,
     "kgPrice": 1680
   },
   {
@@ -7064,6 +7835,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 150,
+    "cartonPrice": 150.00,
     "kgPrice": 1200
   },
   {
@@ -7073,6 +7845,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 187.5,
+    "cartonPrice": 187.50,
     "kgPrice": 1500
   },
   {
@@ -7082,6 +7855,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 16.5,
+    "cartonPrice": 330.00,
     "kgPrice": 3300
   },
   {
@@ -7091,6 +7865,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 330,
+    "cartonPrice": 330.00,
     "kgPrice": 3300
   },
   {
@@ -7100,6 +7875,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 740
   },
   {
@@ -7109,6 +7885,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 9.5,
+    "cartonPrice": 95.00,
     "kgPrice": 950
   },
   {
@@ -7118,6 +7895,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 370
   },
   {
@@ -7127,6 +7905,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 740
   },
   {
@@ -7136,6 +7915,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 350
   },
   {
@@ -7145,6 +7925,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.1,
+    "cartonPrice": 51.00,
     "kgPrice": 204
   },
   {
@@ -7154,6 +7935,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.1,
+    "cartonPrice": 51.00,
     "kgPrice": 204
   },
   {
@@ -7163,6 +7945,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 400
   },
   {
@@ -7172,6 +7955,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 216,
+    "cartonPrice": 216.00,
     "kgPrice": 1800
   },
   {
@@ -7181,6 +7965,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 240,
+    "cartonPrice": 240.00,
     "kgPrice": 2000
   },
   {
@@ -7190,6 +7975,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 216,
+    "cartonPrice": 216.00,
     "kgPrice": 1800
   },
   {
@@ -7199,6 +7985,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 240,
+    "cartonPrice": 240.00,
     "kgPrice": 2000
   },
   {
@@ -7208,6 +7995,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 264,
+    "cartonPrice": 264.00,
     "kgPrice": 2200
   },
   {
@@ -7217,6 +8005,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 240,
+    "cartonPrice": 240.00,
     "kgPrice": 2000
   },
   {
@@ -7226,6 +8015,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 264,
+    "cartonPrice": 264.00,
     "kgPrice": 2200
   },
   {
@@ -7235,6 +8025,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.02,
     "price": 50,
+    "cartonPrice": 50.00,
     "kgPrice": 2500
   },
   {
@@ -7244,6 +8035,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 250,
+    "cartonPrice": 250.00,
     "kgPrice": 2500
   },
   {
@@ -7253,6 +8045,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 2400
   },
   {
@@ -7262,6 +8055,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 141,
+    "cartonPrice": 141.00,
     "kgPrice": 940
   },
   {
@@ -7271,6 +8065,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 107,
+    "cartonPrice": 107.00,
     "kgPrice": 2140
   },
   {
@@ -7280,6 +8075,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 184,
+    "cartonPrice": 184.00,
     "kgPrice": 1840
   },
   {
@@ -7289,6 +8085,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 130,
+    "cartonPrice": 130.00,
     "kgPrice": 2600
   },
   {
@@ -7298,6 +8095,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 60,
+    "cartonPrice": 60.00,
     "kgPrice": 2400
   },
   {
@@ -7307,6 +8105,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 207.5,
+    "cartonPrice": 207.50,
     "kgPrice": 1660
   },
   {
@@ -7316,6 +8115,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 170,
+    "cartonPrice": 170.00,
     "kgPrice": 1360
   },
   {
@@ -7325,6 +8125,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 232.5,
+    "cartonPrice": 232.50,
     "kgPrice": 1860
   },
   {
@@ -7334,6 +8135,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 207.5,
+    "cartonPrice": 207.50,
     "kgPrice": 1660
   },
   {
@@ -7343,6 +8145,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 23.5,
+    "cartonPrice": 235.00,
     "kgPrice": 940
   },
   {
@@ -7352,6 +8155,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 141,
+    "cartonPrice": 141.00,
     "kgPrice": 940
   },
   {
@@ -7361,6 +8165,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 184,
+    "cartonPrice": 184.00,
     "kgPrice": 1840
   },
   {
@@ -7370,6 +8175,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 23.5,
+    "cartonPrice": 235.00,
     "kgPrice": 940
   },
   {
@@ -7379,6 +8185,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 141,
+    "cartonPrice": 141.00,
     "kgPrice": 940
   },
   {
@@ -7388,6 +8195,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 194,
+    "cartonPrice": 194.00,
     "kgPrice": 1940
   },
   {
@@ -7397,6 +8205,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 214,
+    "cartonPrice": 214.00,
     "kgPrice": 2140
   },
   {
@@ -7406,6 +8215,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 246,
+    "cartonPrice": 246.00,
     "kgPrice": 4100
   },
   {
@@ -7415,6 +8225,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 2500
   },
   {
@@ -7424,6 +8235,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 2500
   },
   {
@@ -7433,6 +8245,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 37.5,
+    "cartonPrice": 187.50,
     "kgPrice": 2500
   },
   {
@@ -7442,6 +8255,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 360,
+    "cartonPrice": 360.00,
     "kgPrice": 3000
   },
   {
@@ -7451,6 +8265,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 45,
+    "cartonPrice": 225.00,
     "kgPrice": 3000
   },
   {
@@ -7460,6 +8275,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 2500
   },
   {
@@ -7469,6 +8285,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 130,
+    "cartonPrice": 130.00,
     "kgPrice": 2600
   },
   {
@@ -7478,6 +8295,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 155,
+    "cartonPrice": 155.00,
     "kgPrice": 3100
   },
   {
@@ -7487,6 +8305,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 230,
+    "cartonPrice": 230.00,
     "kgPrice": 4600
   },
   {
@@ -7496,6 +8315,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 220,
+    "cartonPrice": 220.00,
     "kgPrice": 4400
   },
   {
@@ -7505,6 +8325,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 240,
+    "cartonPrice": 240.00,
     "kgPrice": 4800
   },
   {
@@ -7514,6 +8335,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 230,
+    "cartonPrice": 230.00,
     "kgPrice": 4600
   },
   {
@@ -7523,6 +8345,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 190,
+    "cartonPrice": 190.00,
     "kgPrice": 3800
   },
   {
@@ -7532,6 +8355,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 235,
+    "cartonPrice": 235.00,
     "kgPrice": 4700
   },
   {
@@ -7541,6 +8365,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 180,
+    "cartonPrice": 180.00,
     "kgPrice": 3600
   },
   {
@@ -7550,6 +8375,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 235,
+    "cartonPrice": 235.00,
     "kgPrice": 4700
   },
   {
@@ -7559,6 +8385,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 150,
+    "cartonPrice": 150.00,
     "kgPrice": 3000
   },
   {
@@ -7568,6 +8395,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 180,
+    "cartonPrice": 180.00,
     "kgPrice": 3600
   },
   {
@@ -7577,6 +8405,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 252,
+    "cartonPrice": 252.00,
     "kgPrice": 2100
   },
   {
@@ -7586,6 +8415,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 33,
+    "cartonPrice": 165.00,
     "kgPrice": 2200
   },
   {
@@ -7595,6 +8425,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 444,
+    "cartonPrice": 444.00,
     "kgPrice": 3700
   },
   {
@@ -7604,6 +8435,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 360,
+    "cartonPrice": 360.00,
     "kgPrice": 3000
   },
   {
@@ -7613,6 +8445,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 350,
+    "cartonPrice": 350.00,
     "kgPrice": 7000
   },
   {
@@ -7622,6 +8455,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 450,
+    "cartonPrice": 450.00,
     "kgPrice": 9000
   },
   {
@@ -7631,6 +8465,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 160
   },
   {
@@ -7640,6 +8475,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.35,
     "price": 23.1,
+    "cartonPrice": 46.20,
     "kgPrice": 132
   },
   {
@@ -7649,6 +8485,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7658,6 +8495,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 1.4,
+    "cartonPrice": 28.00,
     "kgPrice": 140
   },
   {
@@ -7667,6 +8505,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7676,6 +8515,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7685,6 +8525,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7694,6 +8535,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 180
   },
   {
@@ -7703,6 +8545,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7712,6 +8555,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 1.4,
+    "cartonPrice": 28.00,
     "kgPrice": 140
   },
   {
@@ -7721,6 +8565,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7730,6 +8575,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 1.4,
+    "cartonPrice": 28.00,
     "kgPrice": 140
   },
   {
@@ -7739,6 +8585,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7748,6 +8595,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 1.4,
+    "cartonPrice": 28.00,
     "kgPrice": 140
   },
   {
@@ -7757,6 +8605,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7766,6 +8615,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 1.4,
+    "cartonPrice": 28.00,
     "kgPrice": 140
   },
   {
@@ -7775,6 +8625,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7784,6 +8635,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 1.4,
+    "cartonPrice": 28.00,
     "kgPrice": 140
   },
   {
@@ -7793,6 +8645,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7802,6 +8655,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7811,6 +8665,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7820,6 +8675,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 1.4,
+    "cartonPrice": 28.00,
     "kgPrice": 140
   },
   {
@@ -7829,6 +8685,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7838,6 +8695,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.3,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 150
   },
   {
@@ -7847,6 +8705,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -7856,6 +8715,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 250,
+    "cartonPrice": 250.00,
     "kgPrice": 2000
   },
   {
@@ -7865,6 +8725,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 250,
+    "cartonPrice": 250.00,
     "kgPrice": 2000
   },
   {
@@ -7874,6 +8735,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 250,
+    "cartonPrice": 250.00,
     "kgPrice": 2000
   },
   {
@@ -7883,6 +8745,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 410,
+    "cartonPrice": 410.00,
     "kgPrice": 4100
   },
   {
@@ -7892,6 +8755,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 390,
+    "cartonPrice": 390.00,
     "kgPrice": 3900
   },
   {
@@ -7901,6 +8765,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -7910,6 +8775,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 390,
+    "cartonPrice": 390.00,
     "kgPrice": 3900
   },
   {
@@ -7919,6 +8785,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -7928,6 +8795,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.015,
     "price": 59,
+    "cartonPrice": 59.00,
     "kgPrice": 3933.33
   },
   {
@@ -7937,6 +8805,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 77.5,
+    "cartonPrice": 77.50,
     "kgPrice": 620
   },
   {
@@ -7946,6 +8815,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 15.5,
+    "cartonPrice": 77.50,
     "kgPrice": 620
   },
   {
@@ -7955,6 +8825,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 85,
+    "cartonPrice": 85.00,
     "kgPrice": 680
   },
   {
@@ -7964,6 +8835,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 17,
+    "cartonPrice": 85.00,
     "kgPrice": 680
   },
   {
@@ -7973,6 +8845,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.3,
     "price": 5.2,
+    "cartonPrice": 62.40,
     "kgPrice": 208
   },
   {
@@ -7982,6 +8855,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.3,
     "price": 5.2,
+    "cartonPrice": 62.40,
     "kgPrice": 208
   },
   {
@@ -7991,6 +8865,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.3,
     "price": 3,
+    "cartonPrice": 36.00,
     "kgPrice": 120
   },
   {
@@ -8000,6 +8875,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.3,
     "price": 3,
+    "cartonPrice": 36.00,
     "kgPrice": 120
   },
   {
@@ -8009,6 +8885,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.3,
     "price": 5.2,
+    "cartonPrice": 62.40,
     "kgPrice": 208
   },
   {
@@ -8018,6 +8895,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.3,
     "price": 5.2,
+    "cartonPrice": 62.40,
     "kgPrice": 208
   },
   {
@@ -8027,6 +8905,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 98,
+    "cartonPrice": 98.00,
     "kgPrice": 980
   },
   {
@@ -8036,6 +8915,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 118,
+    "cartonPrice": 118.00,
     "kgPrice": 1180
   },
   {
@@ -8045,6 +8925,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 14.3,
+    "cartonPrice": 357.50,
     "kgPrice": 2860
   },
   {
@@ -8054,6 +8935,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 357.5,
+    "cartonPrice": 357.50,
     "kgPrice": 2860
   },
   {
@@ -8063,6 +8945,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 13.9,
+    "cartonPrice": 347.50,
     "kgPrice": 2780
   },
   {
@@ -8072,6 +8955,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 347.5,
+    "cartonPrice": 347.50,
     "kgPrice": 2780
   },
   {
@@ -8081,6 +8965,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 13.4,
+    "cartonPrice": 268.00,
     "kgPrice": 2680
   },
   {
@@ -8090,6 +8975,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 268,
+    "cartonPrice": 268.00,
     "kgPrice": 2680
   },
   {
@@ -8099,6 +8985,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 14.4,
+    "cartonPrice": 288.00,
     "kgPrice": 2880
   },
   {
@@ -8108,6 +8995,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 288,
+    "cartonPrice": 288.00,
     "kgPrice": 2880
   },
   {
@@ -8117,6 +9005,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 16.3,
+    "cartonPrice": 326.00,
     "kgPrice": 3260
   },
   {
@@ -8126,6 +9015,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 326,
+    "cartonPrice": 326.00,
     "kgPrice": 3260
   },
   {
@@ -8135,6 +9025,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 15.3,
+    "cartonPrice": 306.00,
     "kgPrice": 3060
   },
   {
@@ -8144,6 +9035,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 306,
+    "cartonPrice": 306.00,
     "kgPrice": 3060
   },
   {
@@ -8153,6 +9045,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 14.4,
+    "cartonPrice": 288.00,
     "kgPrice": 2880
   },
   {
@@ -8162,6 +9055,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 288,
+    "cartonPrice": 288.00,
     "kgPrice": 2880
   },
   {
@@ -8171,6 +9065,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 15.4,
+    "cartonPrice": 308.00,
     "kgPrice": 3080
   },
   {
@@ -8180,6 +9075,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 308,
+    "cartonPrice": 308.00,
     "kgPrice": 3080
   },
   {
@@ -8189,6 +9085,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 314,
+    "cartonPrice": 314.00,
     "kgPrice": 6280
   },
   {
@@ -8198,6 +9095,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 31.4,
+    "cartonPrice": 314.00,
     "kgPrice": 6280
   },
   {
@@ -8207,6 +9105,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -8216,6 +9115,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.015,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 2000
   },
   {
@@ -8225,6 +9125,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.005,
     "price": 22,
+    "cartonPrice": 22.00,
     "kgPrice": 4400
   },
   {
@@ -8234,6 +9135,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 225,
+    "cartonPrice": 225.00,
     "kgPrice": 4500
   },
   {
@@ -8243,6 +9145,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 530,
+    "cartonPrice": 530.00,
     "kgPrice": 5300
   },
   {
@@ -8252,6 +9155,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 205,
+    "cartonPrice": 205.00,
     "kgPrice": 4100
   },
   {
@@ -8261,6 +9165,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.105,
     "price": 630,
+    "cartonPrice": 630.00,
     "kgPrice": 6000
   },
   {
@@ -8270,6 +9175,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 35,
+    "cartonPrice": 35.00,
     "kgPrice": 350
   },
   {
@@ -8279,6 +9185,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 620
   },
   {
@@ -8288,6 +9195,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.02,
     "price": 24,
+    "cartonPrice": 24.00,
     "kgPrice": 1200
   },
   {
@@ -8297,6 +9205,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 580
   },
   {
@@ -8306,6 +9215,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 60,
+    "cartonPrice": 60.00,
     "kgPrice": 600
   },
   {
@@ -8315,6 +9225,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 4.9,
+    "cartonPrice": 49.00,
     "kgPrice": 490
   },
   {
@@ -8324,6 +9235,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 35,
+    "cartonPrice": 35.00,
     "kgPrice": 350
   },
   {
@@ -8333,6 +9245,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 9.8,
+    "cartonPrice": 98.00,
     "kgPrice": 490
   },
   {
@@ -8342,6 +9255,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -8351,6 +9265,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 4.9,
+    "cartonPrice": 49.00,
     "kgPrice": 245
   },
   {
@@ -8360,6 +9275,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 600
   },
   {
@@ -8369,6 +9285,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -8378,6 +9295,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -8387,6 +9305,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -8396,6 +9315,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 7.5,
+    "cartonPrice": 75.00,
     "kgPrice": 375
   },
   {
@@ -8405,6 +9325,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 4.2,
+    "cartonPrice": 42.00,
     "kgPrice": 420
   },
   {
@@ -8414,6 +9335,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 520
   },
   {
@@ -8423,6 +9345,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 35,
+    "cartonPrice": 35.00,
     "kgPrice": 1400
   },
   {
@@ -8432,6 +9355,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -8441,6 +9365,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.9,
+    "cartonPrice": 59.00,
     "kgPrice": 236
   },
   {
@@ -8450,6 +9375,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220
   },
   {
@@ -8459,6 +9385,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220
   },
   {
@@ -8468,6 +9395,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.9,
+    "cartonPrice": 59.00,
     "kgPrice": 236
   },
   {
@@ -8477,6 +9405,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.6,
     "price": 28,
+    "cartonPrice": 112.00,
     "kgPrice": 186.67
   },
   {
@@ -8486,6 +9415,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220
   },
   {
@@ -8495,6 +9425,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220
   },
   {
@@ -8504,6 +9435,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 216
   },
   {
@@ -8513,6 +9445,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220
   },
   {
@@ -8522,6 +9455,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 4.6,
+    "cartonPrice": 46.00,
     "kgPrice": 184
   },
   {
@@ -8531,6 +9465,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 232
   },
   {
@@ -8540,6 +9475,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.9,
+    "cartonPrice": 59.00,
     "kgPrice": 236,
     "barcode": "8059145102386"
   },
@@ -8550,6 +9486,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220,
     "barcode": "8059145100801"
   },
@@ -8560,6 +9497,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220
   },
   {
@@ -8569,6 +9507,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.9,
+    "cartonPrice": 59.00,
     "kgPrice": 236,
     "barcode": "8059145100726"
   },
@@ -8579,6 +9518,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.15,
     "price": 2,
+    "cartonPrice": 20.00,
     "kgPrice": 133.33
   },
   {
@@ -8588,6 +9528,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -8597,6 +9538,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -8606,6 +9548,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -8615,6 +9558,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -8624,6 +9568,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -8633,6 +9578,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -8642,6 +9588,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220
   },
   {
@@ -8651,6 +9598,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 208
   },
   {
@@ -8660,6 +9608,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -8669,6 +9618,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 5.3,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -8678,6 +9628,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 160,
     "barcode": "8059145100788"
   },
@@ -8688,6 +9639,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 5.2,
+    "cartonPrice": 52.00,
     "kgPrice": 520
   },
   {
@@ -8697,6 +9649,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 5.7,
+    "cartonPrice": 57.00,
     "kgPrice": 570
   },
   {
@@ -8706,6 +9659,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 450,
     "barcode": "8059145100719"
   },
@@ -8716,6 +9670,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 9,
+    "cartonPrice": 90.00,
     "kgPrice": 450
   },
   {
@@ -8725,6 +9680,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 9,
+    "cartonPrice": 90.00,
     "kgPrice": 450
   },
   {
@@ -8734,6 +9690,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 8.5,
+    "cartonPrice": 85.00,
     "kgPrice": 425
   },
   {
@@ -8743,6 +9700,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 8.5,
+    "cartonPrice": 85.00,
     "kgPrice": 425
   },
   {
@@ -8752,6 +9710,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 8.5,
+    "cartonPrice": 85.00,
     "kgPrice": 425
   },
   {
@@ -8761,6 +9720,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 13.8,
+    "cartonPrice": 69.00,
     "kgPrice": 276
   },
   {
@@ -8770,6 +9730,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 272
   },
   {
@@ -8779,6 +9740,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 29,
+    "cartonPrice": 116.00,
     "kgPrice": 580
   },
   {
@@ -8788,6 +9750,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 45,
+    "cartonPrice": 225.00,
     "kgPrice": 1125
   },
   {
@@ -8797,6 +9760,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.32,
     "price": 76,
+    "cartonPrice": 304.00,
     "kgPrice": 950
   },
   {
@@ -8806,6 +9770,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 95,
+    "cartonPrice": 190.00,
     "kgPrice": 950
   },
   {
@@ -8815,6 +9780,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.16,
     "price": 150,
+    "cartonPrice": 150.00,
     "kgPrice": 937.5
   },
   {
@@ -8824,6 +9790,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 55,
+    "cartonPrice": 220.00,
     "kgPrice": 1100
   },
   {
@@ -8833,6 +9800,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 30,
+    "cartonPrice": 150.00,
     "kgPrice": 2000
   },
   {
@@ -8842,6 +9810,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 14.8,
+    "cartonPrice": 74.00,
     "kgPrice": 296
   },
   {
@@ -8851,6 +9820,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 280
   },
   {
@@ -8860,6 +9830,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 248
   },
   {
@@ -8869,6 +9840,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 2.9,
+    "cartonPrice": 29.00,
     "kgPrice": 290
   },
   {
@@ -8878,6 +9850,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 232,
     "barcode": "8059145100290"
   },
@@ -8888,6 +9861,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 280
   },
   {
@@ -8897,6 +9871,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 9.5,
+    "cartonPrice": 95.00,
     "kgPrice": 380
   },
   {
@@ -8906,6 +9881,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 248
   },
   {
@@ -8915,6 +9891,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 7.9,
+    "cartonPrice": 79.00,
     "kgPrice": 316
   },
   {
@@ -8924,6 +9901,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 7.3,
+    "cartonPrice": 73.00,
     "kgPrice": 292
   },
   {
@@ -8933,6 +9911,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 195,
+    "cartonPrice": 195.00,
     "kgPrice": 2166.67
   },
   {
@@ -8942,6 +9921,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 35,
+    "cartonPrice": 210.00,
     "kgPrice": 2333.33
   },
   {
@@ -8951,6 +9931,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 36,
+    "cartonPrice": 216.00,
     "kgPrice": 2400
   },
   {
@@ -8960,6 +9941,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 198,
+    "cartonPrice": 198.00,
     "kgPrice": 2200
   },
   {
@@ -8969,6 +9951,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6.9,
+    "cartonPrice": 69.00,
     "kgPrice": 690
   },
   {
@@ -8978,6 +9961,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 650
   },
   {
@@ -8987,6 +9971,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 195,
+    "cartonPrice": 195.00,
     "kgPrice": 2166.67
   },
   {
@@ -8996,6 +9981,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 35,
+    "cartonPrice": 210.00,
     "kgPrice": 2333.33
   },
   {
@@ -9005,6 +9991,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.09,
     "price": 35,
+    "cartonPrice": 210.00,
     "kgPrice": 2333.33
   },
   {
@@ -9014,6 +10001,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 63,
+    "cartonPrice": 63.00,
     "kgPrice": 1260
   },
   {
@@ -9023,6 +10011,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 740
   },
   {
@@ -9032,6 +10021,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -9041,6 +10031,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -9050,6 +10041,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 7.9,
+    "cartonPrice": 79.00,
     "kgPrice": 316
   },
   {
@@ -9059,6 +10051,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.16,
     "price": 55,
+    "cartonPrice": 220.00,
     "kgPrice": 1375
   },
   {
@@ -9068,6 +10061,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 42,
+    "cartonPrice": 168.00,
     "kgPrice": 1400
   },
   {
@@ -9077,6 +10071,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 9.9,
+    "cartonPrice": 99.00,
     "kgPrice": 396
   },
   {
@@ -9086,6 +10081,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.075,
     "price": 18,
+    "cartonPrice": 90.00,
     "kgPrice": 1200
   },
   {
@@ -9095,6 +10091,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 296
   },
   {
@@ -9104,6 +10101,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 45,
+    "cartonPrice": 180.00,
     "kgPrice": 1800
   },
   {
@@ -9113,6 +10111,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.4,
     "price": 40,
+    "cartonPrice": 160.00,
     "kgPrice": 400
   },
   {
@@ -9122,6 +10121,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.4,
     "price": 40,
+    "cartonPrice": 160.00,
     "kgPrice": 400
   },
   {
@@ -9131,6 +10131,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 24,
+    "cartonPrice": 120.00,
     "kgPrice": 1200
   },
   {
@@ -9140,6 +10141,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 24,
+    "cartonPrice": 120.00,
     "kgPrice": 1200
   },
   {
@@ -9149,6 +10151,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 24,
+    "cartonPrice": 120.00,
     "kgPrice": 1200
   },
   {
@@ -9158,6 +10161,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 14,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -9167,6 +10171,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 280,
+    "cartonPrice": 280.00,
     "kgPrice": 2800
   },
   {
@@ -9176,6 +10181,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 15,
+    "cartonPrice": 300.00,
     "kgPrice": 3000
   },
   {
@@ -9185,6 +10191,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 300,
+    "cartonPrice": 300.00,
     "kgPrice": 3000
   },
   {
@@ -9194,6 +10201,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.06,
     "price": 168,
+    "cartonPrice": 168.00,
     "kgPrice": 2800
   },
   {
@@ -9203,6 +10211,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 275,
+    "cartonPrice": 275.00,
     "kgPrice": 2200
   },
   {
@@ -9212,6 +10221,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 265,
+    "cartonPrice": 265.00,
     "kgPrice": 2120
   },
   {
@@ -9221,6 +10231,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 696,
+    "cartonPrice": 696.00,
     "kgPrice": 5800
   },
   {
@@ -9230,6 +10241,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 5400
   },
   {
@@ -9239,6 +10251,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 696,
+    "cartonPrice": 696.00,
     "kgPrice": 5800
   },
   {
@@ -9248,6 +10261,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 576,
+    "cartonPrice": 576.00,
     "kgPrice": 4800
   },
   {
@@ -9257,6 +10271,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 1080,
+    "cartonPrice": 1080.00,
     "kgPrice": 9000
   },
   {
@@ -9266,6 +10281,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 600,
+    "cartonPrice": 600.00,
     "kgPrice": 5000
   },
   {
@@ -9275,6 +10291,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.12,
     "price": 696,
+    "cartonPrice": 696.00,
     "kgPrice": 5800
   },
   {
@@ -9284,6 +10301,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 190,
+    "cartonPrice": 190.00,
     "kgPrice": 3800
   },
   {
@@ -9293,6 +10311,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -9302,6 +10321,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 350,
+    "cartonPrice": 350.00,
     "kgPrice": 3500
   },
   {
@@ -9311,6 +10331,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 85,
+    "cartonPrice": 85.00,
     "kgPrice": 3400
   },
   {
@@ -9320,6 +10341,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 400,
+    "cartonPrice": 400.00,
     "kgPrice": 4000
   },
   {
@@ -9329,6 +10351,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 90,
+    "cartonPrice": 90.00,
     "kgPrice": 3600
   },
   {
@@ -9338,6 +10361,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 460,
+    "cartonPrice": 460.00,
     "kgPrice": 4600
   },
   {
@@ -9347,6 +10371,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -9356,6 +10381,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 400,
+    "cartonPrice": 400.00,
     "kgPrice": 4000
   },
   {
@@ -9365,6 +10391,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -9374,6 +10401,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -9383,6 +10411,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 350,
+    "cartonPrice": 350.00,
     "kgPrice": 3500
   },
   {
@@ -9392,6 +10421,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -9401,6 +10431,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 370,
+    "cartonPrice": 370.00,
     "kgPrice": 3700
   },
   {
@@ -9410,6 +10441,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 290,
+    "cartonPrice": 290.00,
     "kgPrice": 2900
   },
   {
@@ -9419,6 +10451,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -9428,6 +10461,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 420,
+    "cartonPrice": 420.00,
     "kgPrice": 4200
   },
   {
@@ -9437,6 +10471,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 400,
+    "cartonPrice": 400.00,
     "kgPrice": 4000
   },
   {
@@ -9446,6 +10481,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 390,
+    "cartonPrice": 390.00,
     "kgPrice": 3900
   },
   {
@@ -9455,6 +10491,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 350,
+    "cartonPrice": 350.00,
     "kgPrice": 3500
   },
   {
@@ -9464,6 +10501,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 85,
+    "cartonPrice": 85.00,
     "kgPrice": 3400
   },
   {
@@ -9473,6 +10511,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.025,
     "price": 90,
+    "cartonPrice": 90.00,
     "kgPrice": 3600
   },
   {
@@ -9482,6 +10521,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 390,
+    "cartonPrice": 390.00,
     "kgPrice": 3900
   },
   {
@@ -9491,6 +10531,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 410,
+    "cartonPrice": 410.00,
     "kgPrice": 4100
   },
   {
@@ -9500,6 +10541,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 31,
+    "cartonPrice": 31.00,
     "kgPrice": 248
   },
   {
@@ -9509,6 +10551,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 1.2,
+    "cartonPrice": 60.00,
     "kgPrice": 240
   },
   {
@@ -9518,6 +10561,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 248
   },
   {
@@ -9527,6 +10571,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 248
   },
   {
@@ -9536,6 +10581,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 248
   },
   {
@@ -9545,6 +10591,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -9554,6 +10601,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.2,
     "price": 1.2,
+    "cartonPrice": 48.00,
     "kgPrice": 240
   },
   {
@@ -9563,6 +10611,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.18,
     "price": 17,
+    "cartonPrice": 68.00,
     "kgPrice": 377.78
   },
   {
@@ -9572,6 +10621,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 35,
+    "cartonPrice": 35.00,
     "kgPrice": 700
   },
   {
@@ -9581,6 +10631,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 37,
+    "cartonPrice": 37.00,
     "kgPrice": 740
   },
   {
@@ -9590,6 +10641,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 35,
+    "cartonPrice": 35.00,
     "kgPrice": 700
   },
   {
@@ -9599,6 +10651,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.015,
     "price": 35,
+    "cartonPrice": 35.00,
     "kgPrice": 2333.33
   },
   {
@@ -9608,6 +10661,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 180,
+    "cartonPrice": 180.00,
     "kgPrice": 1800
   },
   {
@@ -9617,6 +10671,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 190,
+    "cartonPrice": 190.00,
     "kgPrice": 1900
   },
   {
@@ -9626,6 +10681,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.1,
     "price": 200,
+    "cartonPrice": 200.00,
     "kgPrice": 2000
   },
   {
@@ -9635,6 +10691,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 6,
+    "cartonPrice": 30.00,
     "kgPrice": 240
   },
   {
@@ -9644,6 +10701,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.05,
     "price": 7.9,
+    "cartonPrice": 15.80,
     "kgPrice": 316
   },
   {
@@ -9653,6 +10711,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.125,
     "price": 6.9,
+    "cartonPrice": 34.50,
     "kgPrice": 276
   },
   {
@@ -9662,6 +10721,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARI",
     "unitWeight": 0.25,
     "price": 7.9,
+    "cartonPrice": 39.50,
     "kgPrice": 158
   },
   {
@@ -9671,6 +10731,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.9,
+    "cartonPrice": 58.00,
     "kgPrice": 232
   },
   {
@@ -9680,6 +10741,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3,
+    "cartonPrice": 60.00,
     "kgPrice": 240
   },
   {
@@ -9689,6 +10751,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 240
   },
   {
@@ -9698,6 +10761,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 240
   },
   {
@@ -9707,6 +10771,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4.9,
+    "cartonPrice": 49.00,
     "kgPrice": 196
   },
   {
@@ -9716,6 +10781,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.3,
+    "cartonPrice": 106.00,
     "kgPrice": 212
   },
   {
@@ -9725,6 +10791,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.6,
+    "cartonPrice": 112.00,
     "kgPrice": 224
   },
   {
@@ -9734,6 +10801,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 8.6,
+    "cartonPrice": 86.00,
     "kgPrice": 172
   },
   {
@@ -9743,6 +10811,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.125,
     "price": 2,
+    "cartonPrice": 20.00,
     "kgPrice": 160
   },
   {
@@ -9752,6 +10821,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 8.6,
+    "cartonPrice": 86.00,
     "kgPrice": 172
   },
   {
@@ -9761,6 +10831,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.125,
     "price": 2,
+    "cartonPrice": 20.00,
     "kgPrice": 160
   },
   {
@@ -9770,6 +10841,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.6,
+    "cartonPrice": 112.00,
     "kgPrice": 224
   },
   {
@@ -9779,6 +10851,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.6,
+    "cartonPrice": 112.00,
     "kgPrice": 224
   },
   {
@@ -9788,6 +10861,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 7.7,
+    "cartonPrice": 77.00,
     "kgPrice": 154
   },
   {
@@ -9797,6 +10871,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.6,
+    "cartonPrice": 112.00,
     "kgPrice": 224
   },
   {
@@ -9806,6 +10881,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.45,
     "price": 6.6,
+    "cartonPrice": 66.00,
     "kgPrice": 146.67
   },
   {
@@ -9815,6 +10891,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.05,
     "price": 0.45,
+    "cartonPrice": 4.50,
     "kgPrice": 90
   },
   {
@@ -9824,6 +10901,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.225,
     "price": 1.6,
+    "cartonPrice": 48.00,
     "kgPrice": 213.33
   },
   {
@@ -9833,6 +10911,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 5.1,
+    "cartonPrice": 51.00,
     "kgPrice": 204
   },
   {
@@ -9842,6 +10921,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.45,
     "price": 6.6,
+    "cartonPrice": 66.00,
     "kgPrice": 146.67
   },
   {
@@ -9851,6 +10931,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.1,
     "price": 0.35,
+    "cartonPrice": 7.00,
     "kgPrice": 70
   },
   {
@@ -9860,6 +10941,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.225,
     "price": 1.6,
+    "cartonPrice": 48.00,
     "kgPrice": 213.33
   },
   {
@@ -9869,6 +10951,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.45,
     "price": 6.6,
+    "cartonPrice": 66.00,
     "kgPrice": 146.67
   },
   {
@@ -9878,6 +10961,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 152
   },
   {
@@ -9887,6 +10971,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.4,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 155
   },
   {
@@ -9896,6 +10981,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.45,
     "price": 6.6,
+    "cartonPrice": 66.00,
     "kgPrice": 146.67
   },
   {
@@ -9905,6 +10991,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.4,
     "price": 6.2,
+    "cartonPrice": 62.00,
     "kgPrice": 155
   },
   {
@@ -9914,6 +11001,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.375,
     "price": 1.6,
+    "cartonPrice": 80.00,
     "kgPrice": 213.33
   },
   {
@@ -9923,6 +11011,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.45,
     "price": 6.6,
+    "cartonPrice": 66.00,
     "kgPrice": 146.67
   },
   {
@@ -9932,6 +11021,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.05,
     "price": 0.55,
+    "cartonPrice": 5.50,
     "kgPrice": 110
   },
   {
@@ -9941,6 +11031,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.225,
     "price": 1.6,
+    "cartonPrice": 48.00,
     "kgPrice": 213.33
   },
   {
@@ -9950,6 +11041,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 144
   },
   {
@@ -9959,6 +11051,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.5,
+    "cartonPrice": 35.00,
     "kgPrice": 140
   },
   {
@@ -9968,6 +11061,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.5,
+    "cartonPrice": 35.00,
     "kgPrice": 140
   },
   {
@@ -9977,6 +11071,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 144
   },
   {
@@ -9986,6 +11081,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.1,
+    "cartonPrice": 82.00,
     "kgPrice": 164
   },
   {
@@ -9995,6 +11091,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.8,
+    "cartonPrice": 28.00,
     "kgPrice": 112
   },
   {
@@ -10004,6 +11101,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.4,
+    "cartonPrice": 44.00,
     "kgPrice": 88
   },
   {
@@ -10013,6 +11111,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.9,
+    "cartonPrice": 59.00,
     "kgPrice": 118
   },
   {
@@ -10022,6 +11121,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.9,
+    "cartonPrice": 59.00,
     "kgPrice": 118
   },
   {
@@ -10031,6 +11131,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.9,
+    "cartonPrice": 59.00,
     "kgPrice": 118
   },
   {
@@ -10040,6 +11141,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 144
   },
   {
@@ -10049,6 +11151,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 144
   },
   {
@@ -10058,6 +11161,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.125,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 384
   },
   {
@@ -10067,6 +11171,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 108
   },
   {
@@ -10076,6 +11181,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 108
   },
   {
@@ -10085,6 +11191,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.425,
     "price": 5.7,
+    "cartonPrice": 57.00,
     "kgPrice": 134.12
   },
   {
@@ -10094,6 +11201,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.425,
     "price": 5.7,
+    "cartonPrice": 57.00,
     "kgPrice": 134.12
   },
   {
@@ -10103,6 +11211,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.425,
     "price": 5.7,
+    "cartonPrice": 57.00,
     "kgPrice": 134.12
   },
   {
@@ -10112,6 +11221,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.3,
+    "cartonPrice": 23.00,
     "kgPrice": 92
   },
   {
@@ -10121,6 +11231,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.425,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 89.41
   },
   {
@@ -10130,6 +11241,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1.1,
+    "cartonPrice": 22.00,
     "kgPrice": 146.67
   },
   {
@@ -10139,6 +11251,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1.1,
+    "cartonPrice": 22.00,
     "kgPrice": 146.67
   },
   {
@@ -10148,6 +11261,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -10157,6 +11271,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.4,
     "price": 3.1,
+    "cartonPrice": 62.00,
     "kgPrice": 155
   },
   {
@@ -10166,6 +11281,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3,
+    "cartonPrice": 60.00,
     "kgPrice": 120,
     "barcode": "80828518"
   },
@@ -10176,6 +11292,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3,
+    "cartonPrice": 60.00,
     "kgPrice": 120,
     "barcode": "80828501"
   },
@@ -10186,6 +11303,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -10195,6 +11313,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -10204,6 +11323,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.3,
+    "cartonPrice": 126.00,
     "kgPrice": 252
   },
   {
@@ -10213,6 +11333,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.4,
+    "cartonPrice": 88.00,
     "kgPrice": 176
   },
   {
@@ -10222,6 +11343,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.7,
+    "cartonPrice": 94.00,
     "kgPrice": 188
   },
   {
@@ -10231,6 +11353,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 2.3,
+    "cartonPrice": 46.00,
     "kgPrice": 306.67
   },
   {
@@ -10240,6 +11363,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6,
+    "cartonPrice": 120.00,
     "kgPrice": 240
   },
   {
@@ -10249,6 +11373,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.1,
+    "cartonPrice": 102.00,
     "kgPrice": 204
   },
   {
@@ -10258,6 +11383,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3.9,
+    "cartonPrice": 78.00,
     "kgPrice": 156
   },
   {
@@ -10267,6 +11393,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.4,
+    "cartonPrice": 108.00,
     "kgPrice": 216
   },
   {
@@ -10276,6 +11403,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 2.8,
+    "cartonPrice": 56.00,
     "kgPrice": 373.33
   },
   {
@@ -10285,6 +11413,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.3,
+    "cartonPrice": 126.00,
     "kgPrice": 252
   },
   {
@@ -10294,6 +11423,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 2.8,
+    "cartonPrice": 56.00,
     "kgPrice": 112,
     "barcode": "8032817682782"
   },
@@ -10304,6 +11434,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 2.8,
+    "cartonPrice": 56.00,
     "kgPrice": 112,
     "barcode": "8032817683697"
   },
@@ -10314,6 +11445,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.7,
+    "cartonPrice": 67.00,
     "kgPrice": 134
   },
   {
@@ -10323,6 +11455,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -10332,6 +11465,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -10341,6 +11475,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -10350,6 +11485,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -10359,6 +11495,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.5,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -10368,6 +11505,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -10377,6 +11515,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.9,
+    "cartonPrice": 69.00,
     "kgPrice": 138
   },
   {
@@ -10386,6 +11525,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.7,
+    "cartonPrice": 27.00,
     "kgPrice": 108
   },
   {
@@ -10395,6 +11535,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.7,
+    "cartonPrice": 27.00,
     "kgPrice": 108
   },
   {
@@ -10404,6 +11545,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.1,
+    "cartonPrice": 102.00,
     "kgPrice": 204
   },
   {
@@ -10413,6 +11555,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.9,
+    "cartonPrice": 98.00,
     "kgPrice": 196
   },
   {
@@ -10422,6 +11565,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.9,
+    "cartonPrice": 98.00,
     "kgPrice": 196
   },
   {
@@ -10431,6 +11575,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.3,
+    "cartonPrice": 86.00,
     "kgPrice": 172
   },
   {
@@ -10440,6 +11585,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 5.6,
+    "cartonPrice": 56.00,
     "kgPrice": 224
   },
   {
@@ -10449,6 +11595,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.425,
     "price": 4.2,
+    "cartonPrice": 42.00,
     "kgPrice": 98.82
   },
   {
@@ -10458,6 +11605,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4,
+    "cartonPrice": 20.00,
     "kgPrice": 80
   },
   {
@@ -10467,6 +11615,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 1.2,
+    "cartonPrice": 60.00,
     "kgPrice": 120
   },
   {
@@ -10476,6 +11625,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4,
+    "cartonPrice": 20.00,
     "kgPrice": 80
   },
   {
@@ -10485,6 +11635,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 1.2,
+    "cartonPrice": 60.00,
     "kgPrice": 120
   },
   {
@@ -10494,6 +11645,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4,
+    "cartonPrice": 20.00,
     "kgPrice": 80
   },
   {
@@ -10503,6 +11655,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 1.2,
+    "cartonPrice": 60.00,
     "kgPrice": 120
   },
   {
@@ -10512,6 +11665,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4.7,
+    "cartonPrice": 23.50,
     "kgPrice": 94
   },
   {
@@ -10521,6 +11675,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1,
+    "cartonPrice": 20.00,
     "kgPrice": 133.33
   },
   {
@@ -10530,6 +11685,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10539,6 +11695,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10548,6 +11705,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1,
+    "cartonPrice": 20.00,
     "kgPrice": 133.33
   },
   {
@@ -10557,6 +11715,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10566,6 +11725,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10575,6 +11735,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.4,
     "price": 2.2,
+    "cartonPrice": 44.00,
     "kgPrice": 110
   },
   {
@@ -10584,6 +11745,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10593,6 +11755,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.4,
     "price": 2.2,
+    "cartonPrice": 44.00,
     "kgPrice": 110
   },
   {
@@ -10602,6 +11765,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.375,
     "price": 25,
+    "cartonPrice": 50.00,
     "kgPrice": 133.33
   },
   {
@@ -10611,6 +11775,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1,
+    "cartonPrice": 20.00,
     "kgPrice": 133.33
   },
   {
@@ -10620,6 +11785,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10629,6 +11795,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10638,6 +11805,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10647,6 +11815,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1,
+    "cartonPrice": 20.00,
     "kgPrice": 133.33
   },
   {
@@ -10656,6 +11825,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10665,6 +11835,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1,
+    "cartonPrice": 20.00,
     "kgPrice": 133.33
   },
   {
@@ -10674,6 +11845,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -10683,6 +11855,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 12.7,
+    "cartonPrice": 63.50,
     "kgPrice": 254
   },
   {
@@ -10692,6 +11865,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 188
   },
   {
@@ -10701,6 +11875,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 12.7,
+    "cartonPrice": 63.50,
     "kgPrice": 254
   },
   {
@@ -10710,6 +11885,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 220
   },
   {
@@ -10719,6 +11895,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -10728,6 +11905,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -10737,6 +11915,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.3,
     "price": 3,
+    "cartonPrice": 36.00,
     "kgPrice": 120
   },
   {
@@ -10746,6 +11925,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3.1,
+    "cartonPrice": 62.00,
     "kgPrice": 124,
     "barcode": "8032817681822"
   },
@@ -10756,6 +11936,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3.1,
+    "cartonPrice": 62.00,
     "kgPrice": 124,
     "barcode": "8032817681808"
   },
@@ -10766,6 +11947,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.2,
+    "cartonPrice": 22.00,
     "kgPrice": 88
   },
   {
@@ -10775,6 +11957,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.8,
+    "cartonPrice": 28.00,
     "kgPrice": 112
   },
   {
@@ -10784,6 +11967,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 1.3,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -10793,6 +11977,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 90
   },
   {
@@ -10802,6 +11987,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.8,
+    "cartonPrice": 96.00,
     "kgPrice": 192
   },
   {
@@ -10811,6 +11997,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.1,
     "price": 0.35,
+    "cartonPrice": 7.00,
     "kgPrice": 70
   },
   {
@@ -10820,6 +12007,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 9.3,
+    "cartonPrice": 93.00,
     "kgPrice": 186
   },
   {
@@ -10829,6 +12017,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.225,
     "price": 1.6,
+    "cartonPrice": 48.00,
     "kgPrice": 213.33
   },
   {
@@ -10838,6 +12027,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.375,
     "price": 2.6,
+    "cartonPrice": 78.00,
     "kgPrice": 208
   },
   {
@@ -10847,6 +12037,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 240
   },
   {
@@ -10856,6 +12047,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.125,
     "price": 2.6,
+    "cartonPrice": 26.00,
     "kgPrice": 208
   },
   {
@@ -10865,6 +12057,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 9.4,
+    "cartonPrice": 94.00,
     "kgPrice": 188
   },
   {
@@ -10874,6 +12067,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 240
   },
   {
@@ -10883,6 +12077,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.125,
     "price": 2.6,
+    "cartonPrice": 26.00,
     "kgPrice": 208
   },
   {
@@ -10892,6 +12087,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 9.4,
+    "cartonPrice": 94.00,
     "kgPrice": 188
   },
   {
@@ -10901,6 +12097,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 9.4,
+    "cartonPrice": 94.00,
     "kgPrice": 188
   },
   {
@@ -10910,6 +12107,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.15,
     "price": 1.8,
+    "cartonPrice": 36.00,
     "kgPrice": 240
   },
   {
@@ -10919,6 +12117,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.125,
     "price": 2.6,
+    "cartonPrice": 26.00,
     "kgPrice": 208
   },
   {
@@ -10928,6 +12127,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -10937,6 +12137,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.2,
     "price": 0.8,
+    "cartonPrice": 32.00,
     "kgPrice": 160
   },
   {
@@ -10946,6 +12147,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.3,
     "price": 1.4,
+    "cartonPrice": 56.00,
     "kgPrice": 186.67
   },
   {
@@ -10955,6 +12157,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -10964,6 +12167,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.3,
     "price": 5.6,
+    "cartonPrice": 56.00,
     "kgPrice": 186.67
   },
   {
@@ -10973,6 +12177,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4.8,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -10982,6 +12187,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.3,
     "price": 5.6,
+    "cartonPrice": 56.00,
     "kgPrice": 186.67
   },
   {
@@ -10991,6 +12197,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.1,
     "price": 0.45,
+    "cartonPrice": 9.00,
     "kgPrice": 90
   },
   {
@@ -11000,6 +12207,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 9.3,
+    "cartonPrice": 93.00,
     "kgPrice": 186
   },
   {
@@ -11009,6 +12217,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.225,
     "price": 1.6,
+    "cartonPrice": 48.00,
     "kgPrice": 213.33
   },
   {
@@ -11018,6 +12227,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.375,
     "price": 2.6,
+    "cartonPrice": 78.00,
     "kgPrice": 208
   },
   {
@@ -11027,6 +12237,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 9.3,
+    "cartonPrice": 93.00,
     "kgPrice": 186
   },
   {
@@ -11036,6 +12247,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.3,
     "price": 3.2,
+    "cartonPrice": 38.40,
     "kgPrice": 128
   },
   {
@@ -11045,6 +12257,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 160
   },
   {
@@ -11054,6 +12267,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 160
   },
   {
@@ -11063,6 +12277,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 7.7,
+    "cartonPrice": 77.00,
     "kgPrice": 154
   },
   {
@@ -11072,6 +12287,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 7.7,
+    "cartonPrice": 77.00,
     "kgPrice": 154
   },
   {
@@ -11081,6 +12297,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.4,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -11090,6 +12307,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.9,
+    "cartonPrice": 69.00,
     "kgPrice": 138
   },
   {
@@ -11099,6 +12317,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.3,
+    "cartonPrice": 46.00,
     "kgPrice": 184
   },
   {
@@ -11108,6 +12327,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 108
   },
   {
@@ -11117,6 +12337,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 7.7,
+    "cartonPrice": 77.00,
     "kgPrice": 154
   },
   {
@@ -11126,6 +12347,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.4,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -11135,6 +12357,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 7.7,
+    "cartonPrice": 77.00,
     "kgPrice": 154
   },
   {
@@ -11144,6 +12367,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 2.4,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -11153,6 +12377,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 5.1,
+    "cartonPrice": 51.00,
     "kgPrice": 204
   },
   {
@@ -11162,6 +12387,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 5.1,
+    "cartonPrice": 51.00,
     "kgPrice": 204
   },
   {
@@ -11171,6 +12397,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 5.1,
+    "cartonPrice": 51.00,
     "kgPrice": 204
   },
   {
@@ -11180,6 +12407,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 10.2,
+    "cartonPrice": 102.00,
     "kgPrice": 204
   },
   {
@@ -11189,6 +12417,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.7,
+    "cartonPrice": 37.00,
     "kgPrice": 148
   },
   {
@@ -11198,6 +12427,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 8.2,
+    "cartonPrice": 82.00,
     "kgPrice": 164
   },
   {
@@ -11207,6 +12437,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.125,
     "price": 2,
+    "cartonPrice": 20.00,
     "kgPrice": 160
   },
   {
@@ -11216,6 +12447,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.6,
+    "cartonPrice": 92.00,
     "kgPrice": 184
   },
   {
@@ -11225,6 +12457,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 8.2,
+    "cartonPrice": 82.00,
     "kgPrice": 164
   },
   {
@@ -11234,6 +12467,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.125,
     "price": 1.9,
+    "cartonPrice": 19.00,
     "kgPrice": 152
   },
   {
@@ -11243,6 +12477,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -11252,6 +12487,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.35,
     "price": 5.1,
+    "cartonPrice": 51.00,
     "kgPrice": 145.71
   },
   {
@@ -11261,6 +12497,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.35,
     "price": 4.9,
+    "cartonPrice": 49.00,
     "kgPrice": 140
   },
   {
@@ -11270,6 +12507,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 8.2,
+    "cartonPrice": 82.00,
     "kgPrice": 164
   },
   {
@@ -11279,6 +12517,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.5,
+    "cartonPrice": 90.00,
     "kgPrice": 180
   },
   {
@@ -11288,6 +12527,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 6.8,
+    "cartonPrice": 68.00,
     "kgPrice": 136
   },
   {
@@ -11297,6 +12537,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.7,
+    "cartonPrice": 37.00,
     "kgPrice": 148
   },
   {
@@ -11306,6 +12547,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.5,
+    "cartonPrice": 35.00,
     "kgPrice": 140
   },
   {
@@ -11315,6 +12557,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.5,
+    "cartonPrice": 35.00,
     "kgPrice": 140
   },
   {
@@ -11324,6 +12567,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.5,
+    "cartonPrice": 35.00,
     "kgPrice": 140
   },
   {
@@ -11333,6 +12577,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 108
   },
   {
@@ -11342,6 +12587,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 108
   },
   {
@@ -11351,6 +12597,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.3,
     "price": 3.1,
+    "cartonPrice": 37.20,
     "kgPrice": 124
   },
   {
@@ -11360,6 +12607,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.3,
     "price": 2.9,
+    "cartonPrice": 34.80,
     "kgPrice": 116,
     "barcode": "80835769"
   },
@@ -11370,6 +12618,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.4,
+    "cartonPrice": 34.00,
     "kgPrice": 136
   },
   {
@@ -11379,6 +12628,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3.4,
+    "cartonPrice": 34.00,
     "kgPrice": 136
   },
   {
@@ -11388,6 +12638,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.4,
     "price": 3.1,
+    "cartonPrice": 62.00,
     "kgPrice": 155
   },
   {
@@ -11397,6 +12648,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.4,
     "price": 3.1,
+    "cartonPrice": 62.00,
     "kgPrice": 155
   },
   {
@@ -11406,6 +12658,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.9,
+    "cartonPrice": 118.00,
     "kgPrice": 236
   },
   {
@@ -11415,6 +12668,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 2.8,
+    "cartonPrice": 56.00,
     "kgPrice": 112
   },
   {
@@ -11424,6 +12678,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.6,
+    "cartonPrice": 92.00,
     "kgPrice": 184
   },
   {
@@ -11433,6 +12688,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3.9,
+    "cartonPrice": 78.00,
     "kgPrice": 156
   },
   {
@@ -11442,6 +12698,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.1,
+    "cartonPrice": 82.00,
     "kgPrice": 164
   },
   {
@@ -11451,6 +12708,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.225,
     "price": 1,
+    "cartonPrice": 30.00,
     "kgPrice": 133.33
   },
   {
@@ -11460,6 +12718,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.7,
+    "cartonPrice": 94.00,
     "kgPrice": 188
   },
   {
@@ -11469,6 +12728,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3.2,
+    "cartonPrice": 64.00,
     "kgPrice": 128
   },
   {
@@ -11478,6 +12738,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -11487,6 +12748,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3.2,
+    "cartonPrice": 64.00,
     "kgPrice": 128
   },
   {
@@ -11496,6 +12758,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.1,
+    "cartonPrice": 82.00,
     "kgPrice": 164
   },
   {
@@ -11505,6 +12768,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 3,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -11514,6 +12778,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3.9,
+    "cartonPrice": 78.00,
     "kgPrice": 156
   },
   {
@@ -11523,6 +12788,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 3.4,
+    "cartonPrice": 68.00,
     "kgPrice": 136
   },
   {
@@ -11532,6 +12798,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 2.8,
+    "cartonPrice": 56.00,
     "kgPrice": 112
   },
   {
@@ -11541,6 +12808,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 5.6,
+    "cartonPrice": 112.00,
     "kgPrice": 224
   },
   {
@@ -11550,6 +12818,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 2.8,
+    "cartonPrice": 56.00,
     "kgPrice": 112
   },
   {
@@ -11559,6 +12828,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.4,
+    "cartonPrice": 88.00,
     "kgPrice": 176
   },
   {
@@ -11568,6 +12838,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.3,
+    "cartonPrice": 86.00,
     "kgPrice": 172
   },
   {
@@ -11577,6 +12848,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 2.8,
+    "cartonPrice": 56.00,
     "kgPrice": 112
   },
   {
@@ -11586,6 +12858,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 2.8,
+    "cartonPrice": 56.00,
     "kgPrice": 112
   },
   {
@@ -11595,6 +12868,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 2.8,
+    "cartonPrice": 56.00,
     "kgPrice": 112
   },
   {
@@ -11604,6 +12878,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 90
   },
   {
@@ -11613,6 +12888,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 0.7,
+    "cartonPrice": 35.00,
     "kgPrice": 140
   },
   {
@@ -11622,6 +12898,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 0.7,
+    "cartonPrice": 35.00,
     "kgPrice": 140
   },
   {
@@ -11631,6 +12908,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 90
   },
   {
@@ -11640,6 +12918,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.1,
     "price": 0.9,
+    "cartonPrice": 18.00,
     "kgPrice": 180
   },
   {
@@ -11649,6 +12928,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.1,
     "price": 0.9,
+    "cartonPrice": 18.00,
     "kgPrice": 180
   },
   {
@@ -11658,6 +12938,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.1,
     "price": 0.9,
+    "cartonPrice": 18.00,
     "kgPrice": 180
   },
   {
@@ -11667,6 +12948,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.1,
     "price": 0.9,
+    "cartonPrice": 18.00,
     "kgPrice": 180
   },
   {
@@ -11676,6 +12958,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.1,
     "price": 0.9,
+    "cartonPrice": 18.00,
     "kgPrice": 180
   },
   {
@@ -11685,6 +12968,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -11694,6 +12978,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -11703,6 +12988,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.125,
     "price": 5.2,
+    "cartonPrice": 26.00,
     "kgPrice": 208
   },
   {
@@ -11712,6 +12998,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 6.6,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -11721,6 +13008,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 6.6,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -11730,6 +13018,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 6.6,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -11739,6 +13028,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 9,
+    "cartonPrice": 90.00,
     "kgPrice": 180
   },
   {
@@ -11748,6 +13038,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.5,
     "price": 60,
+    "cartonPrice": 60.00,
     "kgPrice": 120
   },
   {
@@ -11757,6 +13048,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 7.2,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -11766,6 +13058,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 7.2,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -11775,6 +13068,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 7.2,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -11784,6 +13078,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTI",
     "unitWeight": 0.25,
     "price": 7.2,
+    "cartonPrice": 36.00,
     "kgPrice": 144
   },
   {
@@ -11793,6 +13088,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11802,6 +13098,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11811,6 +13108,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11820,6 +13118,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11829,6 +13128,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11838,6 +13138,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11847,6 +13148,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11856,6 +13158,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11865,6 +13168,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250,
     "barcode": "80839637"
   },
@@ -11875,6 +13179,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250,
     "barcode": "80846604"
   },
@@ -11885,6 +13190,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250,
     "barcode": "80839620"
   },
@@ -11895,6 +13201,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250,
     "barcode": "80855491"
   },
@@ -11905,6 +13212,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11914,6 +13222,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11923,6 +13232,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11932,6 +13242,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11941,6 +13252,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11950,6 +13262,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11959,6 +13272,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11968,6 +13282,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11977,6 +13292,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11986,6 +13302,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -11995,6 +13312,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12004,6 +13322,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12013,6 +13332,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12022,6 +13342,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12031,6 +13352,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12040,6 +13362,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12049,6 +13372,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12058,6 +13382,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12067,6 +13392,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -12076,6 +13402,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -12085,6 +13412,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -12094,6 +13422,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -12103,6 +13432,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -12112,6 +13442,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.7,
+    "cartonPrice": 47.00,
     "kgPrice": 235
   },
   {
@@ -12121,6 +13452,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12130,6 +13462,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12139,6 +13472,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12148,6 +13482,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12157,6 +13492,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.5,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -12166,6 +13502,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12175,6 +13512,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12184,6 +13522,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12193,6 +13532,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12202,6 +13542,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12211,6 +13552,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12220,6 +13562,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12229,6 +13572,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12238,6 +13582,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12247,6 +13592,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12256,6 +13602,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12265,6 +13612,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12274,6 +13622,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12283,6 +13632,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12292,6 +13642,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12301,6 +13652,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12310,6 +13662,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12319,6 +13672,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190,
     "barcode": "80831679"
   },
@@ -12329,6 +13683,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12338,6 +13693,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190,
     "barcode": "80843467"
   },
@@ -12348,6 +13704,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190,
     "barcode": "80859352"
   },
@@ -12358,6 +13715,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12367,6 +13725,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12376,6 +13735,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12385,6 +13745,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12394,6 +13755,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12403,6 +13765,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12412,6 +13775,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12421,6 +13785,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12430,6 +13795,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12439,6 +13805,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12448,6 +13815,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12457,6 +13825,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12466,6 +13835,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 3.8,
+    "cartonPrice": 38.00,
     "kgPrice": 190
   },
   {
@@ -12475,6 +13845,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12484,6 +13855,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215,
     "barcode": "59478393"
   },
@@ -12494,6 +13866,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12503,6 +13876,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12512,6 +13886,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215,
     "barcode": "80816362"
   },
@@ -12522,6 +13897,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12531,6 +13907,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12540,6 +13917,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215,
     "barcode": "80882619"
   },
@@ -12550,6 +13928,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12559,6 +13938,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12568,6 +13948,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12577,6 +13958,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12586,6 +13968,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12595,6 +13978,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12604,6 +13988,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12613,6 +13998,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -12622,6 +14008,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80967231"
   },
@@ -12632,6 +14019,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80912521"
   },
@@ -12642,6 +14030,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80968665"
   },
@@ -12652,6 +14041,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80805953"
   },
@@ -12662,6 +14052,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12671,6 +14062,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12680,6 +14072,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12689,6 +14082,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80872207"
   },
@@ -12699,6 +14093,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80921653"
   },
@@ -12709,6 +14104,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80954354"
   },
@@ -12719,6 +14115,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80829164"
   },
@@ -12729,6 +14126,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80895053"
   },
@@ -12739,6 +14137,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -12748,6 +14147,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80980698"
   },
@@ -12758,6 +14158,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12767,6 +14168,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12776,6 +14178,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12785,6 +14188,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 225
   },
   {
@@ -12794,6 +14198,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12803,6 +14208,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12812,6 +14218,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12821,6 +14228,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12830,6 +14238,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12839,6 +14248,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 4.3,
+    "cartonPrice": 43.00,
     "kgPrice": 215
   },
   {
@@ -12848,6 +14258,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12857,6 +14268,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12866,6 +14278,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275,
     "barcode": "80967767"
   },
@@ -12876,6 +14289,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12885,6 +14299,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TABACCO SENZA COMBUSTIONE",
     "unitWeight": 0.2,
     "price": 5.5,
+    "cartonPrice": 55.00,
     "kgPrice": 275
   },
   {
@@ -12894,6 +14309,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -12903,6 +14319,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -12912,6 +14329,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -12921,6 +14339,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -12930,6 +14349,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -12939,6 +14359,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -12948,6 +14369,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -12957,6 +14379,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -12966,6 +14389,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -12975,6 +14399,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -12984,6 +14409,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -12993,6 +14419,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13002,6 +14429,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -13011,6 +14439,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13020,6 +14449,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -13029,6 +14459,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13038,6 +14469,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -13047,6 +14479,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13056,6 +14489,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -13065,6 +14499,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13074,6 +14509,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -13083,6 +14519,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13092,6 +14529,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -13101,6 +14539,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13110,6 +14549,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 1.0,
     "price": 135,
+    "cartonPrice": 135.00,
     "kgPrice": 135
   },
   {
@@ -13119,6 +14559,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13128,6 +14569,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -13137,6 +14579,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -13146,6 +14589,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -13155,6 +14599,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -13164,6 +14609,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 130
   },
   {
@@ -13173,6 +14619,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13182,6 +14629,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13191,6 +14639,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13200,6 +14649,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13209,6 +14659,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13218,6 +14669,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13227,6 +14679,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13236,6 +14689,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13245,6 +14699,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13254,6 +14709,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13263,6 +14719,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13272,6 +14729,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13281,6 +14739,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13290,6 +14749,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13299,6 +14759,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13308,6 +14769,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13317,6 +14779,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13326,6 +14789,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -13335,6 +14799,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13344,6 +14809,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13353,6 +14819,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13362,6 +14829,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13371,6 +14839,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13380,6 +14849,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13389,6 +14859,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13398,6 +14869,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13407,6 +14879,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13416,6 +14889,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13425,6 +14899,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13434,6 +14909,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13443,6 +14919,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13452,6 +14929,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13461,6 +14939,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13470,6 +14949,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13479,6 +14959,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13488,6 +14969,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -13497,6 +14979,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.4,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 150
   },
   {
@@ -13506,6 +14989,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.4,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 150
   },
   {
@@ -13515,6 +14999,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13524,6 +15009,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13533,6 +15019,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13542,6 +15029,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13551,6 +15039,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13560,6 +15049,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13569,6 +15059,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13578,6 +15069,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13587,6 +15079,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13596,6 +15089,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13605,6 +15099,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13614,6 +15109,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13623,6 +15119,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13632,6 +15129,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13641,6 +15139,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13650,6 +15149,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13659,6 +15159,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13668,6 +15169,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13677,6 +15179,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13686,6 +15189,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13695,6 +15199,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13704,6 +15209,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13713,6 +15219,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 37.5,
+    "cartonPrice": 37.50,
     "kgPrice": 150
   },
   {
@@ -13722,6 +15229,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 160
   },
   {
@@ -13731,6 +15239,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 12.7,
+    "cartonPrice": 63.50,
     "kgPrice": 254
   },
   {
@@ -13740,6 +15249,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.6,
+    "cartonPrice": 58.00,
     "kgPrice": 232
   },
   {
@@ -13749,6 +15259,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 12.8,
+    "cartonPrice": 64.00,
     "kgPrice": 256
   },
   {
@@ -13758,6 +15269,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.6,
+    "cartonPrice": 58.00,
     "kgPrice": 232
   },
   {
@@ -13767,6 +15279,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.6,
+    "cartonPrice": 58.00,
     "kgPrice": 232
   },
   {
@@ -13776,6 +15289,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.6,
+    "cartonPrice": 58.00,
     "kgPrice": 232
   },
   {
@@ -13785,6 +15299,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.1,
     "price": 2.2,
+    "cartonPrice": 11.00,
     "kgPrice": 110
   },
   {
@@ -13794,6 +15309,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -13803,6 +15319,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.3,
     "price": 8.7,
+    "cartonPrice": 43.50,
     "kgPrice": 145
   },
   {
@@ -13812,6 +15329,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -13821,6 +15339,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 4,
+    "cartonPrice": 40.00,
     "kgPrice": 200
   },
   {
@@ -13830,6 +15349,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 3.5,
+    "cartonPrice": 35.00,
     "kgPrice": 140
   },
   {
@@ -13839,6 +15359,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 24,
+    "cartonPrice": 120.00,
     "kgPrice": 480
   },
   {
@@ -13848,6 +15369,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.1,
     "price": 2.2,
+    "cartonPrice": 11.00,
     "kgPrice": 110
   },
   {
@@ -13857,6 +15379,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.4,
     "price": 4.5,
+    "cartonPrice": 45.00,
     "kgPrice": 112.5
   },
   {
@@ -13866,6 +15389,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 9.8,
+    "cartonPrice": 49.00,
     "kgPrice": 196
   },
   {
@@ -13875,6 +15399,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 9.8,
+    "cartonPrice": 49.00,
     "kgPrice": 196
   },
   {
@@ -13884,6 +15409,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 9.8,
+    "cartonPrice": 49.00,
     "kgPrice": 196
   },
   {
@@ -13893,6 +15419,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 9.8,
+    "cartonPrice": 49.00,
     "kgPrice": 196
   },
   {
@@ -13902,6 +15429,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 9.8,
+    "cartonPrice": 49.00,
     "kgPrice": 196
   },
   {
@@ -13911,6 +15439,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 8.4,
+    "cartonPrice": 42.00,
     "kgPrice": 168
   },
   {
@@ -13920,6 +15449,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.1,
     "price": 2.6,
+    "cartonPrice": 13.00,
     "kgPrice": 130
   },
   {
@@ -13929,6 +15459,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 24,
+    "cartonPrice": 120.00,
     "kgPrice": 480
   },
   {
@@ -13938,6 +15469,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 10.3,
+    "cartonPrice": 51.50,
     "kgPrice": 206
   },
   {
@@ -13947,6 +15479,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.3,
+    "cartonPrice": 56.50,
     "kgPrice": 226
   },
   {
@@ -13956,6 +15489,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 16,
+    "cartonPrice": 80.00,
     "kgPrice": 400
   },
   {
@@ -13965,6 +15499,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 7.8,
+    "cartonPrice": 39.00,
     "kgPrice": 195
   },
   {
@@ -13974,6 +15509,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 8,
+    "cartonPrice": 40.00,
     "kgPrice": 160
   },
   {
@@ -13983,6 +15519,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 9.9,
+    "cartonPrice": 49.50,
     "kgPrice": 198
   },
   {
@@ -13992,6 +15529,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.4,
     "price": 5,
+    "cartonPrice": 50.00,
     "kgPrice": 125
   },
   {
@@ -14001,6 +15539,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 24,
+    "cartonPrice": 120.00,
     "kgPrice": 480
   },
   {
@@ -14010,6 +15549,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 10.6,
+    "cartonPrice": 53.00,
     "kgPrice": 265
   },
   {
@@ -14019,6 +15559,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.6,
+    "cartonPrice": 58.00,
     "kgPrice": 232
   },
   {
@@ -14028,6 +15569,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.3,
     "price": 3.6,
+    "cartonPrice": 43.20,
     "kgPrice": 144
   },
   {
@@ -14037,6 +15579,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.24,
     "price": 3.2,
+    "cartonPrice": 38.40,
     "kgPrice": 160
   },
   {
@@ -14046,6 +15589,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 3,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -14055,6 +15599,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 3.3,
+    "cartonPrice": 33.00,
     "kgPrice": 132
   },
   {
@@ -14064,6 +15609,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 17.5,
+    "cartonPrice": 87.50,
     "kgPrice": 350
   },
   {
@@ -14073,6 +15619,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 18.5,
+    "cartonPrice": 92.50,
     "kgPrice": 370
   },
   {
@@ -14082,6 +15629,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 15.5,
+    "cartonPrice": 77.50,
     "kgPrice": 310
   },
   {
@@ -14091,6 +15639,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.4,
     "price": 5.4,
+    "cartonPrice": 54.00,
     "kgPrice": 135
   },
   {
@@ -14100,6 +15649,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 8.9,
+    "cartonPrice": 44.50,
     "kgPrice": 178
   },
   {
@@ -14109,6 +15659,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.4,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 162.5
   },
   {
@@ -14118,6 +15669,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 10,
+    "cartonPrice": 50.00,
     "kgPrice": 200
   },
   {
@@ -14127,6 +15679,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.4,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 145
   },
   {
@@ -14136,6 +15689,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.9,
+    "cartonPrice": 59.50,
     "kgPrice": 238
   },
   {
@@ -14145,6 +15699,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 10,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -14154,6 +15709,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 10,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -14163,6 +15719,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 10,
+    "cartonPrice": 50.00,
     "kgPrice": 250
   },
   {
@@ -14172,6 +15729,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 12.8,
+    "cartonPrice": 64.00,
     "kgPrice": 320
   },
   {
@@ -14181,6 +15739,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.8,
+    "cartonPrice": 59.00,
     "kgPrice": 236
   },
   {
@@ -14190,6 +15749,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.8,
+    "cartonPrice": 59.00,
     "kgPrice": 236
   },
   {
@@ -14199,6 +15759,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 13,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -14208,6 +15769,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 13,
+    "cartonPrice": 65.00,
     "kgPrice": 325
   },
   {
@@ -14217,6 +15779,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.8,
+    "cartonPrice": 59.00,
     "kgPrice": 236
   },
   {
@@ -14226,6 +15789,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 32.5,
+    "cartonPrice": 162.50,
     "kgPrice": 650
   },
   {
@@ -14235,6 +15799,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 32.5,
+    "cartonPrice": 162.50,
     "kgPrice": 650
   },
   {
@@ -14244,6 +15809,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 32.5,
+    "cartonPrice": 162.50,
     "kgPrice": 650
   },
   {
@@ -14253,6 +15819,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 32.5,
+    "cartonPrice": 162.50,
     "kgPrice": 650
   },
   {
@@ -14262,6 +15829,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 32.5,
+    "cartonPrice": 162.50,
     "kgPrice": 650
   },
   {
@@ -14271,6 +15839,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 12.3,
+    "cartonPrice": 61.50,
     "kgPrice": 246
   },
   {
@@ -14280,6 +15849,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 10.8,
+    "cartonPrice": 54.00,
     "kgPrice": 216
   },
   {
@@ -14289,6 +15859,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 24,
+    "cartonPrice": 120.00,
     "kgPrice": 480
   },
   {
@@ -14298,6 +15869,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 12.8,
+    "cartonPrice": 64.00,
     "kgPrice": 320
   },
   {
@@ -14307,6 +15879,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.3,
     "price": 35,
+    "cartonPrice": 105.00,
     "kgPrice": 350
   },
   {
@@ -14316,6 +15889,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.5,
+    "cartonPrice": 57.50,
     "kgPrice": 230
   },
   {
@@ -14325,6 +15899,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 26,
+    "cartonPrice": 130.00,
     "kgPrice": 520
   },
   {
@@ -14334,6 +15909,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 26,
+    "cartonPrice": 130.00,
     "kgPrice": 520
   },
   {
@@ -14343,6 +15919,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 19.7,
+    "cartonPrice": 98.50,
     "kgPrice": 394
   },
   {
@@ -14352,6 +15929,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 25.7,
+    "cartonPrice": 128.50,
     "kgPrice": 514
   },
   {
@@ -14361,6 +15939,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 19.7,
+    "cartonPrice": 98.50,
     "kgPrice": 394
   },
   {
@@ -14370,6 +15949,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 22.7,
+    "cartonPrice": 113.50,
     "kgPrice": 454
   },
   {
@@ -14379,6 +15959,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 25.7,
+    "cartonPrice": 128.50,
     "kgPrice": 514
   },
   {
@@ -14388,6 +15969,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 25.7,
+    "cartonPrice": 128.50,
     "kgPrice": 514
   },
   {
@@ -14397,6 +15979,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 24,
+    "cartonPrice": 120.00,
     "kgPrice": 480
   },
   {
@@ -14406,6 +15989,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 10.5,
+    "cartonPrice": 52.50,
     "kgPrice": 262.5
   },
   {
@@ -14415,6 +15999,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 9.6,
+    "cartonPrice": 48.00,
     "kgPrice": 192
   },
   {
@@ -14424,6 +16009,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 10.7,
+    "cartonPrice": 53.50,
     "kgPrice": 214
   },
   {
@@ -14433,6 +16019,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 10.7,
+    "cartonPrice": 53.50,
     "kgPrice": 214
   },
   {
@@ -14442,6 +16029,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 10.7,
+    "cartonPrice": 53.50,
     "kgPrice": 214
   },
   {
@@ -14451,6 +16039,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 10.7,
+    "cartonPrice": 53.50,
     "kgPrice": 214
   },
   {
@@ -14460,6 +16049,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 10.7,
+    "cartonPrice": 53.50,
     "kgPrice": 214
   },
   {
@@ -14469,6 +16059,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 10.2,
+    "cartonPrice": 51.00,
     "kgPrice": 204
   },
   {
@@ -14478,6 +16069,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 13.5,
+    "cartonPrice": 67.50,
     "kgPrice": 270
   },
   {
@@ -14487,6 +16079,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14496,6 +16089,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14505,6 +16099,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14514,6 +16109,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14523,6 +16119,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14532,6 +16129,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14541,6 +16139,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14550,6 +16149,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14559,6 +16159,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -14568,6 +16169,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14577,6 +16179,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14586,6 +16189,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14595,6 +16199,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14604,6 +16209,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14613,6 +16219,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14622,6 +16229,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 30,
+    "cartonPrice": 30.00,
     "kgPrice": 120
   },
   {
@@ -14631,6 +16239,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14640,6 +16249,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14649,6 +16259,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14658,6 +16269,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14667,6 +16279,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.5,
     "price": 7,
+    "cartonPrice": 70.00,
     "kgPrice": 140
   },
   {
@@ -14676,6 +16289,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14685,6 +16299,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14694,6 +16309,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14703,6 +16319,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14712,6 +16329,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14721,6 +16339,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14730,6 +16349,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14739,6 +16359,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14748,6 +16369,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14757,6 +16379,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14766,6 +16389,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14775,6 +16399,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14784,6 +16409,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14793,6 +16419,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14802,6 +16429,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14811,6 +16439,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14820,6 +16449,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14829,6 +16459,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14838,6 +16469,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14847,6 +16479,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14856,6 +16489,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14865,6 +16499,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14874,6 +16509,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14883,6 +16519,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14892,6 +16529,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14901,6 +16539,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14910,6 +16549,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14919,6 +16559,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14928,6 +16569,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14937,6 +16579,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14946,6 +16589,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14955,6 +16599,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14964,6 +16609,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14973,6 +16619,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -14982,6 +16629,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -14991,6 +16639,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15000,6 +16649,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15009,6 +16659,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15018,6 +16669,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15027,6 +16679,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15036,6 +16689,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15045,6 +16699,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15054,6 +16709,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15063,6 +16719,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15072,6 +16729,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15081,6 +16739,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15090,6 +16749,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15099,6 +16759,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15108,6 +16769,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15117,6 +16779,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15126,6 +16789,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15135,6 +16799,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15144,6 +16809,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15153,6 +16819,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15162,6 +16829,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15171,6 +16839,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15180,6 +16849,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15189,6 +16859,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15198,6 +16869,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 33,
+    "cartonPrice": 33.00,
     "kgPrice": 165
   },
   {
@@ -15207,6 +16879,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 8.75,
+    "cartonPrice": 35.00,
     "kgPrice": 175
   },
   {
@@ -15216,6 +16889,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 9.9,
+    "cartonPrice": 49.50,
     "kgPrice": 198
   },
   {
@@ -15225,6 +16899,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.2,
     "price": 35,
+    "cartonPrice": 70.00,
     "kgPrice": 350
   },
   {
@@ -15234,6 +16909,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 23,
+    "cartonPrice": 115.00,
     "kgPrice": 460
   },
   {
@@ -15243,6 +16919,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 23,
+    "cartonPrice": 115.00,
     "kgPrice": 460
   },
   {
@@ -15252,6 +16929,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.9,
+    "cartonPrice": 59.50,
     "kgPrice": 238
   },
   {
@@ -15261,6 +16939,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.9,
+    "cartonPrice": 59.50,
     "kgPrice": 238
   },
   {
@@ -15270,6 +16949,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "ALTRI TABACCHI DA FUMO",
     "unitWeight": 0.25,
     "price": 11.9,
+    "cartonPrice": 59.50,
     "kgPrice": 238
   },
   {
@@ -15279,6 +16959,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15288,6 +16969,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15297,6 +16979,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15306,6 +16989,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15315,6 +16999,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15324,6 +17009,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15333,6 +17019,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15342,6 +17029,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15351,6 +17039,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15360,6 +17049,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15369,6 +17059,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 29.00,
     "kgPrice": 29
   },
   {
@@ -15378,6 +17069,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 29.00,
     "kgPrice": 29
   },
   {
@@ -15387,6 +17079,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 29.00,
     "kgPrice": 29
   },
   {
@@ -15396,6 +17089,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 59.00,
     "kgPrice": 59
   },
   {
@@ -15405,6 +17099,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 59.00,
     "kgPrice": 59
   },
   {
@@ -15414,6 +17109,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 59.00,
     "kgPrice": 59
   },
   {
@@ -15423,6 +17119,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 59.00,
     "kgPrice": 59
   },
   {
@@ -15432,6 +17129,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 19.00,
     "kgPrice": 19
   },
   {
@@ -15441,6 +17139,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 19.00,
     "kgPrice": 19
   },
   {
@@ -15450,6 +17149,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 19.00,
     "kgPrice": 19
   },
   {
@@ -15459,6 +17159,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 19.00,
     "kgPrice": 19
   },
   {
@@ -15468,6 +17169,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15477,6 +17179,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15486,6 +17189,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 29.95,
     "kgPrice": 29.95
   },
   {
@@ -15495,6 +17199,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15504,6 +17209,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 9.95,
     "kgPrice": 9.95
   },
   {
@@ -15513,6 +17219,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15522,6 +17229,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15531,6 +17239,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15540,6 +17249,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15549,6 +17259,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 29.95,
     "kgPrice": 29.95
   },
   {
@@ -15558,6 +17269,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15567,6 +17279,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 9.95,
     "kgPrice": 9.95
   },
   {
@@ -15576,6 +17289,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 9.95,
     "kgPrice": 9.95
   },
   {
@@ -15585,6 +17299,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 9.95,
     "kgPrice": 9.95
   },
   {
@@ -15594,6 +17309,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 9.95,
     "kgPrice": 9.95
   },
   {
@@ -15603,6 +17319,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 9.95,
     "kgPrice": 9.95
   },
   {
@@ -15612,6 +17329,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 19.00,
     "kgPrice": 19
   },
   {
@@ -15621,6 +17339,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 19.00,
     "kgPrice": 19
   },
   {
@@ -15630,6 +17349,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15639,6 +17359,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15648,6 +17369,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15657,6 +17379,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15666,6 +17389,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15675,6 +17399,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15684,6 +17409,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15693,6 +17419,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15702,6 +17429,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15711,6 +17439,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15720,6 +17449,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15729,6 +17459,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 9.00,
     "kgPrice": 9
   },
   {
@@ -15738,6 +17469,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 8.00,
     "kgPrice": 8
   },
   {
@@ -15747,6 +17479,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15756,6 +17489,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15765,6 +17499,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15774,6 +17509,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15783,6 +17519,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15792,6 +17529,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15801,6 +17539,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15810,6 +17549,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15819,6 +17559,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15828,6 +17569,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15837,6 +17579,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15846,6 +17589,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15855,6 +17599,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15864,6 +17609,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15873,6 +17619,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15882,6 +17629,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15891,6 +17639,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15900,6 +17649,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15909,6 +17659,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15918,6 +17669,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15927,6 +17679,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15936,6 +17689,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15945,6 +17699,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15954,6 +17709,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15963,6 +17719,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15972,6 +17729,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15981,6 +17739,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15990,6 +17749,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -15999,6 +17759,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16008,6 +17769,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16017,6 +17779,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16026,6 +17789,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16035,6 +17799,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16044,6 +17809,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16053,6 +17819,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16062,6 +17829,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16071,6 +17839,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16080,6 +17849,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16089,6 +17859,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16098,6 +17869,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16107,6 +17879,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16116,6 +17889,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16125,6 +17899,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16134,6 +17909,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16143,6 +17919,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16152,6 +17929,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16161,6 +17939,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16170,6 +17949,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16179,6 +17959,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16188,6 +17969,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16197,6 +17979,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16206,6 +17989,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16215,6 +17999,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16224,6 +18009,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16233,6 +18019,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16242,6 +18029,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16251,6 +18039,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16260,6 +18049,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16269,6 +18059,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16278,6 +18069,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16287,6 +18079,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16296,6 +18089,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16305,6 +18099,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16314,6 +18109,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16323,6 +18119,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16332,6 +18129,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16341,6 +18139,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16350,6 +18149,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16359,6 +18159,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16368,6 +18169,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16377,6 +18179,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16386,6 +18189,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16395,6 +18199,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16404,6 +18209,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16413,6 +18219,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16422,6 +18229,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16431,6 +18239,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16440,6 +18249,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16449,6 +18259,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16458,6 +18269,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16467,6 +18279,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16476,6 +18289,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16485,6 +18299,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16494,6 +18309,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16503,6 +18319,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16512,6 +18329,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16521,6 +18339,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16530,6 +18349,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16539,6 +18359,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16548,6 +18369,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16557,6 +18379,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16566,6 +18389,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16575,6 +18399,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16584,6 +18409,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16593,6 +18419,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16602,6 +18429,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16611,6 +18439,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16620,6 +18449,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 10.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16629,6 +18459,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16638,6 +18469,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16647,6 +18479,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16656,6 +18489,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16665,6 +18499,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16674,6 +18509,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16683,6 +18519,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16692,6 +18529,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16701,6 +18539,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16710,6 +18549,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16719,6 +18559,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16728,6 +18569,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16737,6 +18579,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16746,6 +18589,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16755,6 +18599,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16764,6 +18609,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16773,6 +18619,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16782,6 +18629,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16791,6 +18639,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16800,6 +18649,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16809,6 +18659,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16818,6 +18669,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16827,6 +18679,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16836,6 +18689,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16845,6 +18699,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 25
   },
   {
@@ -16854,6 +18709,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 25
   },
   {
@@ -16863,6 +18719,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 25
   },
   {
@@ -16872,6 +18729,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 25
   },
   {
@@ -16881,6 +18739,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 25
   },
   {
@@ -16890,6 +18749,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 25
   },
   {
@@ -16899,6 +18759,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 30
   },
   {
@@ -16908,6 +18769,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16917,6 +18779,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16926,6 +18789,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 30
   },
   {
@@ -16935,6 +18799,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16944,6 +18809,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16953,6 +18819,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16962,6 +18829,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16971,6 +18839,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "DISPOSITIVI ELETTRONICI E ALTRI PRODOTTI",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -16980,6 +18849,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.3,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 83.33
   },
   {
@@ -16989,6 +18859,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.2,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -16998,6 +18869,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.2,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 270
   },
   {
@@ -17007,6 +18879,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.1,
     "price": 0,
+    "cartonPrice": 37.00,
     "kgPrice": 370
   },
   {
@@ -17016,6 +18889,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.1,
     "price": 0,
+    "cartonPrice": 37.00,
     "kgPrice": 370
   },
   {
@@ -17025,6 +18899,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.25,
     "price": 0,
+    "cartonPrice": 26.00,
     "kgPrice": 104
   },
   {
@@ -17034,6 +18909,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.2,
     "price": 0,
+    "cartonPrice": 30.00,
     "kgPrice": 150
   },
   {
@@ -17043,6 +18919,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.2,
     "price": 0,
+    "cartonPrice": 30.00,
     "kgPrice": 150
   },
   {
@@ -17052,6 +18929,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.2,
     "price": 0,
+    "cartonPrice": 30.00,
     "kgPrice": 150
   },
   {
@@ -17061,6 +18939,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.1,
     "price": 0,
+    "cartonPrice": 44.00,
     "kgPrice": 440
   },
   {
@@ -17070,6 +18949,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.1,
     "price": 0,
+    "cartonPrice": 46.00,
     "kgPrice": 460
   },
   {
@@ -17079,6 +18959,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.14,
     "price": 0,
+    "cartonPrice": 66.00,
     "kgPrice": 471.43
   },
   {
@@ -17088,6 +18969,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.14,
     "price": 0,
+    "cartonPrice": 64.00,
     "kgPrice": 457.14
   },
   {
@@ -17097,6 +18979,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.1,
     "price": 0,
+    "cartonPrice": 44.00,
     "kgPrice": 440
   },
   {
@@ -17106,6 +18989,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.2,
     "price": 0,
+    "cartonPrice": 42.00,
     "kgPrice": 210
   },
   {
@@ -17115,6 +18999,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "FIUTI E MASTICO",
     "unitWeight": 0.1,
     "price": 0,
+    "cartonPrice": 21.00,
     "kgPrice": 210
   },
   {
@@ -17124,6 +19009,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17133,6 +19019,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17142,6 +19029,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17151,6 +19039,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17160,6 +19049,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17169,6 +19059,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17178,6 +19069,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17187,6 +19079,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17196,6 +19089,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17205,6 +19099,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17214,6 +19109,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17223,6 +19119,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17232,6 +19129,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17241,6 +19139,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17250,6 +19149,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17259,6 +19159,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17268,6 +19169,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17277,6 +19179,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 20.00,
     "kgPrice": 20
   },
   {
@@ -17286,6 +19189,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 20.00,
     "kgPrice": 20
   },
   {
@@ -17295,6 +19199,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 20.00,
     "kgPrice": 20
   },
   {
@@ -17304,6 +19209,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17313,6 +19219,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17322,6 +19229,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17331,6 +19239,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17340,6 +19249,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17349,6 +19259,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17358,6 +19269,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17367,6 +19279,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 20.00,
     "kgPrice": 20
   },
   {
@@ -17376,6 +19289,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 20.00,
     "kgPrice": 20
   },
   {
@@ -17385,6 +19299,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17394,6 +19309,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17403,6 +19319,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17412,6 +19329,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17421,6 +19339,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17430,6 +19349,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17439,6 +19359,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17448,6 +19369,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17457,6 +19379,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17466,6 +19389,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17475,6 +19399,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17484,6 +19409,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17493,6 +19419,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17502,6 +19429,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17511,6 +19439,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.50,
     "kgPrice": 27.5
   },
   {
@@ -17520,6 +19449,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 20.00,
     "kgPrice": 20
   },
   {
@@ -17529,6 +19459,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17538,6 +19469,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17547,6 +19479,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17556,6 +19489,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17565,6 +19499,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17574,6 +19509,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17583,6 +19519,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17592,6 +19529,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17601,6 +19539,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17610,6 +19549,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17619,6 +19559,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17628,6 +19569,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17637,6 +19579,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17646,6 +19589,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17655,6 +19599,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17664,6 +19609,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 20.00,
     "kgPrice": 20
   },
   {
@@ -17673,6 +19619,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 20.00,
     "kgPrice": 20
   },
   {
@@ -17682,6 +19629,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "NICOTINE POUCHES",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -17691,6 +19639,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 43.00,
     "kgPrice": 43
   },
   {
@@ -17700,6 +19649,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55
   },
   {
@@ -17709,6 +19659,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 43.00,
     "kgPrice": 43
   },
   {
@@ -17718,6 +19669,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 38.00,
     "kgPrice": 38
   },
   {
@@ -17727,6 +19679,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 38.00,
     "kgPrice": 38
   },
   {
@@ -17736,6 +19689,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 38.00,
     "kgPrice": 38
   },
   {
@@ -17745,6 +19699,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55
   },
   {
@@ -17754,6 +19709,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 43.00,
     "kgPrice": 43
   },
   {
@@ -17763,6 +19719,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55
   },
   {
@@ -17772,6 +19729,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55
   },
   {
@@ -17781,6 +19739,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55
   },
   {
@@ -17790,6 +19749,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55,
     "barcode": "80973225"
   },
@@ -17800,6 +19760,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55
   },
   {
@@ -17809,6 +19770,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55,
     "barcode": "80969501"
   },
@@ -17819,6 +19781,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 38.00,
     "kgPrice": 38
   },
   {
@@ -17828,6 +19791,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55
   },
   {
@@ -17837,6 +19801,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17846,6 +19811,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 43.00,
     "kgPrice": 43
   },
   {
@@ -17855,6 +19821,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17864,6 +19831,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 43.00,
     "kgPrice": 43
   },
   {
@@ -17873,6 +19841,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 43.00,
     "kgPrice": 43
   },
   {
@@ -17882,6 +19851,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 43.00,
     "kgPrice": 43
   },
   {
@@ -17891,6 +19861,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 43.00,
     "kgPrice": 43
   },
   {
@@ -17900,6 +19871,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55
   },
   {
@@ -17909,6 +19881,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "PRODOTTI SENZA COMBUSTIONE - SOLIDI DIVERSI DA TABACCO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 55.00,
     "kgPrice": 55
   },
   {
@@ -17918,6 +19891,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17927,6 +19901,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17936,6 +19911,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17945,6 +19921,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17954,6 +19931,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17963,6 +19941,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -17972,6 +19951,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -17981,6 +19961,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -17990,6 +19971,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 120.00,
     "kgPrice": 120
   },
   {
@@ -17999,6 +19981,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 74.00,
     "kgPrice": 74
   },
   {
@@ -18008,6 +19991,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18017,6 +20001,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18026,6 +20011,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18035,6 +20021,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18044,6 +20031,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18053,6 +20041,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18062,6 +20051,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18071,6 +20061,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18080,6 +20071,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18089,6 +20081,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18098,6 +20091,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18107,6 +20101,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18116,6 +20111,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 80.00,
     "kgPrice": 80
   },
   {
@@ -18125,6 +20121,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18134,6 +20131,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18143,6 +20141,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18152,6 +20151,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18161,6 +20161,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18170,6 +20171,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18179,6 +20181,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18188,6 +20191,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18197,6 +20201,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18206,6 +20211,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 79.00,
     "kgPrice": 79
   },
   {
@@ -18215,6 +20221,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18224,6 +20231,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18233,6 +20241,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18242,6 +20251,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18251,6 +20261,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18260,6 +20271,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18269,6 +20281,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18278,6 +20291,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18287,6 +20301,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18296,6 +20311,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18305,6 +20321,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18314,6 +20331,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 85.00,
     "kgPrice": 85
   },
   {
@@ -18323,6 +20341,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 85.00,
     "kgPrice": 85
   },
   {
@@ -18332,6 +20351,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 85.00,
     "kgPrice": 85
   },
   {
@@ -18341,6 +20361,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 85.00,
     "kgPrice": 85
   },
   {
@@ -18350,6 +20371,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18359,6 +20381,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18368,6 +20391,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18377,6 +20401,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18386,6 +20411,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18395,6 +20421,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18404,6 +20431,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18413,6 +20441,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18422,6 +20451,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18431,6 +20461,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18440,6 +20471,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18449,6 +20481,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18458,6 +20491,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18467,6 +20501,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18476,6 +20511,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18485,6 +20521,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18494,6 +20531,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE MONOUSO",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18503,6 +20541,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 174.50,
     "kgPrice": 174.5
   },
   {
@@ -18512,6 +20551,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18521,6 +20561,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 34.95,
     "kgPrice": 34.95
   },
   {
@@ -18530,6 +20571,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18539,6 +20581,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18548,6 +20591,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18557,6 +20601,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18566,6 +20611,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18575,6 +20621,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18584,6 +20631,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18593,6 +20641,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18602,6 +20651,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18611,6 +20661,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18620,6 +20671,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18629,6 +20681,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18638,6 +20691,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.50,
     "kgPrice": 54.5
   },
   {
@@ -18647,6 +20701,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18656,6 +20711,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18665,6 +20721,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18674,6 +20731,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -18683,6 +20741,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18692,6 +20751,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18701,6 +20761,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18710,6 +20771,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18719,6 +20781,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18728,6 +20791,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18737,6 +20801,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18746,6 +20811,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 240.00,
     "kgPrice": 240
   },
   {
@@ -18755,6 +20821,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18764,6 +20831,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18773,6 +20841,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18782,6 +20851,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18791,6 +20861,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18800,6 +20871,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18809,6 +20881,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18818,6 +20891,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18827,6 +20901,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 110.00,
     "kgPrice": 110
   },
   {
@@ -18836,6 +20911,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18845,6 +20921,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18854,6 +20931,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 2.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18863,6 +20941,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18872,6 +20951,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18881,6 +20961,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18890,6 +20971,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18899,6 +20981,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18908,6 +20991,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18917,6 +21001,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18926,6 +21011,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18935,6 +21021,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18944,6 +21031,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18953,6 +21041,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18962,6 +21051,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18971,6 +21061,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 110.00,
     "kgPrice": 110
   },
   {
@@ -18980,6 +21071,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18989,6 +21081,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -18998,6 +21091,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19007,6 +21101,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 110.00,
     "kgPrice": 110
   },
   {
@@ -19016,6 +21111,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 110.00,
     "kgPrice": 110
   },
   {
@@ -19025,6 +21121,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19034,6 +21131,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19043,6 +21141,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19052,6 +21151,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19061,6 +21161,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19070,6 +21171,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19079,6 +21181,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19088,6 +21191,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19097,6 +21201,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19106,6 +21211,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19115,6 +21221,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19124,6 +21231,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19133,6 +21241,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 65.00,
     "kgPrice": 65
   },
   {
@@ -19142,6 +21251,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 65.00,
     "kgPrice": 65
   },
   {
@@ -19151,6 +21261,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 65.00,
     "kgPrice": 65
   },
   {
@@ -19160,6 +21271,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 65.00,
     "kgPrice": 65
   },
   {
@@ -19169,6 +21281,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 65.00,
     "kgPrice": 65
   },
   {
@@ -19178,6 +21291,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 65.00,
     "kgPrice": 65
   },
   {
@@ -19187,6 +21301,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 65.00,
     "kgPrice": 65
   },
   {
@@ -19196,6 +21311,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19205,6 +21321,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19214,6 +21331,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19223,6 +21341,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -19232,6 +21351,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -19241,6 +21361,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -19250,6 +21371,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -19259,6 +21381,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -19268,6 +21391,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -19277,6 +21401,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 25.00,
     "kgPrice": 25
   },
   {
@@ -19286,6 +21411,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19295,6 +21421,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19304,6 +21431,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19313,6 +21441,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19322,6 +21451,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19331,6 +21461,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19340,6 +21471,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19349,6 +21481,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19358,6 +21491,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19367,6 +21501,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19376,6 +21511,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19385,6 +21521,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19394,6 +21531,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19403,6 +21541,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19412,6 +21551,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19421,6 +21561,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19430,6 +21571,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19439,6 +21581,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19448,6 +21591,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19457,6 +21601,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19466,6 +21611,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19475,6 +21621,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19484,6 +21631,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19493,6 +21641,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19502,6 +21651,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19511,6 +21661,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19520,6 +21671,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19529,6 +21681,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19538,6 +21691,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19547,6 +21701,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19556,6 +21711,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19565,6 +21721,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 60
   },
   {
@@ -19574,6 +21731,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 150.00,
     "kgPrice": 150
   },
   {
@@ -19583,6 +21741,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 105.00,
     "kgPrice": 15
   },
   {
@@ -19592,6 +21751,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 105.00,
     "kgPrice": 15
   },
   {
@@ -19601,6 +21761,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19610,6 +21771,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19619,6 +21781,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 63.00,
     "kgPrice": 9
   },
   {
@@ -19628,6 +21791,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 63.00,
     "kgPrice": 9
   },
   {
@@ -19637,6 +21801,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19646,6 +21811,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19655,6 +21821,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 105.00,
     "kgPrice": 15
   },
   {
@@ -19664,6 +21831,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 105.00,
     "kgPrice": 15
   },
   {
@@ -19673,6 +21841,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 63.00,
     "kgPrice": 9
   },
   {
@@ -19682,6 +21851,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 63.00,
     "kgPrice": 9
   },
   {
@@ -19691,6 +21861,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19700,6 +21871,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19709,6 +21881,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19718,6 +21891,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19727,6 +21901,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 105.00,
     "kgPrice": 15
   },
   {
@@ -19736,6 +21911,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 105.00,
     "kgPrice": 15
   },
   {
@@ -19745,6 +21921,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19754,6 +21931,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19763,6 +21941,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 63.00,
     "kgPrice": 9
   },
   {
@@ -19772,6 +21951,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 63.00,
     "kgPrice": 9
   },
   {
@@ -19781,6 +21961,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19790,6 +21971,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19799,6 +21981,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19808,6 +21991,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 70.00,
     "kgPrice": 10
   },
   {
@@ -19817,6 +22001,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19826,6 +22011,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19835,6 +22021,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19844,6 +22031,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19853,6 +22041,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19862,6 +22051,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19871,6 +22061,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19880,6 +22071,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19889,6 +22081,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19898,6 +22091,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19907,6 +22101,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19916,6 +22111,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19925,6 +22121,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19934,6 +22131,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19943,6 +22141,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19952,6 +22151,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19961,6 +22161,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19970,6 +22171,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19979,6 +22181,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -19988,6 +22191,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -19997,6 +22201,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20006,6 +22211,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20015,6 +22221,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20024,6 +22231,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 63.00,
     "kgPrice": 9
   },
   {
@@ -20033,6 +22241,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20042,6 +22251,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20051,6 +22261,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20060,6 +22271,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20069,6 +22281,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20078,6 +22291,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20087,6 +22301,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20096,6 +22311,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20105,6 +22321,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20114,6 +22331,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20123,6 +22341,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20132,6 +22351,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20141,6 +22361,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20150,6 +22371,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20159,6 +22381,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20168,6 +22391,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20177,6 +22401,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20186,6 +22411,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20195,6 +22421,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20204,6 +22431,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20213,6 +22441,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20222,6 +22451,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20231,6 +22461,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20240,6 +22471,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20249,6 +22481,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20258,6 +22491,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20267,6 +22501,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20276,6 +22511,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20285,6 +22521,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20294,6 +22531,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20303,6 +22541,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20312,6 +22551,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20321,6 +22561,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20330,6 +22571,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20339,6 +22581,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20348,6 +22591,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20357,6 +22601,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20366,6 +22611,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20375,6 +22621,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20384,6 +22631,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20393,6 +22641,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20402,6 +22651,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20411,6 +22661,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20420,6 +22671,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20429,6 +22681,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20438,6 +22691,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20447,6 +22701,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20456,6 +22711,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20465,6 +22721,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20474,6 +22731,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20483,6 +22741,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20492,6 +22751,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20501,6 +22761,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20510,6 +22771,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20519,6 +22781,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20528,6 +22791,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20537,6 +22801,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -20546,6 +22811,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -20555,6 +22821,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -20564,6 +22831,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -20573,6 +22841,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -20582,6 +22851,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -20591,6 +22861,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -20600,6 +22871,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20609,6 +22881,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20618,6 +22891,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20627,6 +22901,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20636,6 +22911,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20645,6 +22921,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20654,6 +22931,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20663,6 +22941,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20672,6 +22951,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20681,6 +22961,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20690,6 +22971,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20699,6 +22981,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -20708,6 +22991,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -20717,6 +23001,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -20726,6 +23011,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -20735,6 +23021,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -20744,6 +23031,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -20753,6 +23041,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -20762,6 +23051,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20771,6 +23061,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20780,6 +23071,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20789,6 +23081,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20798,6 +23091,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20807,6 +23101,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20816,6 +23111,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -20825,6 +23121,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20834,6 +23131,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20843,6 +23141,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20852,6 +23151,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20861,6 +23161,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 90
   },
   {
@@ -20870,6 +23171,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20879,6 +23181,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20888,6 +23191,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20897,6 +23201,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20906,6 +23211,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20915,6 +23221,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20924,6 +23231,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20933,6 +23241,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 7.0,
     "price": 0,
+    "cartonPrice": 63.00,
     "kgPrice": 9
   },
   {
@@ -20942,6 +23251,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20951,6 +23261,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20960,6 +23271,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20969,6 +23281,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20978,6 +23291,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 50
   },
   {
@@ -20987,6 +23301,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -20996,6 +23311,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21005,6 +23321,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21014,6 +23331,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 50
   },
   {
@@ -21023,6 +23341,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21032,6 +23351,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 50
   },
   {
@@ -21041,6 +23361,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21050,6 +23371,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21059,6 +23381,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 50
   },
   {
@@ -21068,6 +23391,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21077,6 +23401,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21086,6 +23411,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21095,6 +23421,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21104,6 +23431,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21113,6 +23441,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21122,6 +23451,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21131,6 +23461,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21140,6 +23471,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21149,6 +23481,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21158,6 +23491,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21167,6 +23501,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21176,6 +23511,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21185,6 +23521,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21194,6 +23531,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21203,6 +23541,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 69.00,
     "kgPrice": 69
   },
   {
@@ -21212,6 +23551,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21221,6 +23561,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21230,6 +23571,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21239,6 +23581,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21248,6 +23591,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21257,6 +23601,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21266,6 +23611,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21275,6 +23621,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21284,6 +23631,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21293,6 +23641,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21302,6 +23651,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21311,6 +23661,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21320,6 +23671,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21329,6 +23681,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21338,6 +23691,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.00,
     "kgPrice": 27
   },
   {
@@ -21347,6 +23701,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.00,
     "kgPrice": 27
   },
   {
@@ -21356,6 +23711,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 27.00,
     "kgPrice": 27
   },
   {
@@ -21365,6 +23721,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21374,6 +23731,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21383,6 +23741,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21392,6 +23751,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21401,6 +23761,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21410,6 +23771,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21419,6 +23781,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21428,6 +23791,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21437,6 +23801,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21446,6 +23811,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21455,6 +23821,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21464,6 +23831,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21473,6 +23841,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21482,6 +23851,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21491,6 +23861,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21500,6 +23871,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21509,6 +23881,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21518,6 +23891,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21527,6 +23901,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21536,6 +23911,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21545,6 +23921,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21554,6 +23931,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21563,6 +23941,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21572,6 +23951,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21581,6 +23961,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21590,6 +23971,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21599,6 +23981,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21608,6 +23991,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21617,6 +24001,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21626,6 +24011,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 54.00,
     "kgPrice": 54
   },
   {
@@ -21635,6 +24021,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21644,6 +24031,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21653,6 +24041,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 50
   },
   {
@@ -21662,6 +24051,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21671,6 +24061,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 50
   },
   {
@@ -21680,6 +24071,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21689,6 +24081,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 50.00,
     "kgPrice": 50
   },
   {
@@ -21698,6 +24091,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21707,6 +24101,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21716,6 +24111,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 45
   },
   {
@@ -21725,6 +24121,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 34.50,
     "kgPrice": 34.5
   },
   {
@@ -21734,6 +24131,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 34.50,
     "kgPrice": 34.5
   },
   {
@@ -21743,6 +24141,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 34.50,
     "kgPrice": 34.5
   },
   {
@@ -21752,6 +24151,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 34.50,
     "kgPrice": 34.5
   },
   {
@@ -21761,6 +24161,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 34.50,
     "kgPrice": 34.5
   },
   {
@@ -21770,6 +24171,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 34.50,
     "kgPrice": 34.5
   },
   {
@@ -21779,6 +24181,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 3.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21788,6 +24191,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 3.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21797,6 +24201,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 3.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21806,6 +24211,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 3.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21815,6 +24221,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 3.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21824,6 +24231,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 3.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21833,6 +24241,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21842,6 +24251,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21851,6 +24261,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21860,6 +24271,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21869,6 +24281,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21878,6 +24291,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21887,6 +24301,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21896,6 +24311,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21905,6 +24321,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21914,6 +24331,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21923,6 +24341,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21932,6 +24351,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21941,6 +24361,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21950,6 +24371,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21959,6 +24381,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21968,6 +24391,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21977,6 +24401,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21986,6 +24411,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -21995,6 +24421,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 3.0,
     "price": 0,
+    "cartonPrice": 75.00,
     "kgPrice": 25
   },
   {
@@ -22004,6 +24431,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -22013,6 +24441,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -22022,6 +24451,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -22031,6 +24461,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 0.00,
     "kgPrice": 0
   },
   {
@@ -22040,6 +24471,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 3.0,
     "price": 0,
+    "cartonPrice": 59.70,
     "kgPrice": 19.9
   },
   {
@@ -22049,6 +24481,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 9
   },
   {
@@ -22058,6 +24491,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 9
   },
   {
@@ -22067,6 +24501,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 9
   },
   {
@@ -22076,6 +24511,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 45.00,
     "kgPrice": 9
   },
   {
@@ -22085,6 +24521,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 12
   },
   {
@@ -22094,6 +24531,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 12
   },
   {
@@ -22103,6 +24541,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 60.00,
     "kgPrice": 12
   },
   {
@@ -22112,6 +24551,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 18
   },
   {
@@ -22121,6 +24561,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 5.0,
     "price": 0,
+    "cartonPrice": 90.00,
     "kgPrice": 18
   },
   {
@@ -22130,6 +24571,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 100.00,
     "kgPrice": 100
   },
   {
@@ -22139,6 +24581,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 40.00,
     "kgPrice": 40
   },
   {
@@ -22148,6 +24591,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "SIGARETTE ELETTRONICHE RICARICABILI E RICARICHE",
     "unitWeight": 1.0,
     "price": 0,
+    "cartonPrice": 40.00,
     "kgPrice": 40
   },
   {
@@ -22157,6 +24601,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.6,
+    "cartonPrice": 86.00,
     "kgPrice": 286.67,
     "barcode": "80993414"
   },
@@ -22167,6 +24612,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.35,
     "price": 15,
+    "cartonPrice": 75.00,
     "kgPrice": 214.29
   },
   {
@@ -22176,6 +24622,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.6,
+    "cartonPrice": 86.00,
     "kgPrice": 286.67,
     "barcode": "42327806"
   },
@@ -22186,6 +24633,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.8,
+    "cartonPrice": 78.00,
     "kgPrice": 260
   },
   {
@@ -22195,6 +24643,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22204,6 +24653,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22213,6 +24663,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 216.67
   },
   {
@@ -22222,6 +24673,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.2,
     "price": 7.7,
+    "cartonPrice": 38.50,
     "kgPrice": 192.5
   },
   {
@@ -22231,6 +24683,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22240,6 +24693,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.15,
     "price": 8.2,
+    "cartonPrice": 41.00,
     "kgPrice": 273.33
   },
   {
@@ -22249,6 +24703,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.3,
+    "cartonPrice": 83.00,
     "kgPrice": 276.67,
     "barcode": "80813422"
   },
@@ -22259,6 +24714,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.3,
+    "cartonPrice": 83.00,
     "kgPrice": 276.67,
     "barcode": "80815136"
   },
@@ -22269,6 +24725,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.3,
+    "cartonPrice": 83.00,
     "kgPrice": 276.67,
     "barcode": "80851448"
   },
@@ -22279,6 +24736,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.18,
     "price": 7.8,
+    "cartonPrice": 46.80,
     "kgPrice": 260
   },
   {
@@ -22288,6 +24746,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.8,
+    "cartonPrice": 78.00,
     "kgPrice": 260,
     "barcode": "8032817681686"
   },
@@ -22298,6 +24757,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.8,
+    "cartonPrice": 78.00,
     "kgPrice": 260,
     "barcode": "8032817681662"
   },
@@ -22308,6 +24768,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.18,
     "price": 7.8,
+    "cartonPrice": 46.80,
     "kgPrice": 260
   },
   {
@@ -22317,6 +24778,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.9,
+    "cartonPrice": 79.00,
     "kgPrice": 263.33
   },
   {
@@ -22326,6 +24788,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67,
     "barcode": "8032817681709"
   },
@@ -22336,6 +24799,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 20.6,
+    "cartonPrice": 103.00,
     "kgPrice": 257.5
   },
   {
@@ -22345,6 +24809,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 240
   },
   {
@@ -22354,6 +24819,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 240
   },
   {
@@ -22363,6 +24829,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 10,
+    "cartonPrice": 100.00,
     "kgPrice": 250
   },
   {
@@ -22372,6 +24839,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 10,
+    "cartonPrice": 100.00,
     "kgPrice": 250
   },
   {
@@ -22381,6 +24849,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 10,
+    "cartonPrice": 100.00,
     "kgPrice": 250
   },
   {
@@ -22390,6 +24859,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.9,
+    "cartonPrice": 79.00,
     "kgPrice": 263.33
   },
   {
@@ -22399,6 +24869,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.9,
+    "cartonPrice": 79.00,
     "kgPrice": 263.33
   },
   {
@@ -22408,6 +24879,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22417,6 +24889,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22426,6 +24899,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 10.7,
+    "cartonPrice": 107.00,
     "kgPrice": 267.5
   },
   {
@@ -22435,6 +24909,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.9,
+    "cartonPrice": 79.00,
     "kgPrice": 263.33
   },
   {
@@ -22444,6 +24919,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 10.5,
+    "cartonPrice": 105.00,
     "kgPrice": 262.5
   },
   {
@@ -22453,6 +24929,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 10.5,
+    "cartonPrice": 105.00,
     "kgPrice": 262.5
   },
   {
@@ -22462,6 +24939,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.7,
+    "cartonPrice": 77.00,
     "kgPrice": 256.67,
     "barcode": "4030700184768"
   },
@@ -22472,6 +24950,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.7,
+    "cartonPrice": 77.00,
     "kgPrice": 256.67,
     "barcode": "4030700183051"
   },
@@ -22482,6 +24961,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 246.67
   },
   {
@@ -22491,6 +24971,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.4,
+    "cartonPrice": 74.00,
     "kgPrice": 246.67
   },
   {
@@ -22500,6 +24981,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.9,
+    "cartonPrice": 79.00,
     "kgPrice": 263.33
   },
   {
@@ -22509,6 +24991,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 240
   },
   {
@@ -22518,6 +25001,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 240
   },
   {
@@ -22527,6 +25011,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.2,
+    "cartonPrice": 72.00,
     "kgPrice": 240
   },
   {
@@ -22536,6 +25021,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.18,
     "price": 8,
+    "cartonPrice": 48.00,
     "kgPrice": 266.67,
     "barcode": "80864417"
   },
@@ -22546,6 +25032,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.18,
     "price": 8,
+    "cartonPrice": 48.00,
     "kgPrice": 266.67
   },
   {
@@ -22555,6 +25042,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.18,
     "price": 8,
+    "cartonPrice": 48.00,
     "kgPrice": 266.67,
     "barcode": "80969334"
   },
@@ -22565,6 +25053,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.18,
     "price": 8,
+    "cartonPrice": 48.00,
     "kgPrice": 266.67,
     "barcode": "80822745"
   },
@@ -22575,6 +25064,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 10.7,
+    "cartonPrice": 107.00,
     "kgPrice": 267.5
   },
   {
@@ -22584,6 +25074,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.15,
     "price": 6.6,
+    "cartonPrice": 33.00,
     "kgPrice": 220
   },
   {
@@ -22593,6 +25084,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.15,
     "price": 6.9,
+    "cartonPrice": 34.50,
     "kgPrice": 230
   },
   {
@@ -22602,6 +25094,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.15,
     "price": 6.6,
+    "cartonPrice": 33.00,
     "kgPrice": 220
   },
   {
@@ -22611,6 +25104,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.8,
+    "cartonPrice": 78.00,
     "kgPrice": 260,
     "barcode": "8032817682881"
   },
@@ -22621,6 +25115,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.3,
+    "cartonPrice": 83.00,
     "kgPrice": 276.67,
     "barcode": "8032817681747"
   },
@@ -22631,6 +25126,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.35,
     "price": 18.9,
+    "cartonPrice": 94.50,
     "kgPrice": 270
   },
   {
@@ -22640,6 +25136,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.3,
+    "cartonPrice": 83.00,
     "kgPrice": 276.67,
     "barcode": "8032817681723"
   },
@@ -22650,6 +25147,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.35,
     "price": 18.9,
+    "cartonPrice": 94.50,
     "kgPrice": 270
   },
   {
@@ -22659,6 +25157,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.3,
+    "cartonPrice": 73.00,
     "kgPrice": 243.33
   },
   {
@@ -22668,6 +25167,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.15,
     "price": 7.3,
+    "cartonPrice": 36.50,
     "kgPrice": 243.33
   },
   {
@@ -22677,6 +25177,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.24,
     "price": 7.8,
+    "cartonPrice": 62.40,
     "kgPrice": 260
   },
   {
@@ -22686,6 +25187,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22695,6 +25197,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22704,6 +25207,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22713,6 +25217,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22722,6 +25227,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 216.67
   },
   {
@@ -22731,6 +25237,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22740,6 +25247,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.25,
     "price": 11.5,
+    "cartonPrice": 57.50,
     "kgPrice": 230
   },
   {
@@ -22749,6 +25257,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67,
     "barcode": "5707294395281"
   },
@@ -22759,6 +25268,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.3,
+    "cartonPrice": 83.00,
     "kgPrice": 276.67,
     "barcode": "80842675"
   },
@@ -22769,6 +25279,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.3,
+    "cartonPrice": 83.00,
     "kgPrice": 276.67,
     "barcode": "80834304"
   },
@@ -22779,6 +25290,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8.3,
+    "cartonPrice": 83.00,
     "kgPrice": 276.67
   },
   {
@@ -22788,6 +25300,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.9,
+    "cartonPrice": 79.00,
     "kgPrice": 263.33
   },
   {
@@ -22797,6 +25310,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.18,
     "price": 7.9,
+    "cartonPrice": 47.40,
     "kgPrice": 263.33
   },
   {
@@ -22806,6 +25320,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.35,
     "price": 18.6,
+    "cartonPrice": 93.00,
     "kgPrice": 265.71
   },
   {
@@ -22815,6 +25330,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67,
     "barcode": "42301493"
   },
@@ -22825,6 +25341,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22834,6 +25351,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.35,
     "price": 18.6,
+    "cartonPrice": 93.00,
     "kgPrice": 265.71
   },
   {
@@ -22843,6 +25361,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67,
     "barcode": "42302919"
   },
@@ -22853,6 +25372,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22862,6 +25382,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.8,
+    "cartonPrice": 78.00,
     "kgPrice": 260
   },
   {
@@ -22871,6 +25392,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 6,
+    "cartonPrice": 60.00,
     "kgPrice": 200
   },
   {
@@ -22880,6 +25402,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 6.4,
+    "cartonPrice": 64.00,
     "kgPrice": 213.33
   },
   {
@@ -22889,6 +25412,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 6.4,
+    "cartonPrice": 64.00,
     "kgPrice": 213.33
   },
   {
@@ -22898,6 +25422,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.24,
     "price": 7.8,
+    "cartonPrice": 62.40,
     "kgPrice": 260
   },
   {
@@ -22907,6 +25432,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 9.2,
+    "cartonPrice": 92.00,
     "kgPrice": 230
   },
   {
@@ -22916,6 +25442,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 7.9,
+    "cartonPrice": 79.00,
     "kgPrice": 263.33
   },
   {
@@ -22925,6 +25452,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 6.5,
+    "cartonPrice": 65.00,
     "kgPrice": 216.67
   },
   {
@@ -22934,6 +25462,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 5.8,
+    "cartonPrice": 58.00,
     "kgPrice": 193.33
   },
   {
@@ -22943,6 +25472,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.4,
     "price": 9.8,
+    "cartonPrice": 98.00,
     "kgPrice": 245
   },
   {
@@ -22952,6 +25482,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67,
     "barcode": "80813408"
   },
@@ -22962,6 +25493,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.225,
     "price": 12.4,
+    "cartonPrice": 62.00,
     "kgPrice": 275.56
   },
   {
@@ -22971,6 +25503,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.3,
     "price": 8,
+    "cartonPrice": 80.00,
     "kgPrice": 266.67
   },
   {
@@ -22980,6 +25513,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.25,
     "price": 14,
+    "cartonPrice": 70.00,
     "kgPrice": 280
   },
   {
@@ -22989,6 +25523,7 @@ final List<Map<String, dynamic>> officialProductsData = [
     "type": "TRINCIATI PER SIGARETTE",
     "unitWeight": 0.15,
     "price": 7.2,
+    "cartonPrice": 36.00,
     "kgPrice": 240
   },
   {

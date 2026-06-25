@@ -1,4 +1,4 @@
-class Product {
+﻿class Product {
   final String id;
   final String name;
   final String aamsCode;
@@ -9,7 +9,7 @@ class Product {
 
   final double unitWeight;
   final double? price;
-  final double? kgPrice;
+  final double? kgPrice;\n  final double? cartonPrice;
 
   final String barcode;
   final bool isActive;
@@ -23,7 +23,7 @@ class Product {
     required this.safetyStock,
     required this.unitWeight,
     this.price,
-    this.kgPrice,
+    this.kgPrice,\n    this.cartonPrice,
     required this.barcode,
     this.isActive = false,
   });
@@ -38,6 +38,7 @@ class Product {
         'unitWeight': unitWeight,
         'price': price,
         'kgPrice': kgPrice,
+        'cartonPrice': cartonPrice,
         'barcode': barcode,
         'isActive': isActive ? 1 : 0,
       };
@@ -58,6 +59,7 @@ class Product {
       unitWeight: unitWeight,
       price: price,
       kgPrice: kgPrice,
+      cartonPrice: cartonPrice,
       barcode: (map['barcode'] ?? '').toString(),
       isActive: ((map['isActive'] as num?)?.toInt() ?? 0) == 1,
     );
@@ -72,7 +74,7 @@ class Product {
     int? safetyStock,
     double? unitWeight,
     double? price,
-    double? kgPrice,
+    double? kgPrice,\n    double? cartonPrice,
     bool Function()? kgPriceNull,
     String? barcode,
     bool? isActive,
@@ -87,6 +89,7 @@ class Product {
       unitWeight: unitWeight ?? this.unitWeight,
       price: price ?? this.price,
       kgPrice: kgPriceNull != null ? null : (kgPrice ?? this.kgPrice),
+      cartonPrice: cartonPrice ?? this.cartonPrice,
       barcode: barcode ?? this.barcode,
       isActive: isActive ?? this.isActive,
     );

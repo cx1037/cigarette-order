@@ -1,4 +1,4 @@
-import 'package:file_picker/file_picker.dart';
+﻿import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:convert';
@@ -269,6 +269,11 @@ class _OrderPageState extends State<OrderPage> {
       product.type.trim().toUpperCase() == _solidNonTobaccoType;
 
   double _resolveLineAmount(Product product, int qty, double lineKg) {
+    // Use cartonPrice if available (primary pricing)
+    if (product.cartonPrice != null && product.cartonPrice! > 0) {
+      return qty * product.cartonPrice!;
+    }
+    // Fallback to old calculation
     final normalizedType = product.type.trim().toUpperCase();
     final kgPrice = product.kgPrice;
     final price = product.price;
