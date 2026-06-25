@@ -1,4 +1,5 @@
-﻿import 'package:flutter/material.dart';
+﻿import 'dart:ui' as ui;
+import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'services/database_service.dart';
 import 'services/accessibility_bridge.dart';
@@ -14,7 +15,7 @@ Future<void> main() async {
   FlutterError.onError = (details) {
     FlutterError.presentError(details);
   };
-  PlatformDispatcher.instance.onError = (error, stack) => true;
+  ui.PlatformDispatcher.instance.onError = (error, stack) => true;
 
   await DatabaseService.instance.database;
   await OfficialProductService.seedIfEmpty();
