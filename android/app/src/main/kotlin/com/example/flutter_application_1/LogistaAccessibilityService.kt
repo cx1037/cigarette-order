@@ -178,7 +178,7 @@ class LogistaAccessibilityService : AccessibilityService() {
     }
 
     private fun _checkText(text: String, index: Int) {
-        _statusMessage = "检查页面是否包含: $text"
+        _statusMessage = "检查页面是否包含: ${text}"
         onStatusUpdate?.invoke(_statusMessage)
         handler.postDelayed({
             if (!isRunning || _pendingFinish) return@postDelayed
@@ -218,14 +218,14 @@ class LogistaAccessibilityService : AccessibilityService() {
     }
 
     private fun _checkInputEmpty(text: String, index: Int) {
-        _statusMessage = "检查输入框是否为空: $text"
+        _statusMessage = "检查输入框是否为空: ${text}"
         onStatusUpdate?.invoke(_statusMessage)
         handler.postDelayed({
             if (!isRunning || _pendingFinish) return@postDelayed
             if (_isInputFieldEmpty(text)) {
-                _statusMessage = "请输入$text后再执行自动化"
+                _statusMessage = "请输入${text}后再执行自动化"
                 onStatusUpdate?.invoke(_statusMessage)
-                onError?.invoke("检测到「$text」输入框为空，请在浏览器中先填写账号密码后再执行自动化")
+                onError?.invoke("检测到「${text}」输入框为空，请在浏览器中先填写账号密码后再执行自动化")
                 _finishAutomation()
             } else {
                 _executeStep(index + 1)
@@ -268,8 +268,8 @@ class LogistaAccessibilityService : AccessibilityService() {
                     if (_doClickByText(text)) {
                         handler.postDelayed({ _executeStep(index + 1) }, 800)
                     } else {
-                        _statusMessage = "未找到: $text"
-                        onError?.invoke("未找到包含文字「$text」的按钮/链接，请检查步骤配置")
+                        _statusMessage = "未找到: ${text}"
+                        onError?.invoke("未找到包含文字「${text}」的按钮/链接，请检查步骤配置")
                         _finishAutomation()
                     }
                 }
