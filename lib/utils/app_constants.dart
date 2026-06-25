@@ -10,4 +10,8 @@ class AppConstants {
 
   static const String developer = 'cx';
   static const String wechat = 'CHNXNG99';
+
+  // 动画设置默认值
+  static const double animationSpeedDefault = 1.0;
+  static const bool animationEnabledDefault = true;
 }

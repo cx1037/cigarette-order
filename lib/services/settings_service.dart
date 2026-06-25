@@ -11,9 +11,11 @@ class SettingsService {
  static const String _keyArrivalWeekday = 'arrival_weekday';
 static const String _keyOrderDraft = 'order_draft';
 static const String _keyStatsCycleCount = 'stats_cycle_count';
- static const String _keyLongPressNavigation = 'long_press_navigation';
- static const String _keyAutoEnabled = 'auto_enabled';
- static const String _keyAutoSteps = 'auto_steps';
+  static const String _keyLongPressNavigation = 'long_press_navigation';
+  static const String _keyAnimationSpeed = 'animation_speed';
+  static const String _keyAnimationEnabled = 'animation_enabled';
+  static const String _keyAutoEnabled = 'auto_enabled';
+  static const String _keyAutoSteps = 'auto_steps';
 
  // 缓存 SharedPreferences 实例，避免反复调用 getInstance()
  static SharedPreferences? _prefs;
@@ -113,9 +115,31 @@ static const String _keyStatsCycleCount = 'stats_cycle_count';
  static Future<bool> getLongPressNavigation() async {
    final prefs = await _preferences;
    return prefs.getBool(_keyLongPressNavigation) ?? true;
- }
+  }
 
- static Future<void> setAutoEnabled(bool value) async {
+  /// 动画速度倍率（0.0=关闭动画, 0.5=慢速, 1.0=正常, 1.5=快速, 2.0=极速）
+  static Future<void> setAnimationSpeed(double value) async {
+    final prefs = await _preferences;
+    await prefs.setDouble(_keyAnimationSpeed, value.clamp(0.0, 2.0));
+  }
+
+  static Future<double> getAnimationSpeed() async {
+    final prefs = await _preferences;
+    return prefs.getDouble(_keyAnimationSpeed) ?? 1.0;
+  }
+
+  /// 是否启用页面切换动画
+  static Future<void> setAnimationEnabled(bool value) async {
+    final prefs = await _preferences;
+    await prefs.setBool(_keyAnimationEnabled, value);
+  }
+
+  static Future<bool> getAnimationEnabled() async {
+    final prefs = await _preferences;
+    return prefs.getBool(_keyAnimationEnabled) ?? true;
+  }
+
+  static Future<void> setAutoEnabled(bool value) async {
    final prefs = await _preferences;
    await prefs.setBool(_keyAutoEnabled, value);
  }
