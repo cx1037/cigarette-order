@@ -1,4 +1,4 @@
-  
+﻿  
   import 'package:flutter/material.dart';
 
 import '../models/product.dart';
@@ -10,6 +10,7 @@ import 'order_page.dart';
 import 'order_stats_page.dart';
 import 'product_edit_page.dart';
 import 'settings_page.dart';
+import 'about_page.dart';
 import 'scan_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -21,29 +22,15 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   static const String _disclaimerText = '''
-免责声明
+鍏嶈矗澹版槑
 
-本软件由开发者 cx 开发，并在人工智能工具辅助下完成。
-开发过程中使用的 AI 模型包括：ChatGPT（前期）、DeepSeek Flash（后期）。
-本软件为个人兴趣项目，仅供学习、研究、测试及个人数据整理使用。
-
-本软件不构成任何采购建议、经营建议、库存建议、财务建议、
-税务建议、法律建议或合规建议，所有数据与计算结果仅供参考。
-
-本软件中的订货建议、销量统计、库存推算、Excel 导出内容、
-扫码识别结果及其他自动化结果，均可能因历史数据不完整、
-人工录入错误、条码错误、算法偏差、设备差异或第三方环境问题而产生误差。
-
-用户应自行核对商品名称、AAMS 编码、价格、库存、重量、订货数量、
-到货日期及导出内容，并自行承担人工复核义务。
-
-本软件不保证数据绝对准确、完整、持续可用，也不保证一定满足特定经营或合规需求。
-用户在实际经营、订货、报表、库存、申报、对账或其他业务场景中的一切操作，
-均应遵守当地法律法规、行业规范、平台规则及相关主体要求。
-
-本软件与 Logista Italia 及任何烟草公司、机构、平台或组织不存在
-从属、合作、代理、授权或官方认证关系。
-''';
+鏈蒋浠剁敱寮€鍙戣€?cx 寮€鍙戯紝骞跺湪浜哄伐鏅鸿兘宸ュ叿杈呭姪涓嬪畬鎴愩€?寮€鍙戣繃绋嬩腑浣跨敤鐨?AI 妯″瀷鍖呮嫭锛欳hatGPT锛堝墠鏈燂級銆丏eepSeek Flash锛堝悗鏈燂級銆?鏈蒋浠朵负涓汉鍏磋叮椤圭洰锛屼粎渚涘涔犮€佺爺绌躲€佹祴璇曞強涓汉鏁版嵁鏁寸悊浣跨敤銆?
+鏈蒋浠朵笉鏋勬垚浠讳綍閲囪喘寤鸿銆佺粡钀ュ缓璁€佸簱瀛樺缓璁€佽储鍔″缓璁€?绋庡姟寤鸿銆佹硶寰嬪缓璁垨鍚堣寤鸿锛屾墍鏈夋暟鎹笌璁＄畻缁撴灉浠呬緵鍙傝€冦€?
+鏈蒋浠朵腑鐨勮璐у缓璁€侀攢閲忕粺璁°€佸簱瀛樻帹绠椼€丒xcel 瀵煎嚭鍐呭銆?鎵爜璇嗗埆缁撴灉鍙婂叾浠栬嚜鍔ㄥ寲缁撴灉锛屽潎鍙兘鍥犲巻鍙叉暟鎹笉瀹屾暣銆?浜哄伐褰曞叆閿欒銆佹潯鐮侀敊璇€佺畻娉曞亸宸€佽澶囧樊寮傛垨绗笁鏂圭幆澧冮棶棰樿€屼骇鐢熻宸€?
+鐢ㄦ埛搴旇嚜琛屾牳瀵瑰晢鍝佸悕绉般€丄AMS 缂栫爜銆佷环鏍笺€佸簱瀛樸€侀噸閲忋€佽璐ф暟閲忋€?鍒拌揣鏃ユ湡鍙婂鍑哄唴瀹癸紝骞惰嚜琛屾壙鎷呬汉宸ュ鏍镐箟鍔°€?
+鏈蒋浠朵笉淇濊瘉鏁版嵁缁濆鍑嗙‘銆佸畬鏁淬€佹寔缁彲鐢紝涔熶笉淇濊瘉涓€瀹氭弧瓒崇壒瀹氱粡钀ユ垨鍚堣闇€姹傘€?鐢ㄦ埛鍦ㄥ疄闄呯粡钀ャ€佽璐с€佹姤琛ㄣ€佸簱瀛樸€佺敵鎶ャ€佸璐︽垨鍏朵粬涓氬姟鍦烘櫙涓殑涓€鍒囨搷浣滐紝
+鍧囧簲閬靛畧褰撳湴娉曞緥娉曡銆佽涓氳鑼冦€佸钩鍙拌鍒欏強鐩稿叧涓讳綋瑕佹眰銆?
+鏈蒋浠朵笌 Logista Italia 鍙婁换浣曠儫鑽夊叕鍙搞€佹満鏋勩€佸钩鍙版垨缁勭粐涓嶅瓨鍦?浠庡睘銆佸悎浣溿€佷唬鐞嗐€佹巿鏉冩垨瀹樻柟璁よ瘉鍏崇郴銆?''';
 
   List<Product> products = [];
   bool loading = true;
@@ -86,12 +73,12 @@ class _HomePageState extends State<HomePage> {
       await showDialog<void>(
         context: context,
         builder: (ctx) => AlertDialog(
-          title: const Text('扫码结果'),
-          content: Text('未找到商品\n条码：$code'),
+          title: const Text('鎵爜缁撴灉'),
+          content: Text('鏈壘鍒板晢鍝乗n鏉＄爜锛?code'),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(ctx),
-              child: const Text('确定'),
+              child: const Text('纭畾'),
             ),
           ],
         ),
@@ -110,19 +97,19 @@ class _HomePageState extends State<HomePage> {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('确认删除'),
+        title: const Text('纭鍒犻櫎'),
         content: Text(
-          '确定要删除这条烟吗？\n\n${product.name}\nAAMS: ${product.aamsCode}'
-          '\n\n删除后会同时清除这条烟相关的库存调整和订单明细记录。',
+          '纭畾瑕佸垹闄よ繖鏉＄儫鍚楋紵\n\n${product.name}\nAAMS: ${product.aamsCode}'
+          '\n\n鍒犻櫎鍚庝細鍚屾椂娓呴櫎杩欐潯鐑熺浉鍏崇殑搴撳瓨璋冩暣鍜岃鍗曟槑缁嗚褰曘€?,
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx, false),
-            child: const Text('取消'),
+            child: const Text('鍙栨秷'),
           ),
           TextButton(
             onPressed: () => Navigator.pop(ctx, true),
-            child: const Text('删除'),
+            child: const Text('鍒犻櫎'),
           ),
         ],
       ),
@@ -133,7 +120,7 @@ class _HomePageState extends State<HomePage> {
     await _loadProducts();
     if (!mounted) return;
     ScaffoldMessenger.of(context)
-        .showSnackBar(SnackBar(content: Text('已删除 ${product.name}')));
+        .showSnackBar(SnackBar(content: Text('宸插垹闄?${product.name}')));
   }
 
   @override
@@ -144,11 +131,22 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('烟库库存管理'),
+        title: const Text('鐑熷簱搴撳瓨绠＄悊'),
         actions: [
           IconButton(
+            icon: const Icon(Icons.add),
+            tooltip: '添加商品',
+            onPressed: () async {
+              await Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const AddProductPage()),
+              );
+              await _loadProducts();
+            },
+          ),
+          IconButton(
             icon: const Icon(Icons.qr_code_scanner),
-            tooltip: '扫码查找',
+            tooltip: '鎵爜鏌ユ壘',
             onPressed: _scanAndLookupFromHome,
           ),
         ],
@@ -175,7 +173,7 @@ class _HomePageState extends State<HomePage> {
                     Icon(Icons.store, color: Colors.white, size: 32),
                     const SizedBox(height: 8),
                     Text(
-                      '菜单',
+                      '鑿滃崟',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 22,
@@ -187,23 +185,23 @@ class _HomePageState extends State<HomePage> {
               ),
               ListTile(
                 leading: Icon(Icons.settings, color: colorScheme.primary),
-                title: const Text('设置'),
+                title: const Text('璁剧疆'),
                 onTap: () => _openPage(const SettingsPage()),
               ),
               ListTile(
                 leading: Icon(Icons.bar_chart, color: colorScheme.primary),
-                title: const Text('下单统计'),
+                title: const Text('涓嬪崟缁熻'),
                 onTap: () =>
                     _openPage(OrderStatsPage(products: activeProducts)),
               ),
               ListTile(
                 leading: Icon(Icons.history, color: colorScheme.primary),
-                title: const Text('历史订单'),
+                title: const Text('鍘嗗彶璁㈠崟'),
                 onTap: () => _openPage(const OrderHistoryPage()),
               ),
               ListTile(
                 leading: Icon(Icons.import_export, color: colorScheme.primary),
-                title: const Text('导入导出'),
+                title: const Text('瀵煎叆瀵煎嚭'),
                 onTap: () => _openPage(const BackupPage()),
               ),
               const Divider(height: 24),
@@ -220,7 +218,7 @@ class _HomePageState extends State<HomePage> {
                                 color: colorScheme.primary),
                             const SizedBox(width: 8),
                             Text(
-                              '免责声明',
+                              '鍏嶈矗澹版槑',
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -258,13 +256,13 @@ class _HomePageState extends State<HomePage> {
                           size: 80, color: Colors.grey.shade300),
                       const SizedBox(height: 16),
                       Text(
-                        '暂无已启用商品',
+                        '鏆傛棤宸插惎鐢ㄥ晢鍝?,
                         style: TextStyle(
                             fontSize: 18, color: Colors.grey.shade500),
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        '点击右下角 + 添加商品',
+                        '鐐瑰嚮鍙充笅瑙?+ 娣诲姞鍟嗗搧',
                         style: TextStyle(
                             fontSize: 14, color: Colors.grey.shade400),
                       ),
@@ -279,8 +277,8 @@ class _HomePageState extends State<HomePage> {
                     itemBuilder: (context, index) {
                       final product = list[index];
                       final priceText = product.price == null
-                          ? '未设置'
-                          : '€ ${product.price!.toStringAsFixed(2)}';
+                          ? '鏈缃?
+                          : '鈧?${product.price!.toStringAsFixed(2)}';
                       return Card(
                         margin: const EdgeInsets.only(bottom: 12),
                         child: InkWell(
@@ -366,41 +364,20 @@ class _HomePageState extends State<HomePage> {
                     },
                   ),
                 ),
-      floatingActionButton: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          FloatingActionButton(
-            heroTag: 'order',
-            backgroundColor: colorScheme.primary,
-            foregroundColor: Colors.white,
-            onPressed: () async {
-              await Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => OrderPage(products: activeProducts),
-                ),
-              );
-              await _loadProducts();
-            },
-            child: const Icon(Icons.shopping_cart),
-          ),
-          const SizedBox(height: 10),
-          FloatingActionButton(
-            heroTag: 'add',
-            backgroundColor: colorScheme.primary,
-            foregroundColor: Colors.white,
-            onPressed: () async {
-              await Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => const AddProductPage(),
-                ),
-              );
-              await _loadProducts();
-            },
-            child: const Icon(Icons.add),
-          ),
-        ],
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: colorScheme.primary,
+        foregroundColor: Colors.white,
+        tooltip: '下单',
+        onPressed: () async {
+          await Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => OrderPage(products: activeProducts),
+            ),
+          );
+          await _loadProducts();
+        },
+        child: const Icon(Icons.shopping_cart),
       ),
     );
   }

@@ -16,11 +16,20 @@
   static const bool animationEnabledDefault = true;
 
   // 应用版本
-  static const String appVersion = '1.3.0+1';
+  static const String appVersion = '1.4.0+1';
   static const String appName = '香烟订单 App';
 
   // 更新历史
   static const List<Map<String, String>> changelog = [
+    {
+      'version': 'v1.4.0',
+      'date': '2026-06-25',
+      'changes':
+          'UI 优化\n'
+          '- 主页：单 FAB、空状态添加按钮、侧边栏加"关于"入口\n'
+          '- 主题：统一卡片圆角、更现代的 Material 3 风格\n'
+          '- 卡片圆角统一为 12px，降低阴影高度',
+    },
     {
       'version': 'v1.3.0',
       'date': '2026-06-25',
@@ -67,4 +76,5 @@
     },
   ];
 }
+
 

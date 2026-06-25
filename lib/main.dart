@@ -44,9 +44,9 @@ class MyApp extends StatelessWidget {
           ),
         ),
         cardTheme: CardThemeData(
-          elevation: 2,
+          elevation: 1,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(_cardRadius),
+            borderRadius: BorderRadius.circular(_radius),
           ),
           clipBehavior: Clip.antiAlias,
         ),
@@ -93,7 +93,13 @@ class MyApp extends StatelessWidget {
             TargetPlatform.iOS: AnimationSpeedPageTransitionsBuilder(),
           },
         ),
-                snackBarTheme: SnackBarThemeData(
+                chipTheme: ChipThemeData(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(6),
+          ),
+          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+        ),
+        snackBarTheme: SnackBarThemeData(
           behavior: SnackBarBehavior.floating,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(_radius),
@@ -104,6 +110,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
 
 
