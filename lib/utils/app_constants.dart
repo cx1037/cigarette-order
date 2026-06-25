@@ -1,4 +1,4 @@
-﻿class AppConstants {
+class AppConstants {
   static const int aiHistoryLimit = 20;
   static const int statsCycleCountDefault = 20;
   static const int largeOrderThresholdDefault = 100;
@@ -11,77 +11,77 @@
   static const String developer = 'cx';
   static const String wechat = 'CHNXNG99';
 
-  // 动画设置默认值
+  // ???????
   static const double animationSpeedDefault = 1.0;
   static const bool animationEnabledDefault = true;
 
-  // 应用版本
-  static const String appVersion = '1.5.0+1';
-  static const String appName = '香烟订单 App';
+  // ????
+  static const String appVersion = '1.6.0+1';
+  static const String appName = '???? App';
 
-  // 更新历史
+  // ????
   static const List<Map<String, String>> changelog = [
     {
       'version': 'v1.5.0',
       'date': '2026-06-25',
       'changes':
-          '代码结构优化\n'
-          '- 启用严格分析设置（strict-casts/inference/raw-types）\n'
-          '- 添加全局错误处理（FlutterError.onError）\n'
-          '- 添加未捕获异步错误处理',
+          '??????\n'
+          '- ????????(strict-casts/inference/raw-types)\n'
+          '- ????????(FlutterError.onError)\n'
+          '- ???????????',
     },
     {
       'version': 'v1.4.0',
       'date': '2026-06-25',
       'changes':
-          'UI 优化\n'
-          '- 主页：单 FAB、空状态添加按钮、侧边栏加"关于"入口\n'
-          '- 主题：统一卡片圆角、更现代的 Material 3 风格\n'
-          '- 卡片圆角统一为 12px，降低阴影高度',
+          'UI ??\n'
+          '- ??:? FAB?????????????"??"??\n'
+          '- ??:??????????? Material 3 ??\n'
+          '- ??????? 12px,??????',
     },
     {
       'version': 'v1.3.0',
       'date': '2026-06-25',
       'changes':
-          '新增关于页面\n'
-          '- 显示版本号、开发者信息\n'
-          '- 显示更新记录（可展开各版本详情）',
+          '??????\n'
+          '- ???????????\n'
+          '- ??????(????????)',
     },
     {
       'version': 'v1.2.0',
       'date': '2026-06-25',
       'changes':
-          '设置页面自动保存改进\n'
-          '- 所有设置页面改为自动保存，去掉手动保存按钮\n'
-          '- 新增恢复默认值功能（含二次确认弹窗）\n'
+          '??????????\n'
+          '- ????????????,????????\n'
+          '- ?????????(???????)\n'
           '\n'
-          '自动化步骤增强\n'
-          '- 新增 check_text 步骤：检测登录页面\n'
-          '- 新增 check_input_empty 步骤：检查输入框是否为空\n'
-          '- 更新 Logista 预设流程（登录检测→上传Excel）',
+          '???????\n'
+          '- ?? check_text ??:??????\n'
+          '- ?? check_input_empty ??:?????????\n'
+          '- ?? Logista ????(???????Excel)',
     },
     {
       'version': 'v1.1.0',
       'date': '2026-06-25',
       'changes':
-          '设置页改为三级界面结构\n'
-          '- 订单设置、界面设置、自动化下单、存储管理\n'
-          '- 各页面独立保存按钮\n'
+          '???????????\n'
+          '- ????????????????????\n'
+          '- ?????????\n'
           '\n'
-          'APK 优化\n'
-          '- APK 瘦身（ProGuard/R8 混淆压缩）\n'
-          '- 页面过渡动画',
+          'APK ??\n'
+          '- APK ??(ProGuard/R8 ????)\n'
+          '- ??????',
     },
     {
       'version': 'v1.0.0',
       'date': '2026-06-25',
       'changes':
-          '初始版本\n'
-          '- 订单管理（增删改查）\n'
-          '- 销售统计图表\n'
-          '- 自动计算下单量\n'
-          '- Excel 导出（支持 Logista 格式）\n'
-          '- 设置中心',
+          '????\n'
+          '- ????(????)\n'
+          '- ??????\n'
+          '- ???????\n'
+          '- Excel ??(?? Logista ??)\n'
+          '- ????',
     },
   ];
 }

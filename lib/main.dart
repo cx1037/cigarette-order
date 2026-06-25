@@ -1,14 +1,9 @@
 ﻿import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
-import 'pages/home_page.dart';
-import 'services/database_service.dart';
-import 'services/accessibility_bridge.dart';
-import 'utils/route_animations.dart';
-import 'services/official_product_service.dart';
+import 'pages/splash_page.dart';
 
 const Color _primaryColor = Color(0xFF1565C0);
 const double _radius = 12;
-const double _cardRadius = 16;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,11 +11,6 @@ Future<void> main() async {
     FlutterError.presentError(details);
   };
   ui.PlatformDispatcher.instance.onError = (error, stack) => true;
-
-  await DatabaseService.instance.database;
-  await OfficialProductService.seedIfEmpty();
-  AccessibilityBridge.init();
-  await AnimationSpeed.load();
 
   runApp(const MyApp());
 }
@@ -31,13 +21,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '\u70df\u5e93\u5e93\u5b58\u7ba1\u7406',
+      title: '烟库库存管理',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
         colorSchemeSeed: _primaryColor,
         brightness: Brightness.light,
-        appBarTheme: AppBarTheme(
+        appBarTheme: const AppBarTheme(
           centerTitle: true,
           elevation: 0,
           backgroundColor: _primaryColor,
@@ -97,13 +87,7 @@ class MyApp extends StatelessWidget {
             minimumSize: WidgetStateProperty.all(const Size(44, 44)),
           ),
         ),
-        pageTransitionsTheme: PageTransitionsTheme(
-          builders: {
-            TargetPlatform.android: AnimationSpeedPageTransitionsBuilder(),
-            TargetPlatform.iOS: AnimationSpeedPageTransitionsBuilder(),
-          },
-        ),
-                chipTheme: ChipThemeData(
+        chipTheme: ChipThemeData(
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(6),
           ),
@@ -116,11 +100,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const HomePage(),
+      home: const SplashPage(),
     );
   }
 }
-
-
-
-
